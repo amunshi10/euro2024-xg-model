@@ -1,0 +1,1317 @@
+match_id,team_name,player_name,minute,second,period,location_x,location_y,play_pattern_name,shot_statsbomb_xg,shot_outcome_name,shot_type_name,shot_technique_name,shot_body_part_name,shot_first_time,shot_one_on_one,shot_open_goal,shot_aerial_won,under_pressure
+3930166,Czech Republic,Pavel Šulc,3,39,1,103.0,33.9,From Goal Kick,0.06054878,Blocked,Open Play,Normal,Right Foot,,,,,
+3930166,Portugal,Cristiano Ronaldo dos Santos Aveiro,7,30,1,108.6,40.1,Regular Play,0.054354656,Off T,Open Play,Normal,Head,,,,,
+3930166,Portugal,Nuno Mendes,16,9,1,89.6,25.3,Regular Play,0.007152914,Off T,Open Play,Normal,Left Foot,,,,,
+3930166,Portugal,Rúben Santos Gato Alves Dias,21,19,1,99.7,52.2,From Throw In,0.03168744,Blocked,Open Play,Normal,Right Foot,,,,,
+3930166,Portugal,João Pedro Cavaco Cancelo,22,56,1,104.7,25.1,From Corner,0.028342715,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930166,Portugal,Bruno Miguel Borges Fernandes,23,17,1,92.6,20.6,From Corner,0.0055739963,Blocked,Open Play,Normal,Right Foot,,,,,
+3930166,Portugal,Cristiano Ronaldo dos Santos Aveiro,31,14,1,109.8,36.7,Regular Play,0.4916691,Saved,Open Play,Normal,Left Foot,True,,,,
+3930166,Portugal,Vitor Machado Ferreira,31,18,1,96.7,32.6,Regular Play,0.037158106,Saved,Open Play,Normal,Right Foot,,,,,
+3930166,Portugal,Vitor Machado Ferreira,32,36,1,106.6,35.4,Regular Play,0.15270437,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930166,Portugal,Cristiano Ronaldo dos Santos Aveiro,45,2,1,107.9,51.7,From Corner,0.07862081,Saved,Open Play,Normal,Left Foot,,,,,True
+3930166,Portugal,José Diogo Dalot Teixeira,45,57,2,99.2,55.7,From Free Kick,0.02290134,Off T,Open Play,Normal,Left Foot,,,,,
+3930166,Portugal,Bernardo Mota Veiga de Carvalho e Silva,51,21,2,101.9,56.1,From Free Kick,0.032631624,Off T,Open Play,Normal,Left Foot,,,,,True
+3930166,Portugal,Cristiano Ronaldo dos Santos Aveiro,54,23,2,111.8,40.5,From Throw In,0.09138278,Blocked,Open Play,Normal,Head,,,,True,True
+3930166,Portugal,Cristiano Ronaldo dos Santos Aveiro,57,41,2,92.3,38.0,From Free Kick,0.05240551,Saved,Free Kick,Normal,Right Foot,,,,,
+3930166,Portugal,Rafael Alexandre Conceição Leão,59,9,2,107.9,20.4,From Corner,0.008591539,Blocked,Open Play,Normal,Right Foot,,,,,
+3930166,Czech Republic,Mojmír Chytil,61,18,2,107.6,41.8,From Goal Kick,0.040316492,Wayward,Open Play,Normal,Head,,,,True,True
+3930166,Czech Republic,Lukáš Provod,61,31,2,98.3,48.1,From Goal Kick,0.035857204,Goal,Open Play,Normal,Right Foot,True,,,,
+3930166,Portugal,Nuno Mendes,68,50,2,115.0,30.7,From Throw In,0.045160558,Saved,Open Play,Normal,Head,,,,True,True
+3930166,Portugal,Bernardo Mota Veiga de Carvalho e Silva,71,53,2,108.9,25.4,From Throw In,0.067471,Saved,Open Play,Normal,Left Foot,,,,,
+3930166,Portugal,Vitor Machado Ferreira,77,33,2,91.3,35.1,From Throw In,0.03203486,Saved,Open Play,Normal,Right Foot,,,,,True
+3930166,Portugal,Bruno Miguel Borges Fernandes,80,6,2,107.1,16.8,From Corner,0.0076566194,Blocked,Open Play,Normal,Right Foot,,,,,
+3930166,Czech Republic,Petr Ševčík,80,56,2,106.1,44.5,From Throw In,0.11256568,Blocked,Open Play,Normal,Left Foot,,,,,
+3930166,Czech Republic,Tomáš Souček,80,58,2,100.6,44.7,From Throw In,0.06547854,Off T,Open Play,Normal,Left Foot,,,,,
+3930166,Portugal,Francisco Fernandes Conceição,91,11,2,115.7,36.1,From Goal Kick,0.59001094,Goal,Open Play,Normal,Left Foot,True,,,,
+3930159,Hungary,Attila Szalai,1,19,1,110.6,27.7,From Free Kick,0.09601528,Wayward,Open Play,Volley,Right Foot,True,,,,
+3930159,Hungary,Roland Sallai,9,16,1,98.1,48.0,Regular Play,0.044836354,Off T,Open Play,Normal,Right Foot,,,,,
+3930159,Switzerland,Kwadwo Duah,11,55,1,108.4,41.6,Regular Play,0.38862705,Goal,Open Play,Normal,Right Foot,True,,,,
+3930159,Switzerland,Ruben Vargas,19,40,1,107.1,47.2,From Keeper,0.4467253,Saved,Open Play,Normal,Right Foot,,True,,,
+3930159,Switzerland,Fabian Lukas Schär,21,29,1,93.4,51.8,From Corner,0.017150318,Blocked,Open Play,Normal,Right Foot,,,,,
+3930159,Switzerland,Fabian Lukas Schär,28,34,1,103.4,50.1,Regular Play,0.053312253,Blocked,Open Play,Normal,Left Foot,,,,,
+3930159,Hungary,Willi Orban,39,36,1,111.3,39.9,From Free Kick,0.14360759,Saved,Open Play,Normal,Head,,,,,
+3930159,Switzerland,Michel Aebischer,44,42,1,96.0,34.5,Regular Play,0.03557817,Goal,Open Play,Normal,Right Foot,,,,,
+3930159,Switzerland,Kwadwo Duah,46,31,2,110.1,51.0,From Throw In,0.06089901,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930159,Switzerland,Kwadwo Duah,47,9,2,105.0,29.0,From Throw In,0.10888988,Saved,Open Play,Normal,Left Foot,True,,,,
+3930159,Switzerland,Ruben Vargas,53,11,2,108.6,30.2,From Throw In,0.12474265,Saved,Open Play,Half Volley,Left Foot,,,,,True
+3930159,Switzerland,Dan Ndoye,57,56,2,96.4,50.9,From Free Kick,0.03159932,Off T,Open Play,Normal,Right Foot,,,,,
+3930159,Hungary,Barnabás Varga,62,48,2,111.8,42.5,From Free Kick,0.15456991,Off T,Open Play,Normal,Head,,True,,,
+3930159,Hungary,Barnabás Varga,65,25,2,115.5,42.1,From Throw In,0.57968694,Goal,Open Play,Diving Header,Head,,True,,,
+3930159,Hungary,Roland Sallai,68,8,2,104.9,35.6,From Free Kick,0.08412952,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930159,Switzerland,Dan Ndoye,70,39,2,108.7,25.6,From Throw In,0.052711353,Blocked,Open Play,Normal,Right Foot,,,,,
+3930159,Switzerland,Fabian Lukas Schär,71,34,2,113.3,42.4,From Corner,0.11983715,Off T,Open Play,Normal,Head,,,,True,True
+3930159,Switzerland,Dan Ndoye,82,22,2,105.0,49.0,Regular Play,0.14827995,Off T,Open Play,Normal,Right Foot,,,,,True
+3930159,Switzerland,Vincent Sierro,88,32,2,91.4,28.3,From Free Kick,0.020479834,Blocked,Open Play,Normal,Right Foot,,,,,
+3930159,Switzerland,Granit Xhaka,89,12,2,116.5,49.9,From Corner,0.044237033,Saved,Open Play,Normal,Head,,,,,
+3930159,Switzerland,Breel-Donald Embolo,92,40,2,104.3,41.5,From Counter,0.4426999,Goal,Open Play,Lob,Right Foot,,True,,,
+3930163,England,Jude Bellingham,12,11,1,113.4,39.5,From Throw In,0.28910747,Goal,Open Play,Normal,Head,,,,True,True
+3930163,England,Trent Alexander-Arnold,18,4,1,95.8,51.0,Regular Play,0.025817266,Off T,Open Play,Half Volley,Right Foot,,,,,
+3930163,Serbia,Aleksandar Mitrović,19,40,1,103.0,47.3,Regular Play,0.09554446,Off T,Open Play,Normal,Right Foot,,,,,
+3930163,Serbia,Dušan Vlahović,22,39,1,98.9,46.6,From Goal Kick,0.037229445,Blocked,Open Play,Normal,Left Foot,,,,,
+3930163,England,Trent Alexander-Arnold,29,49,1,92.2,46.3,From Free Kick,0.05354343,Blocked,Free Kick,Normal,Right Foot,,,,,
+3930163,England,Trent Alexander-Arnold,55,46,2,90.8,50.6,From Free Kick,0.023010701,Saved,Open Play,Normal,Right Foot,,,,,
+3930163,England,Harry Kane,76,20,2,114.8,36.2,From Free Kick,0.16733526,Saved to Post,Open Play,Normal,Head,,,,True,True
+3930163,Serbia,Dušan Vlahović,81,37,2,96.9,32.1,From Free Kick,0.045151852,Saved,Open Play,Normal,Left Foot,,,,,
+3930163,Serbia,Veljko Birmančević,82,17,2,98.1,35.4,From Corner,0.033204958,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930163,Serbia,Sergej Milinković-Savić,88,17,2,89.8,27.7,From Throw In,0.01536182,Off T,Open Play,Normal,Right Foot,,,,,
+3930163,Serbia,Ivan Ilić,92,35,2,90.5,30.5,From Throw In,0.02291271,Blocked,Open Play,Normal,Left Foot,,,,,
+3930181,Slovenia,Benjamin Šeško,4,6,1,108.3,38.4,From Free Kick,0.06892924,Saved,Open Play,Normal,Head,,,,,
+3930181,Slovenia,Andraž Šporar,18,40,1,95.3,42.9,Regular Play,0.04272891,Saved Off Target,Open Play,Half Volley,Left Foot,,,,,
+3930181,England,Harry Kane,29,9,1,102.6,38.8,From Keeper,0.042826455,Blocked,Open Play,Normal,Left Foot,,,,,
+3930181,England,Harry Kane,30,13,1,107.8,35.8,From Corner,0.027990201,Blocked,Open Play,Normal,Head,,,,True,True
+3930181,England,Harry Kane,30,24,1,98.9,22.2,From Corner,0.020003181,Saved,Open Play,Normal,Right Foot,,,,,
+3930181,Slovenia,Andraž Šporar,31,19,1,92.8,35.5,From Keeper,0.025362415,Blocked,Open Play,Normal,Left Foot,,,,,
+3930181,England,Phil Foden,34,26,1,89.4,52.7,From Free Kick,0.02118464,Saved,Free Kick,Normal,Left Foot,,,,,
+3930181,England,Harry Kane,39,57,1,115.7,43.3,Regular Play,0.39533535,Off T,Open Play,Volley,Right Foot,True,,,,
+3930181,England,Harry Kane,42,10,1,89.8,50.8,From Throw In,0.022610057,Blocked,Open Play,Normal,Right Foot,,,,,
+3930181,England,Phil Foden,50,31,2,88.6,43.7,From Corner,0.011521615,Off T,Open Play,Volley,Left Foot,True,,,,
+3930181,England,John Stones,57,3,2,112.0,40.9,From Corner,0.07156796,Blocked,Open Play,Normal,Head,,,,True,True
+3930181,Slovenia,Adam Gnezda Čerin,62,57,2,92.3,51.6,From Throw In,0.027896708,Off T,Open Play,Normal,Left Foot,,,,,
+3930181,England,Declan Rice,74,21,2,106.7,23.3,From Throw In,0.035136804,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930181,England,Phil Foden,82,51,2,97.7,32.1,Regular Play,0.038287748,Blocked,Open Play,Normal,Left Foot,,,,,
+3930181,England,Cole Palmer,91,37,2,103.2,55.2,From Throw In,0.0473352,Saved,Open Play,Normal,Left Foot,True,,,,
+3930181,England,Trent Alexander-Arnold,93,16,2,90.1,44.8,From Throw In,0.02242279,Off T,Open Play,Normal,Right Foot,,,,,
+3930178,Croatia,Luka Sučić,4,4,1,91.7,51.0,Regular Play,0.021476122,Saved,Open Play,Normal,Left Foot,,,,,
+3930178,Italy,Lorenzo Pellegrini,10,33,1,103.9,30.6,Regular Play,0.040648647,Off T,Open Play,Normal,Head,,,,,
+3930178,Italy,Mateo Retegui,20,31,1,113.2,41.4,From Free Kick,0.11477187,Blocked,Open Play,Normal,Head,,,,True,True
+3930178,Italy,Mateo Retegui,21,51,1,106.2,36.1,From Corner,0.050440855,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3930178,Italy,Mateo Retegui,25,44,1,111.3,25.7,Regular Play,0.02528777,Blocked,Open Play,Normal,Left Foot,True,,,,
+3930178,Italy,Alessandro Bastoni,26,29,1,113.0,33.8,From Corner,0.14318198,Saved,Open Play,Normal,Head,,True,,,
+3930178,Croatia,Luka Modrić,30,34,1,99.8,54.3,From Free Kick,0.020104777,Blocked,Open Play,Normal,Right Foot,,,,,
+3930178,Italy,Lorenzo Pellegrini,35,25,1,103.4,27.1,From Free Kick,0.027555797,Saved,Open Play,Normal,Left Foot,,,,,
+3930178,Croatia,Andrej Kramarić,51,23,2,107.2,26.5,From Throw In,0.024291756,Blocked,Open Play,Normal,Right Foot,,,,,
+3930178,Croatia,Luka Modrić,53,45,2,108.0,40.0,Other,0.7835,Saved,Penalty,Normal,Right Foot,,,,,
+3930178,Croatia,Ante Budimir,54,15,2,111.3,40.9,Other,0.14855804,Saved,Open Play,Volley,Left Foot,True,,,,True
+3930178,Croatia,Luka Modrić,54,17,2,114.9,35.5,Other,0.48530436,Goal,Open Play,Normal,Left Foot,True,,,,
+3930178,Italy,Davide Frattesi,56,59,2,107.5,29.9,From Kick Off,0.05347716,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930178,Italy,Alessandro Bastoni,60,52,2,114.2,42.9,From Corner,0.16923,Off T,Open Play,Normal,Head,,,,,
+3930178,Italy,Matteo Darmian,66,13,2,112.1,28.1,Regular Play,0.055198677,Blocked,Open Play,Normal,Left Foot,,,,,
+3930178,Italy,Giacomo Raspadori,71,57,2,94.2,44.2,From Free Kick,0.06597319,Blocked,Free Kick,Normal,Right Foot,,,,,
+3930178,Italy,Giovanni Di Lorenzo,72,21,2,114.6,34.8,From Corner,0.11527714,Blocked,Open Play,Normal,Head,,,,True,True
+3930178,Italy,Gianluca Scamacca,91,24,2,87.8,29.5,Regular Play,0.013674787,Blocked,Open Play,Normal,Right Foot,,,,,
+3930178,Italy,Mattia Zaccagni,97,21,2,103.4,28.0,From Free Kick,0.11067648,Goal,Open Play,Normal,Right Foot,True,,,,
+3930160,Spain,Álvaro Borja Morata Martín,6,23,1,98.8,47.5,Regular Play,0.05367552,Saved,Open Play,Half Volley,Left Foot,,,,,
+3930160,Spain,Lamine Yamal Nasraoui Ebana,14,12,1,106.5,49.9,Regular Play,0.04807823,Saved Off Target,Open Play,Normal,Left Foot,,,,,True
+3930160,Croatia,Ante Budimir,21,49,1,107.7,39.3,Regular Play,0.048898492,Off T,Open Play,Normal,Head,,,,True,True
+3930160,Spain,Álvaro Borja Morata Martín,28,8,1,104.1,39.9,Regular Play,0.4253404,Goal,Open Play,Normal,Left Foot,,True,,,True
+3930160,Croatia,Mateo Kovačić,29,53,1,102.8,38.7,From Kick Off,0.06378076,Saved,Open Play,Normal,Left Foot,,,,,True
+3930160,Spain,Fabián Ruiz Peña,31,24,1,103.9,38.7,From Throw In,0.056130085,Goal,Open Play,Normal,Left Foot,,,,,
+3930160,Croatia,Marcelo Brozović,32,55,1,101.8,40.2,From Kick Off,0.07775181,Saved,Open Play,Normal,Right Foot,True,,,,
+3930160,Croatia,Lovro Majer,32,57,1,116.5,50.1,From Kick Off,0.10645112,Off T,Open Play,Normal,Right Foot,True,,,,
+3930160,Spain,Robin Aime Robert Le Normand,35,11,1,114.2,35.6,From Corner,0.108392105,Blocked,Open Play,Normal,Head,,,,True,True
+3930160,Croatia,Joško Gvardiol,40,49,1,114.0,27.5,From Free Kick,0.05044837,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930160,Croatia,Andrej Kramarić,44,20,1,86.3,47.4,From Keeper,0.013197766,Off T,Open Play,Normal,Right Foot,,,,,True
+3930160,Croatia,Mateo Kovačić,45,32,1,91.0,30.4,Regular Play,0.019094488,Off T,Open Play,Normal,Right Foot,,,,,True
+3930160,Spain,Daniel Carvajal Ramos,46,54,1,112.7,42.4,From Corner,0.30100337,Goal,Open Play,Volley,Right Foot,True,,,,
+3930160,Croatia,Joško Gvardiol,50,0,2,101.2,24.0,Regular Play,0.018449154,Blocked,Open Play,Half Volley,Left Foot,True,,,,
+3930160,Spain,Lamine Yamal Nasraoui Ebana,51,45,2,108.6,48.3,Regular Play,0.28168085,Saved,Open Play,Normal,Left Foot,True,,,,
+3930160,Spain,Álvaro Borja Morata Martín,53,1,2,117.4,34.5,From Corner,0.2103611,Wayward,Open Play,Normal,Other,,,,,
+3930160,Croatia,Josip Stanišić,54,30,2,111.9,47.8,From Free Kick,0.22294979,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930160,Croatia,Ante Budimir,54,32,2,117.0,37.0,From Free Kick,0.20600665,Blocked,Open Play,Normal,Head,,,,True,True
+3930160,Croatia,Andrej Kramarić,54,33,2,118.4,40.0,From Free Kick,0.71037304,Saved,Open Play,Normal,Head,,,,,
+3930160,Croatia,Mateo Kovačić,54,34,2,115.1,34.4,From Free Kick,0.099854395,Wayward,Open Play,Normal,Head,,,,,
+3930160,Spain,Lamine Yamal Nasraoui Ebana,57,18,2,91.3,45.4,From Free Kick,0.042338703,Blocked,Free Kick,Normal,Left Foot,,,,,
+3930160,Spain,Daniel Olmo Carvajal,73,13,2,93.9,39.0,Regular Play,0.027441183,Blocked,Open Play,Normal,Right Foot,,,,,
+3930160,Croatia,Bruno Petković,79,3,2,108.0,40.0,Other,0.7835,Saved,Penalty,Normal,Right Foot,,,,,
+3930160,Croatia,Ivan Perišić,83,45,2,101.4,28.7,From Throw In,0.035310246,Blocked,Open Play,Normal,Right Foot,,,,,
+3930160,Croatia,Ivan Perišić,83,54,2,87.3,24.7,From Throw In,0.006942888,Saved,Open Play,Normal,Left Foot,,,,,
+3930160,Spain,Ferrán Torres García,87,53,2,109.6,57.8,Regular Play,0.012741043,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930160,Croatia,Ivan Perišić,91,49,2,107.8,27.5,From Free Kick,0.019089911,Off T,Open Play,Normal,Head,,,,True,True
+3930170,Slovenia,Adam Gnezda Čerin,3,23,1,95.6,49.4,From Throw In,0.041358393,Saved,Open Play,Normal,Right Foot,,,,,
+3930170,Slovenia,Jan Mlakar,7,5,1,109.1,51.7,Regular Play,0.14476232,Saved,Open Play,Half Volley,Right Foot,,,,,True
+3930170,Slovenia,Andraž Šporar,19,52,1,108.8,42.9,Regular Play,0.07042414,Blocked,Open Play,Half Volley,Right Foot,True,,,,True
+3930170,Slovenia,Timi Elšnik,20,15,1,90.1,41.2,Regular Play,0.023047987,Blocked,Open Play,Normal,Left Foot,,,,,
+3930170,Serbia,Dušan Vlahović,26,49,1,111.0,34.9,From Throw In,0.0682874,Saved,Open Play,Normal,Head,,,,,True
+3930170,Slovenia,Jan Mlakar,36,6,1,102.6,25.2,From Throw In,0.020043343,Wayward,Open Play,Half Volley,Left Foot,,,,,
+3930170,Slovenia,Timi Elšnik,37,2,1,105.7,50.3,From Throw In,0.16156586,Post,Open Play,Normal,Right Foot,,,,,
+3930170,Slovenia,Andraž Šporar,37,3,1,110.6,38.9,From Throw In,0.45923445,Wayward,Open Play,Volley,Left Foot,True,,,,
+3930170,Slovenia,Benjamin Šeško,37,4,1,109.6,35.3,From Throw In,0.23846735,Off T,Open Play,Normal,Right Foot,,,,,
+3930170,Serbia,Dušan Vlahović,38,52,1,92.3,31.2,From Free Kick,0.042383377,Blocked,Free Kick,Normal,Left Foot,,,,,
+3930170,Serbia,Dušan Vlahović,38,54,1,95.6,30.9,From Free Kick,0.01660744,Blocked,Open Play,Half Volley,Left Foot,True,,,,
+3930170,Serbia,Aleksandar Mitrović,41,5,1,116.5,33.3,Regular Play,0.29717425,Saved,Open Play,Normal,Right Foot,,True,,,
+3930170,Serbia,Saša Lukić,42,50,1,103.2,33.6,From Free Kick,0.08807026,Blocked,Open Play,Half Volley,Right Foot,True,,,,True
+3930170,Slovenia,Petar Stojanović,43,8,1,94.5,52.5,From Free Kick,0.023205703,Blocked,Open Play,Normal,Right Foot,,,,,
+3930170,Serbia,Aleksandar Mitrović,45,26,1,113.6,32.8,From Corner,0.051894434,Off T,Open Play,Normal,Head,,,,True,True
+3930170,Serbia,Aleksandar Mitrović,46,31,2,112.9,50.7,From Kick Off,0.2402346,Saved,Open Play,Normal,Right Foot,True,,,,
+3930170,Serbia,Aleksandar Mitrović,49,48,2,110.2,38.0,From Corner,0.068004765,Blocked,Open Play,Normal,Head,,,,True,True
+3930170,Slovenia,Benjamin Šeško,57,51,2,96.0,23.6,Regular Play,0.021775488,Saved,Open Play,Normal,Right Foot,,,,,True
+3930170,Serbia,Aleksandar Mitrović,64,33,2,102.7,50.4,Regular Play,0.058491293,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930170,Slovenia,Žan Karničnik,68,6,2,114.1,44.7,Regular Play,0.3382771,Goal,Open Play,Half Volley,Right Foot,True,,,,True
+3930170,Serbia,Aleksandar Mitrović,71,6,2,113.4,38.4,From Throw In,0.18343204,Post,Open Play,Half Volley,Right Foot,True,,,,True
+3930170,Serbia,Sergej Milinković-Savić,74,49,2,112.9,36.9,From Free Kick,0.09501195,Blocked,Open Play,Normal,Head,,,,True,True
+3930170,Slovenia,Žan Karničnik,78,42,2,96.9,58.1,From Throw In,0.010003904,Off T,Open Play,Normal,Right Foot,,,,,
+3930170,Serbia,Lazar Samardžić,82,21,2,101.2,28.3,Regular Play,0.049244836,Off T,Open Play,Normal,Left Foot,,,,,
+3930170,Serbia,Ivan Ilić,85,23,2,99.1,30.7,From Corner,0.02786128,Blocked,Open Play,Half Volley,Left Foot,True,,,,
+3930170,Serbia,Mijat Gaćinović,94,38,2,104.4,43.9,From Free Kick,0.032908905,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3930170,Serbia,Luka Jović,94,59,2,114.6,40.3,From Corner,0.14172395,Goal,Open Play,Normal,Head,,,,True,True
+3938643,Poland,Piotr Zieliński,5,45,1,93.9,38.9,From Goal Kick,0.02182334,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3938643,France,Theo Bernard François Hernández,10,39,1,112.6,27.2,Regular Play,0.082832314,Saved,Open Play,Normal,Left Foot,True,,,,
+3938643,Poland,Sebastian Szymański,13,32,1,104.2,25.1,From Goal Kick,0.054202277,Blocked,Open Play,Normal,Left Foot,True,,,,
+3938643,Poland,Kacper Urbanski,14,8,1,106.1,38.3,From Corner,0.06955565,Saved,Open Play,Half Volley,Left Foot,True,,,,
+3938643,Poland,Jakub Moder,16,50,1,89.7,27.9,From Throw In,0.016467048,Off T,Open Play,Normal,Right Foot,,,,,True
+3938643,France,Ousmane Dembélé,18,41,1,111.9,50.0,From Counter,0.24532036,Saved,Open Play,Normal,Right Foot,True,,,,True
+3938643,Poland,Robert Lewandowski,33,14,1,109.8,43.8,Regular Play,0.08242022,Off T,Open Play,Normal,Head,,,,,
+3938643,France,Aurélien Djani Tchouaméni,35,59,1,87.3,30.0,Regular Play,0.013516772,Blocked,Open Play,Normal,Right Foot,,,,,
+3938643,France,Aurélien Djani Tchouaméni,37,6,1,99.1,41.7,Regular Play,0.050685827,Blocked,Open Play,Normal,Right Foot,,,,,True
+3938643,France,William Saliba,37,38,1,107.3,39.0,From Corner,0.046296313,Off T,Open Play,Half Volley,Right Foot,True,,,,True
+3938643,Poland,Robert Lewandowski,38,17,1,87.5,38.4,From Goal Kick,0.017444821,Wayward,Open Play,Half Volley,Left Foot,,,,,
+3938643,France,Kylian Mbappé Lottin,41,11,1,115.6,29.2,Regular Play,0.118999206,Saved,Open Play,Normal,Right Foot,True,,,,
+3938643,France,Dayotchanculle Upamecano,41,35,1,112.3,37.3,From Corner,0.09202025,Off T,Open Play,Normal,Head,,,,True,True
+3938643,France,Kylian Mbappé Lottin,44,25,1,117.6,29.5,From Throw In,0.033283398,Saved,Open Play,Normal,Right Foot,,True,,,
+3938643,France,N'Golo Kanté,47,51,2,100.2,42.3,From Throw In,0.06638347,Blocked,Open Play,Normal,Right Foot,True,,,,True
+3938643,France,Kylian Mbappé Lottin,48,28,2,103.5,23.3,From Corner,0.03354426,Saved,Open Play,Normal,Right Foot,True,,,,
+3938643,France,Kylian Mbappé Lottin,48,56,2,100.0,24.9,From Corner,0.03001934,Off T,Open Play,Normal,Right Foot,,,,,True
+3938643,France,Ousmane Dembélé,50,43,2,105.4,60.0,From Free Kick,0.0069303666,Blocked,Open Play,Normal,Left Foot,,,,,True
+3938643,France,Kylian Mbappé Lottin,55,37,2,108.1,40.1,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3938643,France,Bradley Barcola,58,26,2,116.6,27.4,From Throw In,0.019646157,Saved,Open Play,Normal,Left Foot,,True,,,True
+3938643,France,Antoine Griezmann,65,10,2,95.3,45.7,From Counter,0.04413893,Blocked,Open Play,Normal,Left Foot,,,,,True
+3938643,Poland,Robert Lewandowski,71,25,2,92.6,31.8,Regular Play,0.023918275,Off T,Open Play,Normal,Right Foot,,,,,
+3938643,Poland,Robert Lewandowski,78,13,2,108.0,40.0,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3938643,Poland,Robert Lewandowski,81,22,2,108.7,26.8,From Throw In,0.08196821,Off T,Open Play,Normal,Left Foot,True,,,,
+3938643,Poland,Kacper Urbanski,83,57,2,95.5,32.7,From Corner,0.027794229,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3938643,France,Olivier Giroud,84,45,2,107.7,41.7,Regular Play,0.102023974,Blocked,Open Play,Normal,Right Foot,True,,,,True
+3938643,France,Olivier Giroud,86,27,2,110.2,38.3,From Corner,0.054901406,Blocked,Open Play,Normal,Head,,,,True,True
+3938643,France,Youssouf Fofana,86,52,2,94.4,28.8,From Corner,0.023010036,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938643,France,Kylian Mbappé Lottin,91,22,2,100.9,29.8,From Corner,0.044415563,Saved,Open Play,Normal,Right Foot,,,,,
+3938641,Austria,Stefan Posch,1,0,1,81.5,42.0,From Throw In,0.005845531,Saved,Open Play,Normal,Right Foot,,,,,
+3938641,Austria,Gernot Trauner,8,45,1,115.0,33.0,From Throw In,0.12611173,Goal,Open Play,Normal,Head,,,,,
+3938641,Austria,Marcel Sabitzer,9,57,1,107.5,45.2,Regular Play,0.11302879,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938641,Austria,Marcel Sabitzer,16,1,1,105.5,38.4,Regular Play,0.066612996,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3938641,Poland,Piotr Zieliński,16,33,1,104.5,43.5,From Keeper,0.11300054,Blocked,Open Play,Normal,Right Foot,,,,,
+3938641,Poland,Nicola Zalewski,17,57,1,106.7,29.1,From Throw In,0.09912066,Off T,Open Play,Normal,Right Foot,True,,,,
+3938641,Poland,Piotr Zieliński,23,29,1,97.3,46.3,From Free Kick,0.034465805,Blocked,Open Play,Half Volley,Left Foot,,,,,True
+3938641,Poland,Piotr Zieliński,26,47,1,99.4,38.0,From Throw In,0.07402389,Blocked,Open Play,Normal,Right Foot,,,,,
+3938641,Poland,Jan Bednarek,29,34,1,108.9,40.0,From Corner,0.20368662,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938641,Poland,Krzysztof Piątek,29,36,1,113.8,41.6,From Corner,0.4451365,Goal,Open Play,Normal,Right Foot,,,,,
+3938641,Austria,Marcel Sabitzer,38,24,1,106.9,32.0,Regular Play,0.13583574,Blocked,Open Play,Normal,Right Foot,,,,,
+3938641,Austria,Marcel Sabitzer,41,28,1,90.9,36.1,Regular Play,0.020456407,Off T,Open Play,Normal,Right Foot,,,,,
+3938641,Poland,Piotr Zieliński,45,40,1,91.6,47.5,From Free Kick,0.04249511,Saved,Free Kick,Normal,Right Foot,,,,,
+3938641,Poland,Jakub Piotrowski,46,7,1,110.1,38.8,From Corner,0.04781311,Blocked,Open Play,Normal,Head,,,,True,True
+3938641,Austria,Stefan Posch,48,57,2,94.0,47.8,From Throw In,0.027307073,Blocked,Open Play,Normal,Right Foot,,,,,
+3938641,Austria,Stefan Posch,50,48,2,111.5,37.6,From Corner,0.062189415,Saved,Open Play,Normal,Head,,,,True,True
+3938641,Poland,Krzysztof Piątek,51,25,2,95.3,42.6,From Keeper,0.04481905,Off T,Open Play,Normal,Right Foot,,,,,
+3938641,Austria,Marcel Sabitzer,54,3,2,103.6,26.7,From Counter,0.03803288,Blocked,Open Play,Normal,Left Foot,,,,,
+3938641,Poland,Adam Buksa,56,8,2,103.9,42.4,From Free Kick,0.01743585,Blocked,Open Play,Normal,Head,,,,True,True
+3938641,Poland,Piotr Zieliński,59,36,2,96.8,24.1,From Free Kick,0.04008755,Blocked,Free Kick,Normal,Right Foot,,,,,
+3938641,Poland,Paweł Dawidowicz,60,18,2,113.0,47.4,From Corner,0.06839087,Off T,Open Play,Normal,Head,,,,,
+3938641,Austria,Christoph Baumgartner,65,58,2,102.5,36.3,From Throw In,0.14242558,Goal,Open Play,Normal,Right Foot,,,,,
+3938641,Poland,Karol Świderski,68,35,2,99.6,33.0,From Throw In,0.07291489,Saved,Open Play,Normal,Left Foot,,,,,
+3938641,Austria,Patrick Wimmer,74,15,2,103.1,44.4,Regular Play,0.062519945,Saved,Open Play,Normal,Right Foot,True,,,,
+3938641,Austria,Nicolas Seiwald,75,35,2,95.9,35.7,From Throw In,0.033934437,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3938641,Austria,Marko Arnautović,77,50,2,108.0,40.0,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3938641,Austria,Stefan Posch,82,59,2,97.6,49.9,Regular Play,0.040483512,Saved,Open Play,Normal,Left Foot,,,,,
+3938641,Austria,Konrad Laimer,84,46,2,115.2,28.3,Regular Play,0.16341422,Off T,Open Play,Normal,Left Foot,,True,,,
+3938641,Poland,Piotr Zieliński,86,0,2,91.4,48.8,From Corner,0.014394102,Off T,Open Play,Normal,Left Foot,True,,,,
+3938641,Poland,Kamil Grosicki,92,20,2,112.7,32.9,From Throw In,0.12030749,Off T,Open Play,Volley,Left Foot,True,,,,
+3938642,Czech Republic,Adam Hložek,2,11,1,110.7,30.3,From Throw In,0.11786606,Saved,Open Play,Half Volley,Left Foot,,,,,
+3938642,Czech Republic,Ladislav Krejčí,2,13,1,108.9,32.4,From Throw In,0.03927281,Blocked,Open Play,Overhead Kick,Right Foot,True,,,,
+3938642,Czech Republic,Patrik Schick,2,15,1,112.8,46.4,From Throw In,0.1550353,Saved,Open Play,Half Volley,Left Foot,True,,,,
+3938642,Czech Republic,Patrik Schick,3,2,1,105.6,41.2,From Corner,0.025926754,Saved,Open Play,Normal,Head,,,,True,True
+3938642,Czech Republic,Václav Černý,7,5,1,99.6,52.7,Regular Play,0.030162912,Blocked,Open Play,Normal,Right Foot,,,,,
+3938642,Czech Republic,Patrik Schick,7,59,1,102.2,37.3,Regular Play,0.043804016,Blocked,Open Play,Normal,Left Foot,,,,,
+3938642,Czech Republic,Lukáš Provod,12,30,1,93.5,44.0,From Free Kick,0.029279253,Blocked,Open Play,Normal,Right Foot,,,,,
+3938642,Czech Republic,Patrik Schick,14,16,1,112.2,42.3,From Corner,0.085338846,Wayward,Open Play,Normal,Head,,,,True,True
+3938642,Czech Republic,Ladislav Krejčí,22,1,1,108.5,42.3,From Throw In,0.041940983,Wayward,Open Play,Normal,Head,,,,True,True
+3938642,Czech Republic,Adam Hložek,22,3,1,113.9,35.8,From Throw In,0.29124188,Saved,Open Play,Half Volley,Right Foot,True,,,,True
+3938642,Czech Republic,Václav Černý,26,39,1,113.6,43.0,Regular Play,0.53146774,Saved,Open Play,Normal,Left Foot,True,,,,
+3938642,Czech Republic,Adam Hložek,28,8,1,101.1,27.1,From Free Kick,0.047878973,Saved,Open Play,Normal,Right Foot,,,,,
+3938642,Georgia,Otar Kakabadze,33,3,1,101.1,56.3,Regular Play,0.012979693,Blocked,Open Play,Normal,Left Foot,True,,,,
+3938642,Georgia,Georges Mikautadze,48,20,1,108.1,40.1,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3938642,Czech Republic,Patrik Schick,49,45,1,104.6,39.9,From Kick Off,0.11700317,Saved,Open Play,Normal,Left Foot,,,,,
+3938642,Czech Republic,Patrik Schick,50,52,2,109.3,41.0,Regular Play,0.047342736,Wayward,Open Play,Normal,Head,,,,True,True
+3938642,Czech Republic,Ondřej Lingr,56,4,2,115.5,52.2,Regular Play,0.02231607,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938642,Czech Republic,David Jurásek,56,34,2,99.7,31.4,From Corner,0.038487274,Wayward,Open Play,Half Volley,Left Foot,True,,,,
+3938642,Georgia,Anzor Mekvabishvili,56,46,2,102.9,34.8,From Counter,0.05346131,Off T,Open Play,Normal,Right Foot,,,,,True
+3938642,Czech Republic,Ondřej Lingr,58,6,2,115.1,44.1,From Corner,0.16812286,Post,Open Play,Normal,Head,,,,True,True
+3938642,Czech Republic,Patrik Schick,58,7,2,117.7,36.5,From Corner,0.719015,Goal,Open Play,Normal,Other,,True,True,,
+3938642,Czech Republic,Ladislav Krejčí,61,0,2,111.4,44.7,From Corner,0.059734687,Off T,Open Play,Normal,Head,,,,,
+3938642,Czech Republic,Matěj Jurásek,65,15,2,95.4,44.6,Regular Play,0.03587616,Saved,Open Play,Normal,Left Foot,,,,,True
+3938642,Georgia,Khvicha Kvaratskhelia,70,16,2,91.7,36.6,From Throw In,0.023518495,Off T,Open Play,Normal,Right Foot,,,,,
+3938642,Czech Republic,Ladislav Krejčí,71,21,2,82.5,28.6,From Goal Kick,0.005695847,Blocked,Open Play,Normal,Left Foot,,,,,
+3938642,Czech Republic,David Jurásek,71,48,2,91.8,35.6,From Corner,0.02393963,Off T,Open Play,Normal,Right Foot,,,,,True
+3938642,Czech Republic,Mojmír Chytil,76,20,2,112.8,32.5,From Goal Kick,0.066270776,Off T,Open Play,Normal,Head,,,,True,True
+3938642,Czech Republic,Ondřej Lingr,77,15,2,100.9,45.2,From Counter,0.06684302,Saved,Open Play,Normal,Right Foot,,,,,True
+3938642,Czech Republic,Matěj Jurásek,78,42,2,92.7,59.5,From Throw In,0.0065820687,Off T,Open Play,Normal,Left Foot,,,,,
+3938642,Czech Republic,Matěj Jurásek,93,38,2,101.0,23.0,Regular Play,0.029686315,Saved,Open Play,Normal,Right Foot,,,,,True
+3938642,Czech Republic,Tomáš Holeš,94,44,2,88.9,41.4,From Free Kick,0.01932125,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938642,Georgia,Saba Lobzhanidze,94,55,2,108.1,49.2,From Counter,0.30646315,Off T,Open Play,Normal,Right Foot,True,,,,
+3938639,Turkey,Kaan Ayhan,5,28,1,113.7,37.4,From Corner,0.109281614,Off T,Open Play,Normal,Head,,,,True,True
+3938639,Turkey,Hakan Çalhanoğlu,6,50,1,99.0,59.3,Regular Play,0.0104925465,Blocked,Open Play,Normal,Right Foot,,,,,
+3938639,Turkey,Abdülkerim Bardakcı,9,3,1,113.4,36.5,From Corner,0.11773408,Off T,Open Play,Normal,Head,,,,True,True
+3938639,Turkey,Kaan Ayhan,9,43,1,98.2,32.6,Regular Play,0.047329877,Post,Open Play,Normal,Right Foot,True,,,,
+3938639,Georgia,Anzor Mekvabishvili,10,54,1,92.7,40.9,From Throw In,0.027525524,Saved,Open Play,Normal,Right Foot,,,,,
+3938639,Georgia,Georges Mikautadze,11,36,1,101.3,25.7,From Corner,0.030906457,Off T,Open Play,Normal,Right Foot,,,,,
+3938639,Turkey,Kenan Yildiz,13,25,1,111.6,20.7,From Throw In,0.010085153,Saved,Open Play,Normal,Left Foot,,,,,
+3938639,Turkey,Hakan Çalhanoğlu,20,33,1,103.3,31.0,Regular Play,0.04039659,Off T,Open Play,Half Volley,Right Foot,,,,,
+3938639,Turkey,Orkun Kökçü,22,29,1,92.6,29.1,From Free Kick,0.021431247,Blocked,Open Play,Normal,Right Foot,,,,,
+3938639,Turkey,Mert Müldür,24,57,1,102.6,48.7,Regular Play,0.04871227,Goal,Open Play,Volley,Right Foot,True,,,,
+3938639,Turkey,Orkun Kökçü,26,33,1,111.6,45.6,Regular Play,0.32288,Wayward,Open Play,Normal,Right Foot,True,,,,
+3938639,Georgia,Heorhii Tsitaishvili,29,12,1,110.0,20.4,From Free Kick,0.008763675,Saved,Open Play,Normal,Left Foot,,,,,
+3938639,Georgia,Georges Mikautadze,31,44,1,111.2,49.7,From Throw In,0.19899806,Goal,Open Play,Normal,Right Foot,True,,,,
+3938639,Georgia,Georges Mikautadze,34,50,1,107.1,41.9,From Free Kick,0.15692246,Off T,Open Play,Volley,Right Foot,True,,,,True
+3938639,Georgia,Giorgi Kochorashvili,36,32,1,98.4,37.4,Regular Play,0.04459064,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938639,Turkey,Kaan Ayhan,39,30,1,107.1,34.6,From Free Kick,0.07663289,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3938639,Turkey,Ferdi Erenay Kadıoğlu,40,43,1,73.2,39.2,Regular Play,0.004520179,Off T,Open Play,Normal,Right Foot,True,,,,
+3938639,Turkey,Mert Müldür,45,27,2,111.7,46.2,From Kick Off,0.39194897,Saved,Open Play,Normal,Left Foot,True,,,,
+3938639,Turkey,Barış Alper Yılmaz,47,34,2,107.9,49.7,Regular Play,0.08905159,Blocked,Open Play,Normal,Left Foot,,,,,True
+3938639,Georgia,Heorhii Tsitaishvili,48,28,2,112.5,22.7,From Free Kick,0.010639418,Saved,Open Play,Normal,Left Foot,,,,,
+3938639,Georgia,Georges Mikautadze,51,0,2,111.1,36.6,Regular Play,0.071241885,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3938639,Turkey,Hakan Çalhanoğlu,56,21,2,93.2,31.5,From Free Kick,0.048409604,Saved,Free Kick,Normal,Right Foot,,,,,
+3938639,Turkey,Kenan Yildiz,59,6,2,101.2,24.7,Regular Play,0.012807231,Blocked,Open Play,Normal,Right Foot,,,,,True
+3938639,Turkey,Mert Müldür,59,53,2,96.6,51.5,Regular Play,0.026884427,Blocked,Open Play,Normal,Right Foot,,,,,
+3938639,Turkey,Hakan Çalhanoğlu,60,8,2,95.8,46.1,Regular Play,0.02077125,Off T,Open Play,Normal,Right Foot,True,,,,True
+3938639,Georgia,Khvicha Kvaratskhelia,61,49,2,109.4,30.4,From Keeper,0.12805878,Off T,Open Play,Normal,Right Foot,True,,,,
+3938639,Turkey,Arda Güler,64,54,2,95.5,53.4,Regular Play,0.018738218,Goal,Open Play,Normal,Left Foot,,,,,
+3938639,Turkey,Orkun Kökçü,68,5,2,108.9,36.5,Regular Play,0.35099584,Wayward,Open Play,Normal,Left Foot,True,,,,
+3938639,Georgia,Giorgi Kochorashvili,69,16,2,107.6,41.5,From Free Kick,0.3773847,Post,Open Play,Normal,Right Foot,,,,,True
+3938639,Turkey,Orkun Kökçü,71,27,2,52.0,38.1,Regular Play,0.0030440427,Wayward,Open Play,Lob,Right Foot,,,,,
+3938639,Georgia,Luka Lochoshvili,74,35,2,111.2,32.3,From Throw In,0.050998244,Wayward,Open Play,Normal,Head,,,,,
+3938639,Turkey,Yusuf Yazıcı,86,23,2,111.8,37.6,Regular Play,0.15887032,Saved,Open Play,Normal,Head,,True,,,
+3938639,Georgia,Budu Zivzivadze,92,46,2,114.8,32.5,Regular Play,0.057229597,Blocked,Open Play,Volley,Left Foot,True,,,,True
+3938639,Georgia,Giorgi Kochorashvili,92,47,2,111.4,37.4,Regular Play,0.3389554,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3938639,Georgia,Zuriko Davitashvili,95,29,2,108.9,45.6,From Free Kick,0.07635267,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3938639,Turkey,Muhammed Kerem Aktürkoğlu,96,29,2,96.1,52.9,From Corner,0.4724009,Goal,Open Play,Normal,Right Foot,,True,True,,
+3938638,Ukraine,Viktor Tsygankov,6,52,1,97.1,35.4,Regular Play,0.046381094,Blocked,Open Play,Normal,Left Foot,True,,,,
+3938638,Romania,Florinel Teodor Coman,7,40,1,89.9,33.0,Regular Play,0.024980098,Saved,Open Play,Normal,Right Foot,,,,,
+3938638,Ukraine,Georgiy Sudakov,11,41,1,99.8,30.0,Regular Play,0.028104939,Blocked,Open Play,Normal,Right Foot,,,,,
+3938638,Ukraine,Artem Dovbyk,21,29,1,93.3,39.3,From Corner,0.041105933,Off T,Open Play,Normal,Left Foot,,,,,
+3938638,Romania,Nicolae Claudiu Stanciu,28,46,1,96.6,45.0,Regular Play,0.046266142,Goal,Open Play,Normal,Right Foot,True,,,,True
+3938638,Ukraine,Viktor Tsygankov,37,33,1,102.6,42.1,From Goal Kick,0.06380467,Blocked,Open Play,Normal,Left Foot,,,,,
+3938638,Romania,Dennis Man,37,54,1,101.2,58.1,Regular Play,0.021797933,Blocked,Open Play,Normal,Left Foot,,,,,
+3938638,Romania,Nicolae Claudiu Stanciu,38,43,1,120.1,0.8,From Corner,0.00018,Post,Corner,Normal,Right Foot,,True,,,
+3938638,Romania,Florinel Teodor Coman,45,28,2,104.0,26.5,Regular Play,0.03314492,Off T,Open Play,Normal,Right Foot,,,,,
+3938638,Ukraine,Georgiy Sudakov,49,4,2,93.6,22.0,Regular Play,0.008008759,Off T,Open Play,Normal,Right Foot,,,,,
+3938638,Ukraine,Mykhailo Mudryk,51,42,2,108.4,27.6,From Corner,0.031143205,Blocked,Open Play,Normal,Right Foot,,,,,True
+3938638,Romania,Răzvan Gabriel Marin,52,24,2,93.2,49.7,Regular Play,0.019967925,Goal,Open Play,Normal,Right Foot,True,,,,True
+3938638,Romania,Nicolae Claudiu Stanciu,55,52,2,98.3,43.3,Regular Play,0.07114553,Blocked,Open Play,Normal,Right Foot,,,,,
+3938638,Romania,Andrei Florin Ratiu,56,0,2,110.4,56.7,Regular Play,0.013371198,Saved,Open Play,Normal,Right Foot,True,,,,
+3938638,Romania,Denis Mihai Drăguş,56,27,2,116.3,41.2,From Corner,0.8830415,Goal,Open Play,Normal,Left Foot,True,,True,,
+3938638,Ukraine,Andriy Yarmolenko,64,9,2,103.5,46.3,From Free Kick,0.05293641,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3938638,Romania,Nicolae Claudiu Stanciu,67,43,2,111.2,5.6,From Free Kick,0.007156054,Off T,Free Kick,Normal,Right Foot,,,,,
+3938638,Ukraine,Georgiy Sudakov,70,7,2,94.8,24.9,From Free Kick,0.038833655,Blocked,Free Kick,Normal,Right Foot,,,,,
+3938638,Ukraine,Georgiy Sudakov,76,10,2,93.3,40.3,From Free Kick,0.03194495,Saved,Open Play,Normal,Right Foot,,,,,
+3938638,Ukraine,Roman Yaremchuk,77,8,2,98.6,43.1,From Free Kick,0.05042256,Blocked,Open Play,Normal,Right Foot,,,,,
+3938638,Ukraine,Mykhailo Mudryk,83,27,2,110.4,27.6,From Counter,0.11517301,Off T,Open Play,Normal,Left Foot,True,,,,
+3938638,Ukraine,Roman Yaremchuk,91,13,2,112.4,55.2,From Throw In,0.027714925,Post,Open Play,Half Volley,Right Foot,True,,,,True
+3938638,Ukraine,Mykhailo Mudryk,93,23,2,82.6,30.8,Regular Play,0.007901854,Saved,Open Play,Normal,Right Foot,,,,,
+3938640,Slovakia,Lukáš Haraslín,9,35,1,108.9,26.0,From Keeper,0.054630604,Saved,Open Play,Normal,Left Foot,,,,,
+3938640,Slovakia,Ivan Schranz,10,2,1,116.4,47.1,From Keeper,0.1294898,Saved,Open Play,Volley,Right Foot,True,,,,
+3938640,Slovakia,Ondrej Duda,11,23,1,99.9,24.0,From Keeper,0.02533847,Off T,Open Play,Normal,Right Foot,,,,,
+3938640,Ukraine,Volodymyr Brazhko,12,50,1,92.5,36.0,From Goal Kick,0.02577948,Saved,Open Play,Normal,Right Foot,,,,,
+3938640,Slovakia,Dávid Hancko,16,27,1,99.7,50.8,From Free Kick,0.078277074,Saved,Free Kick,Normal,Left Foot,,,,,
+3938640,Slovakia,Ivan Schranz,16,56,1,114.4,45.7,From Throw In,0.14396761,Goal,Open Play,Normal,Head,,,,,
+3938640,Ukraine,Mykhailo Mudryk,22,1,1,93.2,41.7,From Throw In,0.03218591,Off T,Open Play,Normal,Right Foot,,,,,
+3938640,Ukraine,Artem Dovbyk,27,39,1,112.5,29.1,Regular Play,0.055954177,Blocked,Open Play,Normal,Left Foot,,,,,True
+3938640,Ukraine,Mykhailo Mudryk,28,29,1,104.4,24.3,From Corner,0.028492702,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3938640,Ukraine,Andriy Yarmolenko,28,30,1,111.9,45.2,From Corner,0.3173499,Off T,Open Play,Volley,Left Foot,True,,,,
+3938640,Ukraine,Andriy Yarmolenko,33,6,1,109.1,45.7,From Free Kick,0.1337551,Blocked,Open Play,Normal,Left Foot,True,,,,
+3938640,Ukraine,Oleksandr Zinchenko,42,9,1,106.5,65.2,From Free Kick,0.0076609575,Saved,Free Kick,Normal,Left Foot,,,,,
+3938640,Slovakia,Lukáš Haraslín,43,11,1,100.3,31.4,From Goal Kick,0.061842117,Saved,Open Play,Normal,Right Foot,,,,,True
+3938640,Slovakia,Juraj Kucka,43,58,1,102.8,39.2,From Corner,0.032029018,Wayward,Open Play,Overhead Kick,Right Foot,True,,,,
+3938640,Ukraine,Artem Dovbyk,50,40,2,115.1,43.7,From Free Kick,0.319456,Wayward,Open Play,Normal,Head,,True,,,
+3938640,Ukraine,Mykola Shaparenko,53,7,2,108.8,37.3,Regular Play,0.23976156,Goal,Open Play,Normal,Left Foot,True,,,,
+3938640,Slovakia,Ivan Schranz,57,42,2,97.3,59.2,Other,0.008721116,Blocked,Open Play,Normal,Left Foot,,,,,
+3938640,Ukraine,Roman Yaremchuk,68,40,2,113.6,32.9,From Corner,0.06388939,Blocked,Open Play,Normal,Head,,,,True,True
+3938640,Slovakia,Peter Pekarík,73,23,2,97.8,55.1,Regular Play,0.024953041,Blocked,Open Play,Normal,Left Foot,,,,,
+3938640,Ukraine,Mykhailo Mudryk,73,44,2,113.7,27.7,From Counter,0.082766004,Saved,Open Play,Normal,Left Foot,True,,,,
+3938640,Ukraine,Georgiy Sudakov,76,20,2,97.8,28.6,From Throw In,0.03816442,Blocked,Open Play,Normal,Left Foot,,,,,True
+3938640,Ukraine,Roman Yaremchuk,79,5,2,114.8,49.2,From Throw In,0.38643968,Goal,Open Play,Normal,Right Foot,,True,,,
+3938640,Slovakia,László Bénes,80,54,2,104.1,45.7,From Throw In,0.08046466,Blocked,Open Play,Normal,Right Foot,True,,,,
+3938640,Slovakia,Juraj Kucka,81,17,2,107.8,43.4,From Throw In,0.03774482,Off T,Open Play,Normal,Head,,,,True,True
+3938640,Slovakia,Juraj Kucka,84,9,2,92.1,21.7,From Free Kick,0.0087996805,Off T,Free Kick,Normal,Right Foot,,,,,
+3938640,Slovakia,Denis Vavro,89,22,2,115.2,29.9,From Corner,0.041888792,Off T,Open Play,Normal,Head,,,,True,True
+3938640,Slovakia,Milan Škriniar,94,16,2,85.8,38.5,From Throw In,0.01799174,Blocked,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Cody Mathès Gakpo,1,45,1,110.1,23.0,From Throw In,0.010196376,Saved,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Cody Mathès Gakpo,5,2,1,112.3,34.1,Regular Play,0.11391678,Wayward,Open Play,Normal,Head,,True,,True,True
+3938637,Poland,Bartosz Salamon,7,22,1,54.2,44.2,From Free Kick,0.0034011703,Wayward,Open Play,Lob,Right Foot,,,,,
+3938637,Netherlands,Tijjani Reijnders,8,54,1,106.1,42.8,From Throw In,0.114312105,Off T,Open Play,Normal,Right Foot,True,,,,True
+3938637,Poland,Adam Buksa,9,49,1,107.9,55.5,From Goal Kick,0.04367851,Blocked,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Xavi Simons,13,34,1,98.4,58.0,From Free Kick,0.015395193,Off T,Open Play,Normal,Right Foot,,,,,
+3938637,Poland,Adam Buksa,15,50,1,114.6,33.6,From Corner,0.08721661,Goal,Open Play,Normal,Head,,,,True,True
+3938637,Netherlands,Virgil van Dijk,19,28,1,107.0,38.9,From Corner,0.033487294,Saved,Open Play,Volley,Right Foot,True,,,,True
+3938637,Netherlands,Memphis Depay,21,16,1,104.8,40.8,From Counter,0.11201969,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3938637,Netherlands,Memphis Depay,22,46,1,112.1,53.4,Regular Play,0.08160148,Wayward,Open Play,Normal,Right Foot,True,,,,
+3938637,Netherlands,Denzel Dumfries,26,42,1,110.1,43.1,Regular Play,0.110036224,Wayward,Open Play,Normal,Head,,,,,
+3938637,Netherlands,Tijjani Reijnders,26,43,1,118.5,33.7,Regular Play,0.075011835,Blocked,Open Play,Normal,Head,,,,True,True
+3938637,Netherlands,Cody Mathès Gakpo,27,51,1,101.1,19.6,From Corner,0.010005396,Off T,Open Play,Normal,Right Foot,,,,,True
+3938637,Netherlands,Cody Mathès Gakpo,28,49,1,97.7,34.5,Regular Play,0.048307355,Goal,Open Play,Normal,Right Foot,,,,,
+3938637,Poland,Jakub Piotr Kiwior,31,27,1,109.5,23.2,From Free Kick,0.018577162,Saved,Open Play,Half Volley,Left Foot,,,,,
+3938637,Netherlands,Cody Mathès Gakpo,41,45,1,112.6,34.0,From Free Kick,0.107844956,Off T,Open Play,Normal,Right Foot,True,,,,True
+3938637,Netherlands,Tijjani Reijnders,44,56,1,92.3,29.7,From Throw In,0.01554486,Off T,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Memphis Depay,45,58,1,108.0,50.5,Regular Play,0.15418267,Off T,Open Play,Half Volley,Right Foot,,,,,
+3938637,Netherlands,Xavi Simons,47,35,2,95.3,49.4,From Throw In,0.021836616,Blocked,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Tijjani Reijnders,47,47,2,98.4,53.0,From Throw In,0.031454585,Blocked,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Memphis Depay,48,7,2,83.3,34.1,From Throw In,0.01068202,Off T,Open Play,Normal,Right Foot,,,,,
+3938637,Netherlands,Xavi Simons,53,45,2,106.5,50.7,From Counter,0.04667762,Off T,Open Play,Normal,Right Foot,True,,,,
+3938637,Poland,Jakub Piotr Kiwior,57,56,2,108.2,51.3,From Free Kick,0.060536034,Saved,Open Play,Normal,Left Foot,,,,,
+3938637,Poland,Piotr Zieliński,58,4,2,95.9,46.5,From Free Kick,0.036215097,Saved,Open Play,Normal,Left Foot,,,,,
+3938637,Poland,Jakub Moder,62,9,2,108.9,32.4,Regular Play,0.17306519,Wayward,Open Play,Normal,Right Foot,True,,,,
+3938637,Netherlands,Denzel Dumfries,64,5,2,110.0,56.3,From Free Kick,0.03682928,Off T,Open Play,Normal,Right Foot,,,,,True
+3938637,Netherlands,Stefan de Vrij,72,50,2,110.9,41.9,From Corner,0.06877075,Off T,Open Play,Normal,Head,,,,,
+3938637,Poland,Jakub Moder,79,15,2,115.5,39.4,From Corner,0.2948724,Wayward,Open Play,Normal,Head,,,,,
+3938637,Netherlands,Wout Weghorst,82,42,2,110.6,36.7,From Free Kick,0.09464203,Goal,Open Play,Half Volley,Left Foot,True,,,,True
+3938637,Poland,Karol Świderski,88,47,2,112.0,36.4,Regular Play,0.13144952,Saved,Open Play,Normal,Left Foot,True,,,,True
+3938637,Poland,Jakub Piotrowski,88,48,2,119.0,32.0,Regular Play,0.021284437,Off T,Open Play,Normal,Left Foot,True,,,,
+3938637,Poland,Jakub Moder,91,47,2,88.9,45.8,Regular Play,0.020169877,Saved,Open Play,Normal,Left Foot,,,,,
+3938637,Poland,Nicola Zalewski,94,47,2,90.3,29.2,From Throw In,0.018691555,Saved,Open Play,Normal,Right Foot,,,,,
+3938644,Georgia,Khvicha Kvaratskhelia,1,32,1,111.4,29.2,From Counter,0.13665316,Goal,Open Play,Normal,Left Foot,,,,,True
+3938644,Georgia,Giorgi Chakvetadze,11,18,1,103.7,19.9,Regular Play,0.008420149,Blocked,Open Play,Normal,Right Foot,,,,,
+3938644,Portugal,Cristiano Ronaldo dos Santos Aveiro,16,1,1,87.1,41.7,From Free Kick,0.022706533,Saved,Free Kick,Normal,Right Foot,,,,,
+3938644,Portugal,Gonçalo Bernardo Inácio,16,43,1,109.9,37.3,From Throw In,0.049144432,Blocked,Open Play,Normal,Head,,,,True,True
+3938644,Portugal,José Diogo Dalot Teixeira,17,38,1,106.2,46.7,From Throw In,0.026044907,Off T,Open Play,Normal,Head,,,,True,True
+3938644,Portugal,António João Pereira Albuquerque Tavares Silva,20,16,1,118.7,34.9,From Free Kick,0.18730545,Off T,Open Play,Normal,Head,,True,,,
+3938644,Portugal,João Maria Lobo Alves Palhinha Gonçalves,22,14,1,92.0,26.5,Regular Play,0.019303527,Saved,Open Play,Normal,Right Foot,,,,,True
+3938644,Portugal,João Neves,23,29,1,100.5,38.1,Regular Play,0.044234637,Blocked,Open Play,Volley,Right Foot,,,,,
+3938644,Portugal,Francisco Fernandes Conceição,27,7,1,109.5,51.5,From Corner,0.052520916,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3938644,Portugal,João Félix Sequeira,29,52,1,97.4,50.7,Regular Play,0.03601527,Off T,Open Play,Normal,Left Foot,,,,,
+3938644,Georgia,Khvicha Kvaratskhelia,32,28,1,111.1,57.2,From Free Kick,0.013807702,Off T,Open Play,Normal,Right Foot,,,,,
+3938644,Portugal,Cristiano Ronaldo dos Santos Aveiro,34,10,1,112.6,28.6,From Goal Kick,0.058714412,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3938644,Portugal,João Maria Lobo Alves Palhinha Gonçalves,42,52,1,95.6,42.0,From Free Kick,0.035719465,Off T,Open Play,Normal,Right Foot,True,,,,
+3938644,Portugal,João Félix Sequeira,45,17,1,96.9,45.9,From Free Kick,0.04260302,Saved,Open Play,Normal,Left Foot,,,,,
+3938644,Portugal,Francisco Fernandes Conceição,45,37,2,105.2,50.7,Regular Play,0.04607975,Blocked,Open Play,Normal,Left Foot,,,,,
+3938644,Portugal,Cristiano Ronaldo dos Santos Aveiro,46,11,2,113.7,42.7,From Corner,0.18968906,Blocked,Open Play,Normal,Left Foot,True,,,,
+3938644,Portugal,Danilo Luís Hélio Pereira,46,41,2,116.6,36.2,From Corner,0.22954655,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3938644,Georgia,Khvicha Kvaratskhelia,49,8,2,106.4,42.1,From Free Kick,0.24445653,Saved,Open Play,Normal,Right Foot,True,,,,
+3938644,Georgia,Georges Mikautadze,56,13,2,108.1,40.1,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3938644,Portugal,Francisco Fernandes Conceição,65,48,2,102.3,45.9,From Free Kick,0.03953764,Off T,Open Play,Half Volley,Left Foot,,,,,
+3938644,Georgia,Giorgi Chakvetadze,71,2,2,103.4,53.3,Regular Play,0.06953994,Off T,Open Play,Normal,Right Foot,,,,,True
+3938644,Portugal,Nélson Cabral Semedo,80,18,2,92.9,41.1,From Corner,0.020204514,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3938644,Portugal,Matheus Luiz Nunes,81,32,2,112.4,39.4,From Throw In,0.19409223,Wayward,Open Play,Normal,Head,,,,,
+3938644,Georgia,Zuriko Davitashvili,84,53,2,113.5,27.4,From Throw In,0.08911559,Off T,Open Play,Normal,Left Foot,,True,,,True
+3938644,Portugal,Nélson Cabral Semedo,90,41,2,115.8,45.8,Regular Play,0.21424782,Saved,Open Play,Volley,Right Foot,True,,,,
+3938644,Portugal,João Félix Sequeira,91,46,2,100.1,51.9,From Throw In,0.01927459,Blocked,Open Play,Normal,Left Foot,,,,,True
+3938644,Portugal,Diogo José Teixeira da Silva,92,8,2,113.5,37.5,From Throw In,0.70389277,Off T,Open Play,Normal,Left Foot,True,,,,
+3938644,Portugal,José Diogo Dalot Teixeira,93,23,2,93.5,52.2,Regular Play,0.023084719,Saved,Open Play,Normal,Right Foot,,,,,
+3938644,Portugal,Gonçalo Matias Ramos,93,46,2,116.2,47.1,From Corner,0.102168575,Blocked,Open Play,Half Volley,Left Foot,True,,,,
+3941019,France,Adrien Rabiot,1,5,1,105.3,39.5,From Kick Off,0.049315576,Off T,Open Play,Volley,Left Foot,True,,,,True
+3941019,France,Antoine Griezmann,9,12,1,95.5,36.4,From Throw In,0.026957866,Saved,Open Play,Normal,Left Foot,,,,,
+3941019,France,Kylian Mbappé Lottin,13,52,1,106.8,26.1,From Corner,0.06710457,Off T,Open Play,Normal,Right Foot,,,,,
+3941019,France,Marcus Thuram,17,3,1,113.0,50.1,From Corner,0.02893819,Off T,Open Play,Normal,Head,,,,,
+3941019,France,Adrien Rabiot,19,8,1,87.2,35.1,Regular Play,0.021996574,Off T,Open Play,Normal,Left Foot,,,,,
+3941019,Belgium,Yannick Ferreira Carrasco,26,11,1,106.5,44.0,From Free Kick,0.105909355,Blocked,Open Play,Half Volley,Left Foot,True,,,,
+3941019,France,Marcus Thuram,33,27,1,110.6,41.9,From Free Kick,0.094443604,Off T,Open Play,Normal,Head,,,,True,True
+3941019,France,Aurélien Djani Tchouaméni,38,51,1,89.2,47.9,From Throw In,0.022445312,Off T,Open Play,Normal,Right Foot,,,,,True
+3941019,France,Marcus Thuram,40,21,1,114.2,32.2,Regular Play,0.16247946,Wayward,Open Play,Half Volley,Right Foot,True,,,,True
+3941019,France,Aurélien Djani Tchouaméni,45,13,1,103.3,32.5,From Corner,0.055180438,Off T,Open Play,Normal,Right Foot,True,,,,
+3941019,France,Aurélien Djani Tchouaméni,48,23,2,93.9,33.9,Regular Play,0.027458923,Saved,Open Play,Normal,Right Foot,True,,,,
+3941019,France,Kylian Mbappé Lottin,49,4,2,111.5,24.5,From Corner,0.023882177,Blocked,Open Play,Normal,Right Foot,,,,,
+3941019,France,Marcus Thuram,49,59,2,113.4,37.7,From Free Kick,0.14512838,Off T,Open Play,Normal,Head,,,,True,True
+3941019,France,Kylian Mbappé Lottin,53,4,2,102.3,26.3,Regular Play,0.037212588,Off T,Open Play,Normal,Right Foot,,,,,
+3941019,France,Kylian Mbappé Lottin,55,15,2,107.9,46.3,Regular Play,0.18814844,Wayward,Open Play,Normal,Right Foot,True,,,,
+3941019,Belgium,Yannick Ferreira Carrasco,60,23,2,111.0,51.5,From Counter,0.13074823,Blocked,Open Play,Normal,Right Foot,,,,,True
+3941019,France,Antoine Griezmann,64,24,2,97.3,43.1,From Free Kick,0.05479053,Off T,Open Play,Half Volley,Right Foot,,,,,
+3941019,France,Aurélien Djani Tchouaméni,68,14,2,94.6,47.3,From Throw In,0.030925188,Off T,Open Play,Normal,Right Foot,True,,,,
+3941019,Belgium,Romelu Lukaku Menama,70,2,2,109.8,25.7,Regular Play,0.0381186,Saved,Open Play,Normal,Left Foot,,,,,
+3941019,France,William Saliba,73,42,2,106.1,53.7,From Corner,0.06782964,Off T,Open Play,Normal,Left Foot,,,,,
+3941019,France,Kylian Mbappé Lottin,77,51,2,103.1,48.2,From Throw In,0.09472088,Off T,Open Play,Normal,Right Foot,True,,,,
+3941019,Belgium,Kevin De Bruyne,82,9,2,100.8,31.1,From Free Kick,0.082713604,Saved,Open Play,Normal,Right Foot,True,,,,
+3941019,France,Randal Kolo Muani,84,28,2,108.7,52.4,Regular Play,0.06305356,Wayward,Open Play,Normal,Right Foot,,,,,
+3941019,Belgium,Arthur Theate,89,40,2,88.7,26.5,From Free Kick,0.005724137,Wayward,Open Play,Half Volley,Left Foot,,,,,
+3942227,Switzerland,Breel-Donald Embolo,9,58,1,115.2,59.1,From Throw In,0.008929583,Off T,Open Play,Normal,Right Foot,True,,,,
+3942227,England,Declan Rice,13,7,1,97.1,38.6,From Goal Kick,0.03981024,Blocked,Open Play,Normal,Right Foot,,,,,
+3942227,England,Kobbie Mainoo,15,18,1,97.0,40.0,Regular Play,0.041179437,Blocked,Open Play,Normal,Right Foot,True,,,,
+3942227,England,Harry Kane,21,4,1,107.6,34.7,From Corner,0.024830516,Wayward,Open Play,Normal,Head,,,,,
+3942227,Switzerland,Breel-Donald Embolo,24,8,1,103.5,35.4,From Counter,0.050617944,Blocked,Open Play,Normal,Left Foot,,,,,
+3942227,England,Bukayo Saka,42,19,1,94.4,53.3,Regular Play,0.022693586,Blocked,Open Play,Normal,Left Foot,,,,,True
+3942227,England,Kobbie Mainoo,44,7,1,113.2,49.6,From Throw In,0.105490096,Blocked,Open Play,Normal,Right Foot,True,,,,
+3942227,England,Bukayo Saka,46,33,2,111.9,52.7,Regular Play,0.043717798,Blocked,Open Play,Normal,Left Foot,,,,,
+3942227,Switzerland,Breel-Donald Embolo,50,42,2,112.9,30.4,From Free Kick,0.052396607,Saved,Open Play,Normal,Right Foot,,,,,
+3942227,Switzerland,Breel-Donald Embolo,56,3,2,113.4,43.5,Regular Play,0.113653235,Blocked,Open Play,Normal,Head,,,,True,True
+3942227,Switzerland,Michel Aebischer,65,46,2,103.5,36.6,From Goal Kick,0.054864526,Off T,Open Play,Volley,Right Foot,True,,,,
+3942227,Switzerland,Breel-Donald Embolo,74,14,2,116.9,38.5,From Free Kick,0.673555,Goal,Open Play,Volley,Right Foot,True,,True,,
+3942227,England,Bukayo Saka,79,46,2,100.3,56.6,From Throw In,0.027096223,Goal,Open Play,Normal,Left Foot,,,,,
+3942227,England,Harry Kane,82,43,2,107.6,40.4,From Throw In,0.043730237,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3942227,England,Eberechi Eze,87,54,2,107.6,21.5,From Throw In,0.012332749,Off T,Open Play,Normal,Right Foot,,,,,
+3942227,Switzerland,Dan Ndoye,89,35,2,102.2,22.4,From Counter,0.02836855,Off T,Open Play,Normal,Right Foot,,,,,
+3942227,Switzerland,Steven Zuber,92,5,2,110.9,28.0,From Throw In,0.049106847,Off T,Open Play,Half Volley,Right Foot,,,,,
+3942227,England,Declan Rice,94,28,3,89.6,32.5,Regular Play,0.017482303,Saved,Open Play,Normal,Right Foot,,,,,
+3942227,England,Phil Foden,100,49,3,90.5,44.9,From Free Kick,0.02448303,Blocked,Open Play,Normal,Left Foot,,,,,
+3942227,England,Jude Bellingham,101,4,3,103.5,46.6,From Free Kick,0.06517577,Blocked,Open Play,Normal,Right Foot,,,,,
+3942227,England,Jude Bellingham,101,6,3,103.8,44.8,From Free Kick,0.06901925,Saved,Open Play,Normal,Left Foot,True,,,,True
+3942227,Switzerland,Fabian Lukas Schär,112,53,4,106.2,58.7,Regular Play,0.012323262,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3942227,Switzerland,Xherdan Shaqiri,116,40,4,119.3,79.1,From Corner,0.00018,Post,Corner,Normal,Left Foot,,True,,,
+3942227,Switzerland,Mohamed Zeki Amdouni,118,39,4,101.7,23.7,From Free Kick,0.039720625,Saved,Open Play,Normal,Left Foot,,,,,
+3942227,Switzerland,Silvan Widmer,118,51,4,111.7,46.0,From Free Kick,0.11769032,Off T,Open Play,Volley,Right Foot,True,,,,True
+3930174,Portugal,Cristiano Ronaldo dos Santos Aveiro,1,8,1,104.7,54.5,From Goal Kick,0.030822832,Saved,Open Play,Volley,Right Foot,True,,,,
+3930174,Portugal,Bruno Miguel Borges Fernandes,3,31,1,92.6,41.8,From Free Kick,0.041098516,Blocked,Open Play,Normal,Left Foot,,,,,
+3930174,Turkey,Muhammed Kerem Aktürkoğlu,4,37,1,107.8,44.4,From Throw In,0.048342027,Off T,Open Play,Volley,Right Foot,True,,,,True
+3930174,Turkey,Muhammed Kerem Aktürkoğlu,5,49,1,116.2,36.6,Regular Play,0.45019928,Wayward,Open Play,Half Volley,Right Foot,True,,True,,True
+3930174,Portugal,Cristiano Ronaldo dos Santos Aveiro,7,31,1,113.1,34.1,Regular Play,0.06344055,Off T,Open Play,Normal,Head,,,,True,True
+3930174,Portugal,Rafael Alexandre Conceição Leão,14,32,1,108.6,34.2,From Keeper,0.04168335,Wayward,Open Play,Normal,Head,,,,True,True
+3930174,Portugal,Bernardo Mota Veiga de Carvalho e Silva,20,58,1,108.8,44.0,Regular Play,0.3171335,Goal,Open Play,Normal,Left Foot,True,,,,
+3930174,Portugal,Bruno Miguel Borges Fernandes,23,44,1,103.2,29.7,From Throw In,0.0370126,Off T,Open Play,Volley,Right Foot,True,,,,
+3930174,Turkey,Muhammed Kerem Aktürkoğlu,30,16,1,110.9,27.4,Regular Play,0.09970065,Saved,Open Play,Normal,Right Foot,,,,,
+3930174,Turkey,Orkun Kökçü,31,31,1,108.6,51.3,From Corner,0.06214549,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930174,Turkey,Hakan Çalhanoğlu,31,33,1,99.0,60.0,From Corner,0.008017924,Blocked,Open Play,Volley,Right Foot,True,,,,
+3930174,Portugal,Bruno Miguel Borges Fernandes,34,43,1,104.7,54.4,Regular Play,0.07170779,Off T,Open Play,Normal,Right Foot,,,,,
+3930174,Portugal,Cristiano Ronaldo dos Santos Aveiro,36,0,1,101.7,30.6,From Throw In,0.056781985,Off T,Open Play,Normal,Right Foot,,,,,
+3930174,Turkey,Orkun Kökçü,40,12,1,94.9,32.7,From Counter,0.039146766,Saved,Open Play,Normal,Right Foot,,,,,
+3930174,Turkey,Yusuf Yazıcı,52,43,2,89.4,55.2,Regular Play,0.006459761,Saved,Open Play,Normal,Left Foot,,,,,
+3930174,Portugal,Bruno Miguel Borges Fernandes,55,3,2,111.5,36.3,From Free Kick,0.85188305,Goal,Open Play,Normal,Right Foot,True,,,,
+3930174,Turkey,Yusuf Yazıcı,59,34,2,99.9,27.2,Regular Play,0.019997858,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930174,Turkey,Kenan Yildiz,62,56,2,97.1,24.9,Regular Play,0.025981167,Off T,Open Play,Normal,Right Foot,,,,,
+3930174,Portugal,Cristiano Ronaldo dos Santos Aveiro,65,22,2,113.1,37.7,Regular Play,0.19733512,Wayward,Open Play,Normal,Head,,,,,
+3930174,Turkey,Arda Güler,80,34,2,91.0,51.3,Regular Play,0.014791918,Blocked,Open Play,Normal,Left Foot,,,,,
+3930174,Portugal,Bernardo Mota Veiga de Carvalho e Silva,89,29,2,107.0,35.5,Regular Play,0.16763084,Blocked,Open Play,Normal,Left Foot,,,,,
+3930174,Turkey,Arda Güler,90,48,2,60.9,25.6,From Free Kick,0.004203976,Wayward,Open Play,Lob,Left Foot,True,,,,
+3930174,Portugal,Rúben Diogo Da Silva Neves,94,32,2,93.8,50.2,Regular Play,0.024696983,Off T,Open Play,Normal,Right Foot,,,,,
+3930162,Denmark,Andreas Christensen,10,32,1,105.6,39.0,From Free Kick,0.023670547,Off T,Open Play,Normal,Head,,,,True,True
+3930162,Denmark,Victor Bernth Kristansen,14,8,1,101.6,37.8,From Throw In,0.05016356,Blocked,Open Play,Volley,Right Foot,True,,,,True
+3930162,Slovenia,Benjamin Šeško,15,47,1,89.6,43.4,Regular Play,0.022961853,Off T,Open Play,Normal,Right Foot,,,,,
+3930162,Denmark,Christian Dannemann Eriksen,16,36,1,109.7,46.4,From Throw In,0.2766666,Goal,Open Play,Half Volley,Right Foot,,,,,True
+3930162,Slovenia,Erik Janža,20,21,1,94.8,34.0,From Corner,0.02282429,Blocked,Open Play,Volley,Left Foot,True,,,,
+3930162,Slovenia,Erik Janža,20,48,1,92.1,32.2,From Corner,0.02002185,Wayward,Open Play,Half Volley,Left Foot,True,,,,
+3930162,Denmark,Jannik Vestergaard,28,0,1,113.5,42.3,From Corner,0.10208895,Off T,Open Play,Normal,Head,,,,True,True
+3930162,Denmark,Joachim Andersen,34,12,1,111.2,42.9,From Corner,0.07210865,Wayward,Open Play,Normal,Head,,,,True,True
+3930162,Denmark,Christian Dannemann Eriksen,39,1,1,110.8,54.5,From Free Kick,0.033157267,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930162,Denmark,Christian Dannemann Eriksen,41,43,1,89.0,35.6,Regular Play,0.03012717,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930162,Denmark,Christian Dannemann Eriksen,42,42,1,105.1,30.6,From Counter,0.10017875,Off T,Open Play,Normal,Left Foot,True,,,,
+3930162,Denmark,Andreas Christensen,54,1,2,106.4,37.5,From Free Kick,0.028868087,Blocked,Open Play,Normal,Head,,,,True,True
+3930162,Denmark,Pierre-Emile Højbjerg,55,17,2,111.1,43.8,From Free Kick,0.06811079,Blocked,Open Play,Volley,Right Foot,True,,,,
+3930162,Denmark,Rasmus Winther Højlund,64,6,2,116.7,41.6,From Free Kick,0.44749036,Saved,Open Play,Normal,Right Foot,True,,,,True
+3930162,Denmark,Alexander Hartmann Bah,64,10,2,100.7,49.3,From Free Kick,0.05694469,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930162,Slovenia,Adam Gnezda Čerin,65,54,2,113.1,39.6,From Free Kick,0.19572966,Off T,Open Play,Normal,Head,,,,,
+3930162,Denmark,Christian Dannemann Eriksen,67,32,2,114.6,27.9,From Throw In,0.030444594,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930162,Denmark,Jonas Older Wind,70,40,2,114.5,43.6,From Corner,0.13023244,Off T,Open Play,Normal,Head,,,,True,True
+3930162,Slovenia,Andraž Šporar,73,54,2,114.0,39.1,From Free Kick,0.33457097,Off T,Open Play,Volley,Right Foot,True,,,,True
+3930162,Slovenia,Benjamin Šeško,75,45,2,94.7,44.0,From Throw In,0.032746676,Post,Open Play,Half Volley,Right Foot,,,,,True
+3930162,Slovenia,Erik Janža,76,26,2,98.1,22.6,From Corner,0.012828235,Goal,Open Play,Half Volley,Left Foot,True,,,,
+3930162,Slovenia,Andraž Šporar,78,18,2,112.5,40.9,Regular Play,0.18183897,Blocked,Open Play,Half Volley,Left Foot,True,,,,True
+3930162,Slovenia,Andraž Šporar,78,19,2,111.1,39.6,Regular Play,0.10890295,Off T,Open Play,Volley,Left Foot,True,,,,True
+3930162,Denmark,Jannik Vestergaard,80,25,2,112.1,27.8,From Corner,0.01490126,Saved,Open Play,Normal,Head,,,,True,True
+3930162,Slovenia,Andraž Šporar,80,57,2,114.6,54.5,Regular Play,0.026201004,Saved,Open Play,Normal,Right Foot,,True,,,True
+3930162,Denmark,Morten Hjulmand,85,34,2,95.3,39.1,From Throw In,0.046085708,Saved,Open Play,Normal,Left Foot,True,,,,True
+3930162,Slovenia,Žan Karničnik,90,1,2,90.2,57.0,From Throw In,0.0077642933,Off T,Open Play,Normal,Right Foot,True,,,,
+3930176,Germany,Kai Havertz,2,19,1,113.5,44.4,From Corner,0.08929836,Saved,Open Play,Normal,Head,,,,True,True
+3930176,Germany,İlkay Gündoğan,10,50,1,96.5,38.1,From Free Kick,0.037393745,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930176,Germany,Kai Havertz,11,35,1,108.1,35.2,From Throw In,0.087086074,Blocked,Open Play,Normal,Left Foot,True,,,,True
+3930176,Switzerland,Dan Ndoye,27,52,1,113.7,35.0,Regular Play,0.18121041,Goal,Open Play,Volley,Right Foot,True,,,,True
+3930176,Switzerland,Dan Ndoye,30,0,1,101.6,26.3,From Throw In,0.046368696,Off T,Open Play,Normal,Left Foot,,,,,
+3930176,Germany,Robert Andrich,32,32,1,89.8,32.6,Regular Play,0.021470767,Blocked,Open Play,Normal,Right Foot,,,,,
+3930176,Germany,Antonio Rüdiger,40,38,1,114.5,47.4,From Corner,0.07583652,Off T,Open Play,Normal,Head,,,,,
+3930176,Germany,Kai Havertz,41,23,1,107.1,49.6,From Counter,0.074331574,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930176,Germany,Robert Andrich,42,36,1,95.2,40.1,From Free Kick,0.024752146,Off T,Open Play,Volley,Right Foot,,,,,
+3930176,Germany,Jamal Musiala,49,54,2,101.0,49.4,Regular Play,0.10492643,Saved,Open Play,Normal,Right Foot,,,,,True
+3930176,Germany,İlkay Gündoğan,49,55,2,103.1,41.9,Regular Play,0.13064142,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930176,Germany,Toni Kroos,54,6,2,95.3,38.1,Regular Play,0.04210514,Off T,Open Play,Normal,Right Foot,True,,,,
+3930176,Germany,David Raum,62,41,2,94.6,26.2,From Corner,0.024444293,Off T,Open Play,Normal,Left Foot,,,,,
+3930176,Germany,İlkay Gündoğan,63,32,2,110.0,40.4,Regular Play,0.06176375,Blocked,Open Play,Normal,Head,,,,True,True
+3930176,Germany,Kai Havertz,63,46,2,110.4,38.4,From Corner,0.06201411,Off T,Open Play,Normal,Head,,,,True,True
+3930176,Germany,Kai Havertz,67,3,2,115.1,42.0,From Free Kick,0.22987874,Off T,Open Play,Normal,Head,,,,,
+3930176,Germany,Joshua Kimmich,69,47,2,114.2,47.9,Regular Play,0.09524317,Blocked,Open Play,Normal,Left Foot,,,,,
+3930176,Switzerland,Kwadwo Duah,73,11,2,93.6,51.6,Regular Play,0.024068562,Saved,Open Play,Normal,Right Foot,True,,,,
+3930176,Germany,Leroy Sané,81,13,2,104.6,53.2,From Free Kick,0.037312206,Off T,Open Play,Half Volley,Left Foot,,,,,
+3930176,Germany,Kai Havertz,84,36,2,114.0,42.8,From Corner,0.18030311,Post,Open Play,Normal,Head,,,,,
+3930176,Switzerland,Granit Xhaka,87,51,2,93.4,33.9,Regular Play,0.028437931,Saved,Open Play,Normal,Left Foot,True,,,,
+3930176,Germany,Niclas Füllkrug,91,6,2,113.6,41.4,From Free Kick,0.16287667,Goal,Open Play,Normal,Head,,,,True,True
+3930169,Scotland,Scott McTominay,12,38,1,103.8,32.8,Regular Play,0.06252074,Goal,Open Play,Normal,Left Foot,True,,,,
+3930169,Switzerland,Ricardo Iván Rodríguez Araya,15,36,1,100.6,38.0,From Corner,0.03573002,Off T,Open Play,Volley,Left Foot,True,,,,True
+3930169,Switzerland,Xherdan Shaqiri,25,34,1,98.1,32.5,Regular Play,0.08584379,Goal,Open Play,Normal,Left Foot,True,,,,
+3930169,Switzerland,Silvan Widmer,27,59,1,104.0,52.2,From Throw In,0.04224507,Off T,Open Play,Normal,Right Foot,,,,,
+3930169,Switzerland,Dan Ndoye,29,29,1,110.8,33.1,From Free Kick,0.05182667,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930169,Switzerland,Dan Ndoye,31,45,1,111.7,31.1,Regular Play,0.22225732,Saved,Open Play,Normal,Right Foot,,,,,
+3930169,Scotland,Jack Hendry,37,46,1,107.7,38.9,From Free Kick,0.066154584,Wayward,Open Play,Normal,Head,,,,True,True
+3930169,Scotland,Che Adams,40,44,1,116.8,47.4,From Corner,0.10378359,Saved,Open Play,Volley,Right Foot,True,,,,
+3930169,Switzerland,Granit Xhaka,41,29,1,103.8,25.1,From Keeper,0.039015256,Saved,Open Play,Normal,Left Foot,True,,,,
+3930169,Switzerland,Ruben Vargas,55,45,2,104.0,23.4,From Corner,0.026921839,Saved,Open Play,Normal,Right Foot,,,,,
+3930169,Switzerland,Dan Ndoye,57,59,2,102.8,37.7,From Counter,0.293888,Saved,Open Play,Normal,Right Foot,,,,,True
+3930169,Switzerland,Ruben Vargas,63,27,2,107.2,25.6,From Throw In,0.04814583,Off T,Open Play,Normal,Right Foot,,,,,
+3930169,Scotland,Billy Gilmour,64,31,2,89.4,44.5,Regular Play,0.025520865,Blocked,Open Play,Normal,Right Foot,,,,,
+3930169,Scotland,Grant Campbell Hanley,66,15,2,114.8,36.6,From Free Kick,0.19868778,Post,Open Play,Normal,Head,,,,True,True
+3930169,Scotland,Scott McKenna,73,16,2,106.4,38.2,From Free Kick,0.025902173,Off T,Open Play,Normal,Head,,,,True,True
+3930169,Scotland,Billy Gilmour,75,25,2,112.3,34.2,From Corner,0.062246423,Blocked,Open Play,Normal,Head,,,,True,True
+3930169,Switzerland,Dan Ndoye,77,22,2,108.3,23.4,From Free Kick,0.034561172,Off T,Open Play,Normal,Right Foot,,,,,True
+3930169,Scotland,Scott McTominay,80,43,2,109.4,43.5,Regular Play,0.049823087,Wayward,Open Play,Normal,Head,,,,,
+3930169,Scotland,Scott McTominay,80,47,2,107.3,44.8,Regular Play,0.06748764,Blocked,Open Play,Volley,Right Foot,True,,,,True
+3930169,Scotland,Scott McTominay,80,48,2,107.7,42.7,Regular Play,0.065750904,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930169,Scotland,Kenneth McLean,86,13,2,98.5,60.6,From Free Kick,0.011382165,Saved,Open Play,Normal,Left Foot,,,,,True
+3930169,Switzerland,Mohamed Zeki Amdouni,89,12,2,112.3,34.8,From Free Kick,0.10971865,Off T,Open Play,Normal,Head,,,,,
+3930169,Scotland,Callum McGregor,90,54,2,100.0,32.0,From Goal Kick,0.032622617,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3942819,Netherlands,Xavi Simons,6,41,1,99.6,51.2,Regular Play,0.04893475,Goal,Open Play,Normal,Right Foot,,,,,
+3942819,England,Harry Kane,12,39,1,88.2,36.6,Regular Play,0.028932061,Saved,Open Play,Normal,Right Foot,,,,,
+3942819,England,Bukayo Saka,13,41,1,104.5,41.6,From Throw In,0.07174964,Blocked,Open Play,Normal,Left Foot,,,,,
+3942819,England,Harry Kane,17,34,1,108.1,40.0,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3942819,England,Phil Foden,22,28,1,117.0,47.6,Regular Play,0.17228934,Saved,Open Play,Normal,Right Foot,,,,,
+3942819,Netherlands,Donyell Malen,28,15,1,102.9,45.1,From Counter,0.039829366,Blocked,Open Play,Normal,Left Foot,True,,,,
+3942819,Netherlands,Denzel Dumfries,29,8,1,111.3,43.4,From Corner,0.0631593,Post,Open Play,Normal,Head,,,,True,True
+3942819,England,Phil Foden,31,21,1,95.8,51.6,From Goal Kick,0.028710563,Post,Open Play,Normal,Left Foot,,,,,True
+3942819,England,Phil Foden,38,41,1,98.4,50.6,Regular Play,0.03463848,Saved,Open Play,Normal,Left Foot,True,,,,
+3942819,England,Kobbie Mainoo,40,27,1,98.8,52.9,Regular Play,0.029809527,Blocked,Open Play,Normal,Right Foot,,,,,True
+3942819,Netherlands,Virgil van Dijk,64,20,2,109.5,33.3,From Free Kick,0.08157874,Saved,Open Play,Half Volley,Left Foot,True,,,,True
+3942819,Netherlands,Denzel Dumfries,64,53,2,111.1,44.6,From Corner,0.058512155,Off T,Open Play,Normal,Head,,,,True,True
+3942819,Netherlands,Wout Weghorst,76,57,2,110.4,38.9,From Throw In,0.057835978,Blocked,Open Play,Normal,Head,,,,True,True
+3942819,Netherlands,Xavi Simons,76,58,2,103.5,45.0,From Throw In,0.06232192,Saved,Open Play,Volley,Right Foot,True,,,,
+3942819,England,Cole Palmer,87,48,2,104.8,50.4,From Goal Kick,0.051446717,Off T,Open Play,Normal,Left Foot,,,,,
+3942819,England,Ollie Watkins,90,0,2,110.4,53.5,From Free Kick,0.035494413,Goal,Open Play,Normal,Right Foot,,,,,
+3943043,Spain,Nicholas Williams Arthuer,11,13,1,115.6,28.4,From Free Kick,0.06802966,Blocked,Open Play,Normal,Left Foot,,True,,,True
+3943043,Spain,Robin Aime Robert Le Normand,12,21,1,112.9,36.2,From Corner,0.11746518,Off T,Open Play,Overhead Kick,Right Foot,True,,,,True
+3943043,England,Declan Rice,16,20,1,96.2,40.8,From Corner,0.0489952,Blocked,Open Play,Normal,Right Foot,True,,,,True
+3943043,Spain,Fabián Ruiz Peña,27,27,1,101.2,49.8,From Throw In,0.048117142,Saved,Open Play,Normal,Right Foot,,,,,
+3943043,Spain,Daniel Olmo Carvajal,34,58,1,95.0,31.2,From Corner,0.02654902,Blocked,Open Play,Normal,Right Foot,,,,,
+3943043,Spain,Álvaro Borja Morata Martín,42,24,1,113.9,30.2,Regular Play,0.07835983,Blocked,Open Play,Normal,Right Foot,True,,,,
+3943043,England,Harry Kane,44,5,1,102.6,36.7,Regular Play,0.048372418,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3943043,England,Phil Foden,45,41,1,114.4,29.9,From Free Kick,0.1796937,Saved,Open Play,Volley,Left Foot,True,,,,
+3943043,Spain,Nicholas Williams Arthuer,46,9,2,109.9,28.0,From Throw In,0.1124816,Goal,Open Play,Normal,Left Foot,True,,,,
+3943043,Spain,Daniel Olmo Carvajal,48,19,2,108.8,32.1,Regular Play,0.2455793,Off T,Open Play,Half Volley,Left Foot,,,,,
+3943043,Spain,Álvaro Borja Morata Martín,54,15,2,95.8,46.1,From Free Kick,0.02528921,Blocked,Open Play,Normal,Left Foot,,,,,True
+3943043,Spain,Álvaro Borja Morata Martín,54,58,2,110.9,51.0,From Throw In,0.24310583,Wayward,Open Play,Normal,Right Foot,True,,,,
+3943043,Spain,Nicholas Williams Arthuer,55,23,2,97.2,43.4,From Throw In,0.04913289,Off T,Open Play,Normal,Right Foot,,,,,
+3943043,England,Jude Bellingham,63,12,2,99.0,37.2,From Free Kick,0.05628593,Off T,Open Play,Normal,Left Foot,,,,,True
+3943043,Spain,Lamine Yamal Nasraoui Ebana,65,45,2,103.5,49.7,From Counter,0.16213313,Saved,Open Play,Normal,Left Foot,,,,,
+3943043,Spain,Aymeric Laporte,66,27,2,111.9,43.8,From Corner,0.097933225,Blocked,Open Play,Normal,Head,,,,True,True
+3943043,Spain,Fabián Ruiz Peña,69,7,2,93.3,35.9,From Corner,0.03257165,Off T,Open Play,Normal,Left Foot,,,,,
+3943043,England,Ollie Watkins,69,59,2,91.0,40.1,From Goal Kick,0.07470869,Blocked,Open Play,Lob,Right Foot,True,,,,True
+3943043,Spain,Mikel Oyarzabal Ugarte,71,50,2,112.0,24.9,From Counter,0.037707567,Saved,Open Play,Normal,Left Foot,True,,,,
+3943043,England,Cole Palmer,72,8,2,98.4,49.0,From Keeper,0.03794335,Goal,Open Play,Normal,Left Foot,True,,,,
+3943043,Spain,Lamine Yamal Nasraoui Ebana,81,13,2,107.2,50.2,Regular Play,0.16392969,Saved,Open Play,Normal,Left Foot,True,,,,
+3943043,Spain,Mikel Oyarzabal Ugarte,85,56,2,111.2,36.3,From Throw In,0.2833282,Goal,Open Play,Normal,Right Foot,True,,,,
+3943043,England,Declan Rice,89,14,2,109.5,44.1,From Corner,0.057442125,Saved,Open Play,Normal,Head,,,,,
+3943043,England,Marc Guehi,89,15,2,114.8,35.5,From Corner,0.117154144,Blocked,Open Play,Normal,Head,,,,True,True
+3943043,England,Declan Rice,89,17,2,113.1,41.4,From Corner,0.10578214,Off T,Open Play,Normal,Head,,,,,
+3942752,Spain,Fabián Ruiz Peña,4,49,1,115.4,35.9,Regular Play,0.19328672,Off T,Open Play,Normal,Head,,,,,
+3942752,France,Randal Kolo Muani,8,1,1,114.9,43.7,From Free Kick,0.27131972,Goal,Open Play,Normal,Head,,,,,
+3942752,France,Kylian Mbappé Lottin,15,43,1,88.6,45.1,From Free Kick,0.030292137,Blocked,Free Kick,Normal,Right Foot,,,,,
+3942752,France,Kylian Mbappé Lottin,18,16,1,102.9,30.2,Regular Play,0.08122322,Blocked,Open Play,Normal,Right Foot,,,,,True
+3942752,Spain,Lamine Yamal Nasraoui Ebana,20,15,1,93.2,47.1,From Goal Kick,0.02681241,Goal,Open Play,Normal,Left Foot,,,,,
+3942752,Spain,Daniel Olmo Carvajal,24,23,1,111.6,50.8,From Throw In,0.07387237,Goal,Open Play,Normal,Right Foot,,,,,True
+3942752,Spain,Fabián Ruiz Peña,35,35,1,99.7,39.5,From Free Kick,0.04887295,Blocked,Open Play,Half Volley,Left Foot,,,,,True
+3942752,Spain,Lamine Yamal Nasraoui Ebana,39,59,1,97.7,49.9,Regular Play,0.024287114,Blocked,Open Play,Normal,Left Foot,,,,,True
+3942752,France,Aurélien Djani Tchouaméni,52,45,2,111.9,37.4,From Corner,0.08108944,Saved,Open Play,Normal,Head,,,,,
+3942752,France,Kylian Mbappé Lottin,55,59,2,111.3,24.4,Regular Play,0.037130367,Saved,Open Play,Normal,Right Foot,,,,,
+3942752,France,Dayotchanculle Upamecano,62,25,2,115.4,46.4,From Corner,0.09654521,Off T,Open Play,Normal,Head,,,,True,True
+3942752,France,Theo Bernard François Hernández,75,6,2,103.1,34.5,Regular Play,0.12171783,Off T,Open Play,Normal,Right Foot,True,,,,
+3942752,Spain,Lamine Yamal Nasraoui Ebana,80,56,2,100.4,51.7,Regular Play,0.05438437,Off T,Open Play,Normal,Left Foot,,,,,
+3942752,France,Kylian Mbappé Lottin,85,23,2,104.1,29.6,From Goal Kick,0.09963949,Off T,Open Play,Normal,Right Foot,,,,,
+3942752,France,Antoine Griezmann,94,39,2,109.8,46.9,From Throw In,0.03180728,Blocked,Open Play,Normal,Head,,,,True,True
+3942382,Netherlands,Memphis Depay,0,59,1,103.7,33.2,From Throw In,0.1305271,Off T,Open Play,Normal,Right Foot,,,,,
+3942382,Netherlands,Memphis Depay,6,0,1,108.3,42.5,Regular Play,0.064000264,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3942382,Turkey,Salih Özcan,10,4,1,94.1,49.4,Regular Play,0.025876114,Off T,Open Play,Normal,Right Foot,,,,,
+3942382,Netherlands,Xavi Simons,11,35,1,95.1,32.8,Regular Play,0.03922345,Off T,Open Play,Normal,Right Foot,,,,,
+3942382,Turkey,Hakan Çalhanoğlu,20,28,1,98.9,57.7,From Throw In,0.018811692,Blocked,Open Play,Normal,Right Foot,,,,,
+3942382,Turkey,Abdülkerim Bardakcı,28,8,1,110.5,34.8,From Free Kick,0.103276074,Off T,Open Play,Volley,Right Foot,True,,,,True
+3942382,Turkey,Arda Güler,31,48,1,99.3,66.6,From Throw In,0.006275559,Off T,Open Play,Normal,Left Foot,True,,,,True
+3942382,Turkey,Kenan Yildiz,33,11,1,105.0,22.8,From Corner,0.019850902,Off T,Open Play,Normal,Right Foot,,,,,True
+3942382,Turkey,Samet Akaydin,34,47,1,117.9,35.1,From Corner,0.24565445,Goal,Open Play,Normal,Head,,,True,True,True
+3942382,Netherlands,Steven Bergwijn,41,40,1,93.2,50.5,Regular Play,0.025480429,Off T,Open Play,Normal,Right Foot,,,,,
+3942382,Turkey,Arda Güler,55,15,2,90.2,45.9,From Free Kick,0.042380717,Saved to Post,Free Kick,Normal,Left Foot,,,,,
+3942382,Netherlands,Memphis Depay,56,39,2,95.0,31.7,From Goal Kick,0.02907499,Saved,Open Play,Normal,Right Foot,,,,,
+3942382,Netherlands,Memphis Depay,62,24,2,102.6,24.6,Regular Play,0.03874837,Blocked,Open Play,Normal,Right Foot,True,,,,
+3942382,Turkey,Kenan Yildiz,64,26,2,97.4,42.2,From Free Kick,0.038447194,Saved,Open Play,Normal,Right Foot,True,,,,
+3942382,Netherlands,Cody Mathès Gakpo,69,9,2,110.5,37.0,Regular Play,0.07885103,Blocked,Open Play,Overhead Kick,Right Foot,True,,,,
+3942382,Netherlands,Wout Weghorst,69,20,2,114.1,47.8,Regular Play,0.15561853,Saved,Open Play,Volley,Right Foot,True,,,,
+3942382,Netherlands,Stefan de Vrij,69,54,2,110.1,39.1,From Corner,0.061265625,Goal,Open Play,Normal,Head,,,,,
+3942382,Netherlands,Joey Veerman,74,41,2,95.1,28.0,From Corner,0.024245147,Blocked,Open Play,Normal,Right Foot,,,,,
+3942382,Turkey,Cenk Tosun,83,24,2,108.2,46.5,Regular Play,0.041926187,Off T,Open Play,Normal,Head,,,,,True
+3942382,Turkey,Mehmet Zeki Çelik,84,29,2,110.5,50.7,From Free Kick,0.24236712,Blocked,Open Play,Normal,Right Foot,True,,,,
+3942382,Turkey,Muhammed Kerem Aktürkoğlu,84,38,2,110.2,29.0,From Free Kick,0.08011716,Blocked,Open Play,Normal,Right Foot,,,,,
+3942382,Turkey,Cenk Tosun,87,59,2,111.3,34.1,From Throw In,0.07797563,Off T,Open Play,Normal,Head,,,,True,True
+3942382,Netherlands,Cody Mathès Gakpo,88,48,2,106.9,25.8,From Goal Kick,0.07189418,Saved,Open Play,Half Volley,Left Foot,True,,,,
+3942382,Turkey,Muhammed Kerem Aktürkoğlu,89,49,2,115.1,30.4,From Free Kick,0.095398486,Off T,Open Play,Normal,Head,,,,,
+3942382,Turkey,Semih Kılıçsoy,91,0,2,111.3,41.6,Regular Play,0.113987,Saved,Open Play,Normal,Other,,,,,
+3942382,Turkey,Hakan Çalhanoğlu,92,42,2,101.2,29.4,Regular Play,0.030088589,Blocked,Open Play,Normal,Left Foot,,,,,
+3942349,Portugal,Bruno Miguel Borges Fernandes,15,51,1,92.5,32.9,Regular Play,0.02740746,Blocked,Open Play,Normal,Right Foot,,,,,
+3942349,France,Theo Bernard François Hernández,19,32,1,91.4,26.7,Regular Play,0.017666074,Saved,Open Play,Normal,Left Foot,,,,,
+3942349,France,Antoine Griezmann,27,33,1,98.0,59.1,Regular Play,0.009978434,Blocked,Open Play,Normal,Left Foot,,,,,
+3942349,France,Eduardo Camavinga,27,41,1,94.9,25.6,Regular Play,0.021160081,Off T,Open Play,Normal,Left Foot,,,,,True
+3942349,Portugal,Bruno Miguel Borges Fernandes,41,32,1,93.9,26.0,From Free Kick,0.03952836,Off T,Free Kick,Normal,Right Foot,,,,,
+3942349,France,Kylian Mbappé Lottin,49,6,2,99.5,28.3,From Throw In,0.033553086,Saved,Open Play,Normal,Right Foot,True,,,,True
+3942349,France,Aurélien Djani Tchouaméni,50,29,2,89.5,30.2,From Free Kick,0.019283272,Blocked,Open Play,Normal,Right Foot,,,,,
+3942349,Portugal,Bernardo Mota Veiga de Carvalho e Silva,53,53,2,111.7,47.2,From Corner,0.04770692,Blocked,Open Play,Normal,Head,,,,,
+3942349,Portugal,Bruno Miguel Borges Fernandes,60,25,2,109.3,52.1,From Free Kick,0.13447225,Saved,Open Play,Normal,Right Foot,True,,,,
+3942349,Portugal,João Pedro Cavaco Cancelo,60,36,2,105.7,52.8,From Free Kick,0.052601743,Off T,Open Play,Normal,Left Foot,,,,,True
+3942349,France,Aurélien Djani Tchouaméni,62,2,2,91.6,23.0,From Goal Kick,0.006239464,Wayward,Open Play,Normal,Right Foot,,,,,
+3942349,Portugal,Vitor Machado Ferreira,62,36,2,110.4,32.9,From Goal Kick,0.264942,Saved,Open Play,Normal,Right Foot,True,,,,
+3942349,Portugal,Cristiano Ronaldo dos Santos Aveiro,62,39,2,118.7,45.1,From Goal Kick,0.1352057,Saved,Open Play,Backheel,Right Foot,True,,,,
+3942349,France,Randal Kolo Muani,65,33,2,107.2,49.3,Regular Play,0.116558924,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3942349,France,Kylian Mbappé Lottin,66,54,2,108.1,54.2,From Corner,0.022234876,Blocked,Open Play,Normal,Right Foot,,,,,True
+3942349,France,Ousmane Dembélé,69,47,2,113.7,56.4,Regular Play,0.010713111,Blocked,Open Play,Normal,Right Foot,,,,,
+3942349,France,Eduardo Camavinga,69,49,2,114.8,50.0,Regular Play,0.23683809,Post,Open Play,Normal,Right Foot,,,,,
+3942349,France,Ousmane Dembélé,73,16,2,99.1,57.0,From Throw In,0.02501046,Post,Open Play,Normal,Left Foot,,,,,True
+3942349,Portugal,Cristiano Ronaldo dos Santos Aveiro,84,57,2,99.5,61.1,From Free Kick,0.010742701,Blocked,Free Kick,Normal,Right Foot,,,,,
+3942349,Portugal,Vitor Machado Ferreira,85,7,2,88.0,22.7,From Free Kick,0.00655848,Blocked,Open Play,Normal,Right Foot,,,,,
+3942349,France,N'Golo Kanté,87,22,2,93.9,33.2,Regular Play,0.02393025,Saved,Open Play,Normal,Right Foot,,,,,
+3942349,France,N'Golo Kanté,88,44,2,96.4,33.1,From Free Kick,0.052443802,Saved,Open Play,Normal,Right Foot,,,,,True
+3942349,Portugal,Bernardo Mota Veiga de Carvalho e Silva,89,58,2,107.5,53.3,From Keeper,0.050959174,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3942349,France,Kylian Mbappé Lottin,91,2,2,96.1,25.4,From Corner,0.019525701,Off T,Open Play,Normal,Right Foot,,,,,
+3942349,France,Kylian Mbappé Lottin,92,45,2,99.9,39.0,Regular Play,0.04812045,Saved,Open Play,Normal,Right Foot,,,,,
+3942349,Portugal,Cristiano Ronaldo dos Santos Aveiro,92,41,3,111.4,42.7,Regular Play,0.2695404,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3942349,France,Kylian Mbappé Lottin,96,29,3,106.6,32.5,Regular Play,0.06612929,Blocked,Open Play,Normal,Right Foot,,,,,
+3942349,France,Marcus Thuram,96,57,3,101.2,43.9,From Throw In,0.18562049,Off T,Open Play,Normal,Left Foot,True,,,,
+3942349,Portugal,Rafael Alexandre Conceição Leão,101,34,3,109.9,35.7,From Free Kick,0.13186198,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3942349,Portugal,Francisco Fernandes Conceição,104,31,3,103.0,56.4,From Throw In,0.021586083,Off T,Open Play,Normal,Left Foot,,,,,
+3942349,Portugal,João Félix Sequeira,107,25,4,116.0,30.8,From Throw In,0.08330991,Off T,Open Play,Normal,Head,,,,,
+3942349,France,Ousmane Dembélé,111,30,4,100.5,47.5,Regular Play,0.0539449,Off T,Open Play,Normal,Left Foot,,,,,
+3942349,France,Bradley Barcola,113,59,4,114.4,28.4,From Goal Kick,0.059450485,Off T,Open Play,Normal,Left Foot,,,,,
+3942349,France,Dayotchanculle Upamecano,117,43,4,109.6,37.4,From Corner,0.039004326,Wayward,Open Play,Normal,Head,,,,True,True
+3942349,Portugal,Nuno Mendes,119,53,4,103.1,38.3,Regular Play,0.1323755,Saved,Open Play,Normal,Right Foot,True,,,,True
+3930180,Netherlands,Tijjani Reijnders,13,17,1,106.5,38.9,Regular Play,0.14255726,Off T,Open Play,Normal,Right Foot,True,,,,
+3930180,Netherlands,Donyell Malen,22,54,1,105.6,32.9,From Free Kick,0.35075784,Off T,Open Play,Normal,Left Foot,True,,,,
+3930180,Austria,Marcel Sabitzer,29,38,1,102.9,33.1,From Throw In,0.055332307,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930180,Austria,Florian Grillitsch,29,40,1,94.8,24.0,From Throw In,0.012392985,Saved,Open Play,Volley,Right Foot,True,,,,
+3930180,Netherlands,Tijjani Reijnders,33,37,1,95.2,44.7,From Free Kick,0.044637516,Off T,Open Play,Normal,Right Foot,,,,,
+3930180,Austria,Marcel Sabitzer,36,59,1,97.9,25.3,From Corner,0.02351871,Saved,Open Play,Normal,Right Foot,,,,,
+3930180,Austria,Florian Grillitsch,37,8,1,101.1,31.8,From Corner,0.035556145,Blocked,Open Play,Normal,Right Foot,,,,,
+3930180,Austria,Marko Arnautović,37,9,1,112.7,41.3,From Corner,0.46128318,Saved,Open Play,Volley,Right Foot,True,,,,
+3930180,Austria,Patrick Wimmer,39,2,1,94.7,40.5,From Counter,0.057999488,Blocked,Open Play,Normal,Right Foot,,,,,
+3930180,Netherlands,Jerdy Schouten,40,36,1,107.5,50.1,From Throw In,0.07204104,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930180,Netherlands,Memphis Depay,40,55,1,114.9,35.9,Regular Play,0.37566358,Post,Open Play,Normal,Head,,,True,,
+3930180,Austria,Florian Grillitsch,46,54,1,111.8,41.6,From Corner,0.09956471,Off T,Open Play,Normal,Head,,,,,
+3930180,Netherlands,Cody Mathès Gakpo,46,12,2,107.4,30.2,From Counter,0.12614554,Goal,Open Play,Normal,Right Foot,,,,,
+3930180,Netherlands,Virgil van Dijk,53,12,2,114.4,37.3,From Corner,0.14079262,Blocked,Open Play,Normal,Head,,,,True,True
+3930180,Austria,Romano Schmid,58,31,2,110.2,40.7,Regular Play,0.17982809,Goal,Open Play,Normal,Head,,,,,True
+3930180,Netherlands,Xavi Simons,72,30,2,74.0,47.8,From Free Kick,0.020448573,Off T,Open Play,Half Volley,Right Foot,,,,,
+3930180,Netherlands,Memphis Depay,74,53,2,109.7,37.5,From Free Kick,0.121777005,Goal,Open Play,Half Volley,Right Foot,,,,,True
+3930180,Austria,Marcel Sabitzer,79,56,2,114.9,29.1,From Keeper,0.1324231,Goal,Open Play,Normal,Left Foot,True,,,,
+3930180,Netherlands,Wout Weghorst,85,23,2,107.3,41.3,From Free Kick,0.080460265,Off T,Open Play,Diving Header,Head,,True,,True,True
+3930180,Netherlands,Memphis Depay,94,16,2,111.2,25.1,From Corner,0.03492738,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3930171,Denmark,Pierre-Emile Højbjerg,0,23,1,97.1,27.4,Regular Play,0.025765574,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3930171,England,Phil Foden,12,42,1,104.5,51.4,From Free Kick,0.10147241,Off T,Open Play,Normal,Left Foot,,,,,True
+3930171,England,Harry Kane,16,10,1,97.3,38.5,Regular Play,0.052686803,Blocked,Open Play,Normal,Left Foot,,,,,
+3930171,England,Harry Kane,17,21,1,112.9,40.4,From Counter,0.45489097,Goal,Open Play,Normal,Left Foot,True,,,,
+3930171,Denmark,Christian Dannemann Eriksen,22,48,1,108.4,56.6,From Throw In,0.01892699,Blocked,Open Play,Normal,Right Foot,,,,,
+3930171,Denmark,Jonas Older Wind,24,18,1,112.3,34.5,Regular Play,0.06100823,Saved,Open Play,Normal,Head,,,,True,True
+3930171,Denmark,Christian Dannemann Eriksen,25,43,1,102.6,49.8,From Keeper,0.039681155,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930171,England,Marc Guehi,27,6,1,115.3,53.4,From Free Kick,0.021727161,Off T,Open Play,Volley,Right Foot,True,,,,
+3930171,Denmark,Jonas Older Wind,31,9,1,108.2,50.4,Regular Play,0.03800949,Blocked,Open Play,Normal,Right Foot,True,,,,True
+3930171,Denmark,Morten Hjulmand,33,36,1,88.6,40.7,Regular Play,0.019366447,Goal,Open Play,Normal,Right Foot,,,,,
+3930171,Denmark,Morten Hjulmand,37,31,1,97.2,49.3,From Free Kick,0.037683774,Blocked,Open Play,Normal,Right Foot,,,,,
+3930171,Denmark,Joachim Andersen,38,5,1,117.7,28.2,From Corner,0.011467024,Off T,Open Play,Normal,Head,,,,True,True
+3930171,England,Phil Foden,40,15,1,94.2,31.4,From Goal Kick,0.025206389,Saved,Open Play,Normal,Left Foot,,,,,
+3930171,Denmark,Pierre-Emile Højbjerg,43,43,1,93.1,54.1,Regular Play,0.021093283,Saved,Open Play,Normal,Right Foot,True,,,,
+3930171,England,Phil Foden,46,4,1,95.5,54.6,From Keeper,0.01993659,Off T,Open Play,Normal,Left Foot,,,,,
+3930171,Denmark,Jonas Older Wind,46,17,2,101.3,49.5,From Throw In,0.0451295,Blocked,Open Play,Normal,Left Foot,True,,,,
+3930171,England,Declan Rice,50,40,2,93.7,26.4,Regular Play,0.021318365,Saved,Open Play,Normal,Right Foot,,,,,True
+3930171,England,Bukayo Saka,52,0,2,115.1,49.3,Regular Play,0.06160539,Off T,Open Play,Normal,Head,,,,True,True
+3930171,England,Phil Foden,55,22,2,96.8,51.3,From Throw In,0.035421107,Post,Open Play,Normal,Left Foot,,,,,
+3930171,England,Bukayo Saka,55,24,2,110.1,50.4,From Throw In,0.22372523,Off T,Open Play,Normal,Right Foot,True,,,,
+3930171,England,Bukayo Saka,58,21,2,103.9,55.8,Regular Play,0.04036888,Off T,Open Play,Normal,Left Foot,,,,,
+3930171,Denmark,Christian Dannemann Eriksen,63,1,2,93.3,45.6,Regular Play,0.02688801,Off T,Open Play,Normal,Left Foot,,,,,
+3930171,Denmark,Mikkel Damsgaard,66,58,2,96.1,28.0,From Corner,0.017544413,Saved,Open Play,Half Volley,Right Foot,,,,,
+3930171,England,Ollie Watkins,70,58,2,115.0,51.1,From Throw In,0.114346,Saved,Open Play,Normal,Right Foot,True,,,,
+3930171,Denmark,Pierre-Emile Højbjerg,72,29,2,89.7,32.2,Regular Play,0.022561343,Saved,Open Play,Normal,Right Foot,True,,,,
+3930171,Denmark,Pierre-Emile Højbjerg,76,13,2,85.4,47.2,From Free Kick,0.01088163,Saved,Open Play,Normal,Right Foot,,,,,
+3930171,Denmark,Andreas Christensen,83,29,2,113.5,39.7,From Corner,0.2926257,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930171,Denmark,Pierre-Emile Højbjerg,84,4,2,100.5,30.8,From Goal Kick,0.04469684,Off T,Open Play,Normal,Right Foot,,,,,
+3942226,Spain,Pedro González López,0,52,1,101.5,39.7,Regular Play,0.11743693,Saved,Open Play,Normal,Left Foot,True,,,,True
+3942226,Spain,Nicholas Williams Arthuer,11,45,1,91.9,28.7,From Throw In,0.021921165,Off T,Open Play,Normal,Right Foot,,,,,True
+3942226,Spain,Lamine Yamal Nasraoui Ebana,14,5,1,98.9,48.6,From Free Kick,0.084460065,Off T,Free Kick,Normal,Left Foot,,,,,
+3942226,Spain,Álvaro Borja Morata Martín,15,2,1,100.2,21.9,Regular Play,0.013587153,Blocked,Open Play,Normal,Right Foot,,,,,True
+3942226,Spain,Fabián Ruiz Peña,16,8,1,98.6,41.5,Regular Play,0.06860946,Off T,Open Play,Normal,Left Foot,,,,,True
+3942226,Germany,Kai Havertz,20,10,1,110.4,40.0,Regular Play,0.07551446,Saved,Open Play,Normal,Head,,,,True,True
+3942226,Spain,Aymeric Laporte,22,9,1,95.6,23.8,Regular Play,0.020855846,Saved,Open Play,Normal,Left Foot,,,,,True
+3942226,Germany,Jonathan Tah,24,39,1,109.2,32.9,From Free Kick,0.021546038,Blocked,Open Play,Normal,Head,,,,True,True
+3942226,Germany,Kai Havertz,34,13,1,102.7,39.0,Regular Play,0.154297,Saved,Open Play,Half Volley,Right Foot,,,,,
+3942226,Spain,Daniel Olmo Carvajal,38,47,1,92.1,45.5,From Throw In,0.029002221,Saved,Open Play,Normal,Right Foot,,,,,
+3942226,Spain,Lamine Yamal Nasraoui Ebana,44,51,1,89.1,49.3,Regular Play,0.027097616,Saved,Open Play,Normal,Left Foot,,,,,True
+3942226,Spain,Álvaro Borja Morata Martín,46,48,2,112.2,43.8,From Free Kick,0.15766257,Off T,Open Play,Normal,Right Foot,,,,,True
+3942226,Germany,Robert Andrich,47,51,2,96.7,56.2,From Goal Kick,0.020109814,Off T,Open Play,Normal,Right Foot,True,,,,
+3942226,Spain,Daniel Olmo Carvajal,51,0,2,103.6,42.7,From Free Kick,0.16316466,Goal,Open Play,Normal,Right Foot,True,,,,
+3942226,Germany,Jamal Musiala,54,23,2,98.6,44.9,Regular Play,0.040737197,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3942226,Spain,Nicholas Williams Arthuer,54,53,2,107.4,52.1,Regular Play,0.12471274,Wayward,Open Play,Normal,Left Foot,True,,,,True
+3942226,Germany,Florian Wirtz,59,43,2,93.1,39.8,From Throw In,0.028129423,Blocked,Open Play,Normal,Right Foot,,,,,
+3942226,Germany,Niclas Füllkrug,63,7,2,111.8,47.0,From Corner,0.046607595,Off T,Open Play,Normal,Head,,,,True,True
+3942226,Germany,Robert Andrich,69,1,2,99.8,43.6,Regular Play,0.06904092,Saved,Open Play,Normal,Right Foot,True,,,,
+3942226,Germany,Kai Havertz,71,2,2,108.8,33.1,Regular Play,0.08557191,Blocked,Open Play,Normal,Left Foot,,,,,
+3942226,Germany,Niclas Füllkrug,71,41,2,110.7,39.3,Regular Play,0.078394026,Off T,Open Play,Normal,Head,,,,True,True
+3942226,Germany,Niclas Füllkrug,76,15,2,109.2,42.6,From Throw In,0.10089645,Post,Open Play,Normal,Right Foot,True,,,,True
+3942226,Germany,Jamal Musiala,80,43,2,111.0,25.7,From Throw In,0.06056656,Off T,Open Play,Normal,Left Foot,,,,,True
+3942226,Germany,Kai Havertz,81,51,2,93.1,21.7,From Goal Kick,0.037947286,Off T,Open Play,Lob,Left Foot,True,,,,
+3942226,Spain,Fabián Ruiz Peña,83,31,2,96.6,34.4,From Free Kick,0.04979181,Off T,Open Play,Normal,Left Foot,,,,,
+3942226,Germany,Maximilian Mittelstädt,87,8,2,97.2,39.1,From Corner,0.040309463,Blocked,Open Play,Normal,Left Foot,True,,,,
+3942226,Germany,Florian Wirtz,88,21,2,111.8,45.5,From Throw In,0.119556814,Goal,Open Play,Half Volley,Right Foot,True,,,,
+3942226,Germany,Thomas Müller,93,48,2,113.2,43.6,From Free Kick,0.23735376,Off T,Open Play,Volley,Right Foot,True,,,,True
+3942226,Spain,Ferrán Torres García,90,24,3,106.6,43.2,From Kick Off,0.051860645,Wayward,Open Play,Normal,Head,,,,True,True
+3942226,Spain,Mikel Oyarzabal Ugarte,94,31,3,98.2,43.0,From Counter,0.026732832,Blocked,Open Play,Normal,Left Foot,,,,,True
+3942226,Spain,Daniel Olmo Carvajal,96,8,3,103.5,24.3,From Free Kick,0.018918002,Blocked,Open Play,Normal,Right Foot,,,,,
+3942226,Germany,Robert Andrich,100,26,3,100.7,50.7,From Free Kick,0.0269288,Off T,Open Play,Volley,Right Foot,True,,,,
+3942226,Spain,Mikel Oyarzabal Ugarte,103,7,3,96.8,54.8,From Throw In,0.022105819,Off T,Open Play,Normal,Left Foot,,,,,
+3942226,Germany,Florian Wirtz,105,3,3,102.4,36.0,Regular Play,0.1075199,Off T,Open Play,Normal,Left Foot,True,,,,
+3942226,Germany,Jamal Musiala,105,34,4,100.3,44.6,Regular Play,0.0490711,Blocked,Open Play,Normal,Right Foot,True,,,,
+3942226,Germany,Niclas Füllkrug,108,4,4,104.6,29.1,From Counter,0.045802347,Off T,Open Play,Normal,Left Foot,,,,,
+3942226,Spain,Mikel Oyarzabal Ugarte,111,50,4,97.5,44.3,Regular Play,0.04228213,Off T,Open Play,Normal,Left Foot,,,,,True
+3942226,Germany,Niclas Füllkrug,116,19,4,108.4,43.4,Regular Play,0.052276906,Saved,Open Play,Normal,Head,,,,True,True
+3942226,Spain,Mikel Merino Zazón,118,53,4,112.6,39.2,From Throw In,0.20066643,Goal,Open Play,Normal,Head,,,,,
+3942226,Germany,Joshua Kimmich,121,38,4,98.8,45.3,From Throw In,0.044950247,Blocked,Open Play,Normal,Right Foot,True,,,,
+3942226,Spain,Ferrán Torres García,121,55,4,111.5,50.9,From Counter,0.29318613,Wayward,Open Play,Normal,Right Foot,,True,,,
+3942226,Germany,Niclas Füllkrug,122,55,4,110.1,42.4,From Keeper,0.08594657,Off T,Open Play,Normal,Head,,,,,
+3938645,Belgium,Romelu Lukaku Menama,6,28,1,110.8,30.7,Regular Play,0.27452216,Saved,Open Play,Normal,Left Foot,True,,,,
+3938645,Ukraine,Roman Yaremchuk,19,50,1,91.1,43.1,Regular Play,0.030924592,Saved,Open Play,Normal,Right Foot,,,,,
+3938645,Ukraine,Artem Dovbyk,20,26,1,94.9,34.0,Regular Play,0.040268533,Off T,Open Play,Normal,Left Foot,,,,,True
+3938645,Belgium,Arthur Theate,22,53,1,94.4,19.7,Regular Play,0.008175447,Off T,Open Play,Normal,Left Foot,,,,,True
+3938645,Ukraine,Volodymyr Brazhko,25,55,1,91.9,51.3,From Goal Kick,0.018024947,Blocked,Open Play,Normal,Right Foot,,,,,True
+3938645,Ukraine,Georgiy Sudakov,26,59,1,95.9,37.0,Regular Play,0.046265554,Off T,Open Play,Normal,Right Foot,True,,,,
+3938645,Ukraine,Roman Yaremchuk,28,9,1,111.3,37.0,Regular Play,0.10216147,Off T,Open Play,Normal,Head,,,,,
+3938645,Belgium,Kevin De Bruyne,32,31,1,88.1,69.5,From Free Kick,0.005830124,Off T,Free Kick,Normal,Right Foot,,,,,
+3938645,Ukraine,Georgiy Sudakov,33,57,1,104.2,29.9,From Throw In,0.04998817,Saved,Open Play,Half Volley,Right Foot,,,,,True
+3938645,Ukraine,Georgiy Sudakov,43,19,1,89.8,17.6,From Free Kick,0.0074785133,Saved,Free Kick,Normal,Right Foot,,,,,
+3938645,Belgium,Kevin De Bruyne,45,3,1,100.3,24.5,Regular Play,0.027014952,Saved,Open Play,Normal,Right Foot,,,,,
+3938645,Belgium,Youri Tielemans,51,24,2,96.3,25.6,Regular Play,0.02085355,Blocked,Open Play,Normal,Right Foot,,,,,
+3938645,Belgium,Youri Tielemans,51,59,2,98.2,46.6,From Corner,0.03379251,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3938645,Belgium,Jeremy Doku,54,55,2,100.3,45.7,From Corner,0.04610922,Blocked,Open Play,Normal,Left Foot,,,,,
+3938645,Belgium,Romelu Lukaku Menama,64,0,2,105.3,54.2,From Counter,0.032758437,Saved,Open Play,Normal,Left Foot,,,,,True
+3938645,Belgium,Yannick Ferreira Carrasco,72,33,2,102.0,34.5,Regular Play,0.06505812,Saved,Open Play,Normal,Right Foot,,,,,
+3938645,Belgium,Jeremy Doku,72,42,2,101.9,39.2,Regular Play,0.049519155,Blocked,Open Play,Normal,Right Foot,,,,,
+3938645,Ukraine,Artem Dovbyk,74,3,2,116.1,30.6,From Throw In,0.054199155,Blocked,Open Play,Half Volley,Left Foot,,,,,True
+3938645,Ukraine,Artem Dovbyk,78,50,2,108.5,53.2,From Throw In,0.0340628,Off T,Open Play,Normal,Right Foot,,,,,
+3938645,Ukraine,Ruslan Malinovskiy,82,10,2,119.0,79.3,From Corner,0.00018,Saved,Corner,Normal,Left Foot,,True,,,
+3938645,Ukraine,Taras Stepanenko,82,39,2,112.4,45.3,From Corner,0.06703938,Off T,Open Play,Normal,Head,,,,,
+3938645,Ukraine,Andriy Yarmolenko,84,44,2,94.1,50.8,Regular Play,0.015305686,Blocked,Open Play,Normal,Right Foot,,,,,
+3938645,Belgium,Johan Bakayoko,86,51,2,103.2,48.4,From Counter,0.06330791,Off T,Open Play,Normal,Left Foot,True,,,,
+3938645,Ukraine,Ruslan Malinovskiy,87,38,2,97.8,42.7,From Goal Kick,0.06252074,Blocked,Open Play,Normal,Left Foot,True,,,,
+3938645,Ukraine,Georgiy Sudakov,90,37,2,104.4,44.6,From Counter,0.18075049,Saved,Open Play,Normal,Right Foot,,,,,
+3938645,Belgium,Yannick Ferreira Carrasco,92,0,2,108.7,18.4,Regular Play,0.007042983,Blocked,Open Play,Normal,Right Foot,,,,,
+3930184,Czech Republic,Lukáš Provod,1,56,1,99.4,27.2,Regular Play,0.031836256,Saved,Open Play,Normal,Left Foot,,,,,True
+3930184,Turkey,Kenan Yildiz,6,30,1,112.6,21.5,Regular Play,0.008673587,Blocked,Open Play,Normal,Right Foot,,,,,
+3930184,Turkey,Arda Güler,12,38,1,90.5,37.1,Regular Play,0.026633171,Off T,Open Play,Normal,Left Foot,,,,,
+3930184,Czech Republic,David Jurásek,14,15,1,80.6,30.1,From Throw In,0.0066083334,Saved,Open Play,Normal,Left Foot,True,,,,True
+3930184,Czech Republic,Robin Hranáč,16,21,1,113.5,37.1,From Throw In,0.2578839,Off T,Open Play,Normal,Head,,True,,,
+3930184,Czech Republic,Robin Hranáč,22,57,1,112.5,35.8,From Free Kick,0.07917333,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3930184,Turkey,Kenan Yildiz,26,28,1,111.7,25.6,Regular Play,0.033986952,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930184,Turkey,Arda Güler,26,34,1,112.9,36.9,Regular Play,0.17483498,Blocked,Open Play,Volley,Left Foot,True,,,,
+3930184,Turkey,Samet Akaydin,27,4,1,113.2,33.9,From Corner,0.07527008,Off T,Open Play,Normal,Head,,,,,
+3930184,Turkey,Hakan Çalhanoğlu,41,38,1,114.8,55.0,From Free Kick,0.011782922,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930184,Turkey,Hakan Çalhanoğlu,42,29,1,98.6,58.7,From Free Kick,0.0105593875,Off T,Open Play,Normal,Right Foot,,,,,
+3930184,Czech Republic,David Jurásek,44,17,1,110.3,23.8,From Counter,0.07308208,Saved,Open Play,Normal,Left Foot,True,,,,
+3930184,Turkey,Arda Güler,48,2,1,98.0,49.4,From Throw In,0.03921402,Off T,Open Play,Normal,Right Foot,,,,,True
+3930184,Turkey,Barış Alper Yılmaz,45,53,2,115.1,50.8,From Throw In,0.048628997,Saved,Open Play,Normal,Head,,True,,True,True
+3930184,Turkey,Kenan Yildiz,46,49,2,99.6,29.5,From Corner,0.039678648,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930184,Czech Republic,Adam Hložek,49,50,2,99.0,48.6,From Free Kick,0.03270364,Saved,Open Play,Normal,Left Foot,,,,,
+3930184,Turkey,Kenan Yildiz,50,39,2,106.4,37.9,From Keeper,0.103175014,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930184,Turkey,Kenan Yildiz,50,41,2,109.4,42.3,From Keeper,0.12868324,Saved,Open Play,Normal,Right Foot,True,,,,
+3930184,Turkey,İsmail Yüksek,50,44,2,98.8,38.1,From Keeper,0.04587865,Blocked,Open Play,Normal,Right Foot,,,,,
+3930184,Turkey,Hakan Çalhanoğlu,50,48,2,109.2,26.0,From Keeper,0.07116598,Goal,Open Play,Normal,Right Foot,True,,,,
+3930184,Czech Republic,Ladislav Krejčí,63,12,2,114.8,49.8,From Free Kick,0.050790045,Saved,Open Play,Normal,Head,,,,,
+3930184,Czech Republic,Tomáš Chorý,65,23,2,116.0,44.0,From Throw In,0.55123883,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3930184,Czech Republic,Tomáš Souček,65,25,2,113.6,46.4,From Throw In,0.1198459,Goal,Open Play,Half Volley,Right Foot,True,,,,
+3930184,Turkey,Kenan Yildiz,72,15,2,111.8,34.4,From Free Kick,0.1691182,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930184,Czech Republic,Ondřej Lingr,79,33,2,111.9,32.5,From Throw In,0.10603972,Wayward,Open Play,Normal,Right Foot,True,,,,
+3930184,Czech Republic,Ondřej Lingr,79,54,2,112.7,34.1,From Throw In,0.07450897,Off T,Open Play,Normal,Head,,,,True,True
+3930184,Turkey,Okay Yokuşlu,86,8,2,95.4,36.3,From Goal Kick,0.040461615,Off T,Open Play,Normal,Right Foot,True,,,,
+3930184,Czech Republic,Matěj Jurásek,90,0,2,98.5,28.7,From Goal Kick,0.026611561,Blocked,Open Play,Normal,Right Foot,,,,,
+3930184,Turkey,Barış Alper Yılmaz,91,50,2,99.1,45.5,From Free Kick,0.103810854,Saved,Open Play,Normal,Left Foot,,,,,
+3930184,Turkey,Cenk Tosun,93,45,2,105.3,34.5,From Counter,0.08598739,Goal,Open Play,Normal,Right Foot,,,,,
+3941022,Turkey,Merih Demiral,0,58,1,115.8,39.0,From Corner,0.4581151,Goal,Open Play,Normal,Left Foot,True,,,,
+3941022,Austria,Christoph Baumgartner,2,10,1,101.4,51.9,From Kick Off,0.043312646,Off T,Open Play,Normal,Right Foot,,,,,
+3941022,Austria,Philipp Lienhart,6,40,1,115.8,47.4,From Corner,0.12085788,Off T,Open Play,Normal,Head,,,,,
+3941022,Austria,Marcel Sabitzer,11,13,1,89.9,35.2,From Free Kick,0.042849332,Blocked,Free Kick,Normal,Right Foot,,,,,
+3941022,Austria,Philipp Lienhart,11,51,1,103.8,36.1,From Corner,0.060313236,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3941022,Turkey,Arda Güler,18,37,1,59.0,42.3,Regular Play,0.0070581385,Off T,Open Play,Lob,Left Foot,,,,,True
+3941022,Turkey,Merih Demiral,24,3,1,115.8,45.8,From Corner,0.10399367,Off T,Open Play,Normal,Other,,,,,
+3941022,Austria,Marcel Sabitzer,32,40,1,93.9,22.4,Regular Play,0.00823542,Blocked,Open Play,Normal,Right Foot,,,,,
+3941022,Austria,Christoph Baumgartner,45,57,1,111.4,45.6,Regular Play,0.16866307,Off T,Open Play,Normal,Left Foot,True,,,,True
+3941022,Austria,Michael Gregoritsch,49,32,2,107.7,35.0,Regular Play,0.0427339,Off T,Open Play,Normal,Head,,,,True,True
+3941022,Austria,Marko Arnautović,50,32,2,110.1,44.6,Regular Play,0.29855767,Saved,Open Play,Normal,Right Foot,True,,,,True
+3941022,Austria,Konrad Laimer,52,24,2,103.9,38.4,From Throw In,0.10591905,Off T,Open Play,Normal,Left Foot,,,,,
+3941022,Austria,Stefan Posch,53,39,2,108.2,50.3,From Throw In,0.06528039,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3941022,Turkey,Ferdi Erenay Kadıoğlu,56,14,2,109.5,25.2,Regular Play,0.050657645,Blocked,Open Play,Normal,Right Foot,,,,,
+3941022,Turkey,Merih Demiral,58,51,2,116.9,44.8,From Corner,0.1547648,Goal,Open Play,Normal,Head,,,,True,True
+3941022,Austria,Stefan Posch,65,52,2,113.1,41.9,From Corner,0.11622289,Wayward,Open Play,Normal,Head,,,,,
+3941022,Austria,Michael Gregoritsch,65,53,2,116.2,36.5,From Corner,0.5777065,Goal,Open Play,Half Volley,Left Foot,True,,,,
+3941022,Austria,Michael Gregoritsch,68,2,2,109.4,39.1,Regular Play,0.098569036,Saved,Open Play,Normal,Head,,True,,,
+3941022,Austria,Florian Grillitsch,73,2,2,96.4,47.7,From Corner,0.024146283,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3941022,Austria,Florian Grillitsch,74,21,2,94.4,51.1,From Throw In,0.024710217,Saved,Open Play,Normal,Right Foot,,,,,
+3941022,Austria,Marko Arnautović,74,50,2,96.7,38.5,From Counter,0.030356593,Blocked,Open Play,Normal,Right Foot,,,,,True
+3941022,Austria,Marcel Sabitzer,83,34,2,99.8,52.9,Regular Play,0.02972567,Wayward,Open Play,Half Volley,Left Foot,True,,,,
+3941022,Austria,Christoph Baumgartner,83,41,2,114.1,37.5,Regular Play,0.24289556,Off T,Open Play,Normal,Head,,,,True,True
+3941022,Austria,Christoph Baumgartner,85,44,2,110.5,43.6,From Corner,0.0522076,Off T,Open Play,Normal,Head,,,,,
+3941022,Austria,Michael Gregoritsch,90,41,2,112.6,42.5,From Throw In,0.101370536,Blocked,Open Play,Normal,Head,,,,,
+3941022,Turkey,Barış Alper Yılmaz,93,13,2,102.8,35.9,From Counter,0.10791902,Saved,Open Play,Normal,Right Foot,,,,,True
+3941022,Austria,Christoph Baumgartner,94,0,2,113.9,42.7,Regular Play,0.23239474,Saved,Open Play,Normal,Head,,True,,True,True
+3941021,Netherlands,Xavi Simons,5,32,1,95.3,18.1,From Throw In,0.008267852,Saved,Open Play,Normal,Right Foot,,,,,
+3941021,Romania,Dennis Man,13,52,1,99.0,48.2,Regular Play,0.03920482,Off T,Open Play,Normal,Left Foot,,,,,
+3941021,Netherlands,Stefan de Vrij,16,45,1,111.8,40.0,From Corner,0.07967252,Blocked,Open Play,Normal,Head,,,,True,True
+3941021,Netherlands,Nathan Aké,17,4,1,108.7,35.3,From Corner,0.033201255,Wayward,Open Play,Normal,Head,,,,,
+3941021,Netherlands,Cody Mathès Gakpo,19,7,1,107.5,24.9,From Corner,0.046985872,Goal,Open Play,Normal,Right Foot,,,,,
+3941021,Romania,Ianis Hagi,20,17,1,96.2,17.6,From Kick Off,0.007178938,Off T,Open Play,Normal,Right Foot,,,,,
+3941021,Romania,Dennis Man,23,20,1,107.9,38.5,Regular Play,0.10886951,Off T,Open Play,Normal,Left Foot,True,,,,True
+3941021,Netherlands,Tijjani Reijnders,25,13,1,101.2,41.1,From Goal Kick,0.052920066,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3941021,Netherlands,Stefan de Vrij,25,46,1,112.9,46.5,From Corner,0.0656883,Off T,Open Play,Normal,Head,,,,,
+3941021,Netherlands,Memphis Depay,42,2,1,119.2,79.2,From Corner,0.00018,Off T,Corner,Normal,Right Foot,,True,,,
+3941021,Netherlands,Xavi Simons,43,24,1,110.1,39.2,Regular Play,0.14239058,Off T,Open Play,Normal,Right Foot,,,,,True
+3941021,Romania,Denis Mihai Drăguş,46,6,1,99.5,38.3,Regular Play,0.056796633,Saved,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Tijjani Reijnders,49,24,2,101.2,41.0,From Free Kick,0.09582185,Blocked,Open Play,Normal,Right Foot,,,,,True
+3941021,Netherlands,Donyell Malen,49,43,2,113.0,42.2,From Free Kick,0.14581987,Off T,Open Play,Normal,Head,,,,True,True
+3941021,Netherlands,Donyell Malen,53,16,2,110.6,49.7,From Throw In,0.22304013,Wayward,Open Play,Normal,Right Foot,True,,,,
+3941021,Netherlands,Memphis Depay,53,18,2,114.0,38.3,From Throw In,0.3079616,Blocked,Open Play,Half Volley,Right Foot,,,,,
+3941021,Netherlands,Tijjani Reijnders,56,22,2,96.4,38.6,Regular Play,0.03629456,Off T,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Virgil van Dijk,57,47,2,109.6,39.8,From Corner,0.06589584,Post,Open Play,Normal,Head,,,,,
+3941021,Netherlands,Cody Mathès Gakpo,58,42,2,112.5,27.9,Regular Play,0.11165685,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3941021,Romania,Denis Mihai Drăguş,59,8,2,104.2,47.5,From Keeper,0.05565119,Blocked,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Cody Mathès Gakpo,61,45,2,97.1,47.3,From Counter,0.0472151,Saved,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Nathan Aké,62,29,2,111.4,47.2,From Corner,0.07373578,Wayward,Open Play,Normal,Head,,,,True,True
+3941021,Netherlands,Memphis Depay,67,42,2,94.3,33.1,From Free Kick,0.061553013,Off T,Free Kick,Normal,Right Foot,,,,,
+3941021,Netherlands,Joey Veerman,72,30,2,114.2,28.3,Regular Play,0.11710371,Off T,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Memphis Depay,78,8,2,108.3,25.7,Regular Play,0.028539894,Blocked,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Cody Mathès Gakpo,79,49,2,106.1,51.7,From Counter,0.062258154,Blocked,Open Play,Normal,Right Foot,,,,,True
+3941021,Netherlands,Donyell Malen,82,23,2,115.6,36.0,From Throw In,0.39829126,Goal,Open Play,Normal,Right Foot,True,,,,
+3941021,Netherlands,Memphis Depay,84,23,2,112.2,27.4,Regular Play,0.070296794,Off T,Open Play,Normal,Right Foot,,,,,
+3941021,Netherlands,Donyell Malen,92,42,2,104.2,33.2,From Counter,0.35144565,Goal,Open Play,Normal,Right Foot,,,,,True
+3941020,Portugal,Rúben Santos Gato Alves Dias,4,7,1,114.4,52.5,From Corner,0.048859816,Off T,Open Play,Half Volley,Left Foot,,,,,
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,30,42,1,111.7,41.6,From Throw In,0.07103491,Saved,Open Play,Normal,Head,,,,True,True
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,33,32,1,96.9,35.6,From Free Kick,0.08345447,Off T,Free Kick,Normal,Right Foot,,,,,
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,38,0,1,105.0,10.5,From Free Kick,0.0067048697,Off T,Free Kick,Normal,Right Foot,,,,,
+3941020,Slovenia,Benjamin Šeško,43,36,1,89.8,31.3,Regular Play,0.03214056,Saved,Open Play,Normal,Right Foot,,,,,
+3941020,Slovenia,Jaka Bijol,44,57,1,116.0,29.4,From Corner,0.036003575,Off T,Open Play,Normal,Head,,,,True,True
+3941020,Portugal,João Maria Lobo Alves Palhinha Gonçalves,47,6,1,98.7,40.3,Regular Play,0.06763536,Off T,Open Play,Normal,Right Foot,True,,,,
+3941020,Portugal,Bernardo Mota Veiga de Carvalho e Silva,46,43,2,105.5,48.4,From Free Kick,0.061536763,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3941020,Slovenia,Timi Elšnik,48,3,2,111.7,25.4,From Corner,0.030757122,Saved Off Target,Open Play,Volley,Left Foot,True,,,,
+3941020,Portugal,Vitor Machado Ferreira,51,37,2,91.9,22.4,From Free Kick,0.00635036,Blocked,Open Play,Normal,Right Foot,,,,,
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,54,47,2,95.8,44.3,From Free Kick,0.07588849,Saved,Free Kick,Normal,Right Foot,,,,,
+3941020,Portugal,Vitor Machado Ferreira,56,10,2,106.5,42.7,Regular Play,0.0891514,Blocked,Open Play,Normal,Right Foot,True,,,,True
+3941020,Portugal,Vitor Machado Ferreira,57,57,2,100.8,38.4,From Corner,0.052142147,Blocked,Open Play,Half Volley,Left Foot,True,,,,
+3941020,Portugal,João Maria Lobo Alves Palhinha Gonçalves,58,3,2,107.5,45.5,From Corner,0.037417345,Wayward,Open Play,Normal,Head,,,,,
+3941020,Slovenia,Adam Gnezda Čerin,58,55,2,99.4,27.1,From Throw In,0.020967843,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3941020,Slovenia,Benjamin Šeško,60,59,2,104.4,30.4,From Counter,0.25142625,Off T,Open Play,Normal,Left Foot,,True,,,
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,71,10,2,88.9,37.9,From Free Kick,0.029365536,Off T,Free Kick,Normal,Right Foot,,,,,
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,88,53,2,108.9,27.4,Regular Play,0.093401864,Saved,Open Play,Normal,Left Foot,True,,,,
+3941020,Portugal,Bruno Miguel Borges Fernandes,91,34,3,86.6,24.3,From Throw In,0.0052186823,Blocked,Open Play,Normal,Right Foot,,,,,
+3941020,Slovenia,Benjamin Verbič,94,29,3,96.9,33.5,From Goal Kick,0.04497154,Blocked,Open Play,Normal,Right Foot,,,,,
+3941020,Slovenia,Jon Gorenc Stankovič,95,20,3,101.4,50.6,From Corner,0.039114628,Off T,Open Play,Half Volley,Left Foot,,,,,
+3941020,Portugal,Diogo José Teixeira da Silva,99,28,3,112.9,46.6,From Corner,0.07446987,Saved,Open Play,Normal,Head,,,,True,True
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,104,50,3,108.1,40.1,Other,0.7835,Saved to Post,Penalty,Normal,Right Foot,,,,,
+3941020,Portugal,João Maria Lobo Alves Palhinha Gonçalves,107,27,4,107.5,47.3,From Free Kick,0.050350625,Saved,Open Play,Normal,Head,,,,,
+3941020,Portugal,Kléper Laveran Lima Ferreira,107,57,4,111.3,45.2,From Corner,0.050621446,Blocked,Open Play,Normal,Head,,,,True,True
+3941020,Slovenia,Josip Iličić,111,49,4,95.3,28.0,From Free Kick,0.045270752,Blocked,Free Kick,Normal,Left Foot,,,,,
+3941020,Slovenia,Benjamin Šeško,114,28,4,98.6,32.8,From Counter,0.17587057,Saved,Open Play,Normal,Right Foot,,True,,,
+3941020,Slovenia,Žan Celar,114,30,4,93.7,32.8,Regular Play,0.039013498,Wayward,Open Play,Volley,Right Foot,True,,,,
+3941020,Portugal,Cristiano Ronaldo dos Santos Aveiro,119,40,4,107.5,34.4,From Corner,0.022550302,Blocked,Open Play,Normal,Head,,,,True,True
+3941020,Portugal,Rúben Diogo Da Silva Neves,119,43,4,86.6,41.9,From Corner,0.01152262,Off T,Open Play,Volley,Right Foot,True,,,,
+3941018,Spain,Fabián Ruiz Peña,1,49,1,95.1,40.3,Regular Play,0.03403919,Blocked,Open Play,Normal,Left Foot,,,,,True
+3941018,Spain,Pedro González López,4,4,1,109.5,47.0,Regular Play,0.2088165,Saved,Open Play,Normal,Left Foot,True,,,,
+3941018,Spain,Fabián Ruiz Peña,5,21,1,110.9,32.9,Regular Play,0.0355224,Blocked,Open Play,Normal,Head,,,,True,True
+3941018,Spain,Daniel Carvajal Ramos,9,57,1,113.4,30.1,From Corner,0.047663942,Saved,Open Play,Normal,Head,,,,,
+3941018,Spain,Nicholas Williams Arthuer,10,59,1,100.2,33.1,From Throw In,0.04628006,Blocked,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Fabián Ruiz Peña,12,40,1,103.6,48.1,From Corner,0.068191275,Blocked,Open Play,Normal,Left Foot,True,,,,
+3941018,Spain,Nicholas Williams Arthuer,12,48,1,109.8,23.8,From Corner,0.02863869,Blocked,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Aymeric Laporte,15,41,1,111.8,34.6,From Corner,0.05098217,Blocked,Open Play,Normal,Head,,,,True,True
+3941018,Spain,Fabián Ruiz Peña,21,16,1,103.7,54.8,Regular Play,0.030612372,Saved,Open Play,Half Volley,Left Foot,,,,,True
+3941018,Spain,Rodrigo Hernández Cascante,25,15,1,87.6,30.5,From Throw In,0.016834991,Blocked,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Pedro González López,26,37,1,102.1,31.3,Regular Play,0.06233343,Off T,Open Play,Half Volley,Left Foot,,,,,
+3941018,Spain,Aymeric Laporte,28,38,1,86.4,29.1,From Throw In,0.006787614,Off T,Open Play,Normal,Left Foot,,,,,
+3941018,Georgia,Giorgi Kochorashvili,29,33,1,99.6,43.4,Regular Play,0.050696027,Blocked,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Lamine Yamal Nasraoui Ebana,30,19,1,94.3,48.5,Regular Play,0.031005034,Blocked,Open Play,Normal,Left Foot,,,,,True
+3941018,Spain,Marc Cucurella Saseta,34,36,1,96.3,28.4,From Goal Kick,0.015615603,Saved,Open Play,Normal,Left Foot,,,,,True
+3941018,Spain,Nicholas Williams Arthuer,37,48,1,113.4,27.4,Regular Play,0.042119805,Saved,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Rodrigo Hernández Cascante,38,10,1,102.1,36.2,Regular Play,0.06652527,Goal,Open Play,Normal,Left Foot,,,,,
+3941018,Georgia,Giorgi Kochorashvili,40,45,1,53.8,38.5,From Kick Off,0.0040819473,Off T,Open Play,Lob,Right Foot,,,,,
+3941018,Spain,Lamine Yamal Nasraoui Ebana,46,7,1,92.7,49.6,From Throw In,0.015696,Blocked,Open Play,Normal,Left Foot,,,,,
+3941018,Spain,Fabián Ruiz Peña,45,21,2,96.2,46.3,From Counter,0.059734892,Off T,Open Play,Normal,Right Foot,True,,,,True
+3941018,Georgia,Khvicha Kvaratskhelia,47,55,2,57.4,28.1,From Counter,0.0055915527,Off T,Open Play,Normal,Left Foot,,,,,
+3941018,Spain,Lamine Yamal Nasraoui Ebana,50,25,2,99.6,43.0,From Free Kick,0.08360341,Saved,Free Kick,Normal,Left Foot,,,,,
+3941018,Spain,Fabián Ruiz Peña,50,40,2,115.6,35.6,From Free Kick,0.29910773,Goal,Open Play,Normal,Head,,True,,,
+3941018,Spain,Lamine Yamal Nasraoui Ebana,52,13,2,101.0,47.7,Regular Play,0.07618404,Off T,Open Play,Normal,Left Foot,,,,,
+3941018,Spain,Álvaro Borja Morata Martín,54,38,2,94.8,37.3,Regular Play,0.046154205,Off T,Open Play,Normal,Right Foot,,,,,True
+3941018,Spain,Daniel Olmo Carvajal,59,3,2,95.6,45.7,From Corner,0.030945767,Blocked,Open Play,Normal,Right Foot,True,,,,
+3941018,Spain,Daniel Olmo Carvajal,60,53,2,101.6,49.4,Regular Play,0.071499854,Wayward,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Lamine Yamal Nasraoui Ebana,62,19,2,104.9,41.5,Regular Play,0.075688556,Off T,Open Play,Normal,Left Foot,,,,,True
+3941018,Georgia,Heorhii Tsitaishvili,67,48,2,108.4,23.4,Regular Play,0.052708115,Off T,Open Play,Normal,Left Foot,,,,,
+3941018,Spain,Fabián Ruiz Peña,69,9,2,93.3,30.5,From Goal Kick,0.024543561,Off T,Open Play,Normal,Left Foot,True,,,,
+3941018,Spain,Nicholas Williams Arthuer,74,40,2,111.2,29.5,From Counter,0.21495746,Goal,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Daniel Olmo Carvajal,76,59,2,108.3,38.6,Regular Play,0.26680577,Saved,Open Play,Normal,Right Foot,True,,,,
+3941018,Spain,Lamine Yamal Nasraoui Ebana,79,58,2,114.8,47.3,From Keeper,0.2859731,Saved,Open Play,Normal,Left Foot,,True,,,True
+3941018,Spain,Lamine Yamal Nasraoui Ebana,81,57,2,107.6,49.0,Regular Play,0.08169625,Off T,Open Play,Normal,Left Foot,,,,,True
+3941018,Spain,Daniel Olmo Carvajal,82,35,2,102.3,38.5,Regular Play,0.1281342,Goal,Open Play,Normal,Left Foot,,,,,
+3941018,Spain,Nicholas Williams Arthuer,89,17,2,104.8,29.5,From Keeper,0.06438794,Blocked,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Daniel Olmo Carvajal,89,38,2,99.5,41.3,From Keeper,0.053031437,Saved,Open Play,Normal,Right Foot,,,,,
+3941018,Spain,Daniel Olmo Carvajal,91,20,2,114.6,50.7,Regular Play,0.061232504,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3941018,Spain,Rodrigo Hernández Cascante,92,19,2,106.0,40.5,From Free Kick,0.033381354,Off T,Open Play,Normal,Head,,,,,
+3941017,Slovakia,David Strelec,3,48,1,107.3,35.8,From Free Kick,0.092393875,Wayward,Open Play,Volley,Right Foot,True,,,,
+3941017,Slovakia,Lukáš Haraslín,7,28,1,101.0,34.2,From Free Kick,0.053368397,Blocked,Open Play,Normal,Right Foot,,,,,
+3941017,England,Kieran Trippier,8,50,1,102.8,29.9,From Goal Kick,0.08902558,Off T,Open Play,Normal,Right Foot,True,,,,True
+3941017,Slovakia,Lukáš Haraslín,11,21,1,107.1,32.1,From Goal Kick,0.079396516,Blocked,Open Play,Normal,Right Foot,,,,,
+3941017,England,Harry Kane,22,13,1,111.7,46.4,Regular Play,0.051736627,Blocked,Open Play,Normal,Head,,,,,
+3941017,England,Kobbie Mainoo,23,9,1,97.3,46.8,From Corner,0.030446114,Off T,Open Play,Volley,Right Foot,True,,,,
+3941017,Slovakia,Ivan Schranz,24,23,1,113.3,44.7,From Goal Kick,0.52801526,Goal,Open Play,Normal,Right Foot,,True,,,True
+3941017,England,Declan Rice,38,23,1,111.3,46.9,From Free Kick,0.04069054,Blocked,Open Play,Normal,Head,,,,True,True
+3941017,England,Kobbie Mainoo,47,16,1,97.4,34.3,From Free Kick,0.043453604,Blocked,Open Play,Normal,Right Foot,,,,,
+3941017,England,Bukayo Saka,47,52,1,92.1,46.0,From Corner,0.026043994,Blocked,Open Play,Normal,Left Foot,,,,,
+3941017,England,Harry Kane,51,2,2,104.9,32.5,From Counter,0.10859543,Blocked,Open Play,Normal,Right Foot,,,,,
+3941017,Slovakia,David Strelec,53,56,2,62.7,30.6,Regular Play,0.028537394,Off T,Open Play,Lob,Left Foot,,,,,
+3941017,England,Jude Bellingham,58,22,2,111.7,40.2,Regular Play,0.08132238,Blocked,Open Play,Normal,Head,,,,True,True
+3941017,England,Phil Foden,60,1,2,99.1,25.5,From Free Kick,0.054180622,Blocked,Free Kick,Normal,Left Foot,,,,,
+3941017,England,Harry Kane,77,11,2,111.7,39.5,From Free Kick,0.16138653,Off T,Open Play,Normal,Head,,,,,
+3941017,England,Declan Rice,80,11,2,93.5,36.7,Regular Play,0.026050739,Post,Open Play,Normal,Right Foot,,,,,
+3941017,England,Harry Kane,80,13,2,107.4,40.0,Regular Play,0.12184181,Off T,Open Play,Volley,Right Foot,True,,,,
+3941017,Slovakia,Stanislav Lobotka,86,44,2,89.4,45.1,Regular Play,0.021908578,Saved,Open Play,Normal,Right Foot,,,,,
+3941017,England,Jude Bellingham,94,33,2,110.1,40.9,From Throw In,0.103242844,Goal,Open Play,Overhead Kick,Right Foot,True,,,,
+3941017,England,Eberechi Eze,90,49,3,96.5,37.6,From Free Kick,0.028122703,Wayward,Open Play,Volley,Right Foot,True,,,,
+3941017,England,Harry Kane,90,51,3,116.2,42.1,From Free Kick,0.49724415,Goal,Open Play,Normal,Head,,,,,
+3941017,Slovakia,Peter Pekarík,104,43,3,114.9,42.3,From Free Kick,0.5063636,Off T,Open Play,Normal,Other,,True,True,,
+3941017,Slovakia,Matúš Bero,106,12,4,94.0,56.4,From Throw In,0.014195163,Wayward,Open Play,Half Volley,Right Foot,,,,,
+3941017,Slovakia,Ľubomír Tupta,110,6,4,88.8,47.2,From Free Kick,0.02863606,Off T,Free Kick,Normal,Right Foot,,,,,
+3941017,Slovakia,Róbert Boženík,116,49,4,115.1,57.3,From Throw In,0.008433037,Off T,Open Play,Normal,Right Foot,True,,,,True
+3941017,Slovakia,Dávid Hancko,118,38,4,112.1,35.7,Regular Play,0.0678651,Off T,Open Play,Normal,Head,,,,True,True
+3941017,Slovakia,Milan Škriniar,119,48,4,111.9,36.3,Regular Play,0.07292546,Blocked,Open Play,Normal,Head,,,,True,True
+3941017,England,Ivan Toney,120,8,4,99.9,42.1,Regular Play,0.123356834,Off T,Open Play,Normal,Right Foot,,,,,
+3941017,Slovakia,Dávid Hancko,120,54,4,107.2,40.3,From Goal Kick,0.045808684,Saved,Open Play,Normal,Head,,,,True,True
+3930182,Denmark,Alexander Hartmann Bah,15,40,1,112.0,43.3,Regular Play,0.18430655,Off T,Open Play,Normal,Head,,True,,,
+3930182,Denmark,Christian Dannemann Eriksen,20,52,1,94.6,37.4,Regular Play,0.05411584,Saved,Open Play,Normal,Right Foot,True,,,,
+3930182,Denmark,Christian Dannemann Eriksen,21,41,1,108.8,22.8,From Corner,0.012576064,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930182,Serbia,Aleksandar Mitrović,28,15,1,110.4,40.1,From Throw In,0.061910562,Blocked,Open Play,Normal,Head,,,,True,True
+3930182,Denmark,Rasmus Winther Højlund,31,29,1,104.1,55.1,From Corner,0.04584343,Saved,Open Play,Normal,Left Foot,,,,,
+3930182,Denmark,Jonas Older Wind,38,20,1,103.5,39.6,From Free Kick,0.10859825,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930182,Denmark,Andreas Skov Olsen,50,16,2,105.4,55.7,From Free Kick,0.03971446,Blocked,Open Play,Normal,Left Foot,,,,,
+3930182,Denmark,Andreas Christensen,59,28,2,91.2,33.8,Regular Play,0.020697463,Off T,Open Play,Normal,Right Foot,True,,,,
+3930182,Denmark,Morten Hjulmand,61,5,2,91.8,48.8,Regular Play,0.021786047,Off T,Open Play,Normal,Right Foot,True,,,,
+3930182,Denmark,Jannik Vestergaard,64,1,2,110.1,37.1,From Corner,0.045023,Saved,Open Play,Normal,Head,,,,,
+3930182,Denmark,Morten Hjulmand,66,34,2,89.0,29.3,Regular Play,0.01887132,Off T,Open Play,Normal,Right Foot,,,,,
+3930182,Serbia,Aleksandar Mitrović,80,23,2,107.4,23.8,From Throw In,0.031952977,Off T,Open Play,Normal,Right Foot,True,,,,
+3930182,Serbia,Aleksandar Mitrović,82,30,2,110.9,34.6,Regular Play,0.06519839,Wayward,Open Play,Normal,Head,,,,True,True
+3930182,Serbia,Dušan Vlahović,88,47,2,106.9,46.4,From Free Kick,0.060776833,Off T,Open Play,Normal,Head,,,,,
+3930182,Serbia,Sergej Milinković-Savić,91,55,2,101.3,42.6,From Throw In,0.10460368,Saved,Open Play,Normal,Right Foot,True,,,,
+3930179,Spain,Mikel Merino Zazón,11,10,1,107.3,33.1,Regular Play,0.025040166,Saved,Open Play,Normal,Head,,,,,
+3930179,Spain,José Luis Sanmartín Mato,11,28,1,107.6,38.7,From Corner,0.060585164,Off T,Open Play,Normal,Head,,,,,
+3930179,Spain,Ferrán Torres García,12,32,1,107.5,53.5,Regular Play,0.10358183,Goal,Open Play,Normal,Left Foot,True,,,,True
+3930179,Spain,Daniel Olmo Carvajal,20,55,1,96.3,57.9,Regular Play,0.0103651,Off T,Open Play,Normal,Right Foot,,,,,
+3930179,Spain,Daniel Vivian Moreno,25,24,1,109.7,40.6,From Corner,0.046571102,Wayward,Open Play,Normal,Head,,,,True,True
+3930179,Spain,Daniel Olmo Carvajal,35,34,1,113.0,47.4,From Corner,0.10403911,Blocked,Open Play,Normal,Right Foot,,,,,
+3930179,Spain,Ferrán Torres García,40,17,1,109.6,50.2,From Throw In,0.030360926,Off T,Open Play,Normal,Head,,,,,
+3930179,Spain,Mikel Merino Zazón,43,37,1,107.1,33.1,From Corner,0.100341134,Off T,Open Play,Normal,Left Foot,True,,,,
+3930179,Albania,Kristjan Asllani,44,40,1,95.6,37.2,From Goal Kick,0.027896741,Saved,Open Play,Normal,Right Foot,,,,,True
+3930179,Spain,José Luis Sanmartín Mato,45,24,1,104.0,24.3,From Keeper,0.014968767,Off T,Open Play,Normal,Right Foot,,,,,
+3930179,Spain,José Luis Sanmartín Mato,46,31,2,110.4,36.2,From Kick Off,0.06717369,Off T,Open Play,Volley,Left Foot,True,,,,
+3930179,Spain,Mikel Oyarzabal Ugarte,47,27,2,108.6,44.8,From Counter,0.18723619,Saved,Open Play,Normal,Left Foot,True,,,,
+3930179,Albania,Kristjan Asllani,49,18,2,96.6,33.2,Regular Play,0.044980317,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930179,Spain,Daniel Olmo Carvajal,49,37,2,61.0,43.8,Regular Play,0.006101164,Off T,Open Play,Lob,Right Foot,,,,,
+3930179,Albania,Armando Broja,63,48,2,105.7,48.1,From Free Kick,0.117052965,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3930179,Albania,Kristjan Asllani,64,37,2,95.7,31.3,From Throw In,0.030892402,Blocked,Open Play,Normal,Left Foot,,,,,
+3930179,Albania,Jasir Asani,68,52,2,96.6,62.0,Regular Play,0.008626999,Saved,Open Play,Normal,Left Foot,,,,,True
+3930179,Spain,Fermin Lopez Marin,75,37,2,95.9,60.5,Regular Play,0.008684722,Wayward,Open Play,Normal,Right Foot,True,,,,True
+3930179,Spain,Fermin Lopez Marin,76,24,2,97.4,48.1,Regular Play,0.02939205,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930179,Albania,Kristjan Asllani,76,47,2,98.4,23.9,Regular Play,0.025797911,Off T,Open Play,Normal,Left Foot,,,,,
+3930179,Albania,Medon Berisha,77,58,2,94.4,46.8,Regular Play,0.03180046,Blocked,Open Play,Normal,Right Foot,,,,,
+3930179,Spain,Daniel Olmo Carvajal,78,39,2,107.7,27.1,Regular Play,0.06142092,Blocked,Open Play,Normal,Right Foot,,,,,
+3930179,Spain,Álvaro Borja Morata Martín,79,21,2,113.8,35.1,From Corner,0.09585059,Off T,Open Play,Normal,Head,,,,True,True
+3930179,Albania,Arbër Hoxha,83,0,2,111.0,26.6,Regular Play,0.05797654,Off T,Open Play,Normal,Right Foot,,,,,
+3930179,Albania,Berat Djimsiti,91,25,2,109.2,44.2,From Free Kick,0.04627785,Wayward,Open Play,Normal,Head,,,,True,True
+3930179,Albania,Armando Broja,91,27,2,108.8,40.8,From Free Kick,0.111852095,Saved,Open Play,Normal,Right Foot,,,,,True
+3940983,Germany,Joshua Kimmich,6,2,1,91.2,49.7,Regular Play,0.024539126,Saved,Open Play,Normal,Right Foot,,,,,
+3940983,Germany,Nico Schlotterbeck,6,49,1,110.3,32.0,From Corner,0.029666193,Saved,Open Play,Normal,Head,,,,True,True
+3940983,Germany,Kai Havertz,9,58,1,107.1,28.1,From Throw In,0.07374886,Saved,Open Play,Volley,Left Foot,True,,,,
+3940983,Germany,Robert Andrich,10,38,1,110.5,37.7,From Corner,0.054684527,Saved,Open Play,Normal,Head,,,,,
+3940983,Germany,Jamal Musiala,12,21,1,90.2,42.2,From Throw In,0.024523731,Off T,Open Play,Normal,Right Foot,,,,,True
+3940983,Germany,Toni Kroos,15,51,1,92.3,36.2,From Free Kick,0.056089107,Blocked,Free Kick,Normal,Right Foot,,,,,
+3940983,Denmark,Christian Dannemann Eriksen,20,21,1,101.0,40.2,Regular Play,0.12234442,Blocked,Open Play,Normal,Right Foot,,,,,
+3940983,Denmark,Joakim Mæhle,23,35,1,112.5,27.4,From Free Kick,0.092478566,Off T,Open Play,Normal,Left Foot,,,,,True
+3940983,Denmark,Christian Dannemann Eriksen,30,46,1,100.8,38.0,From Free Kick,0.08993592,Blocked,Free Kick,Normal,Right Foot,,,,,
+3940983,Denmark,Rasmus Winther Højlund,32,28,1,105.9,20.0,Regular Play,0.008721689,Blocked,Open Play,Normal,Left Foot,,,,,
+3940983,Germany,Kai Havertz,41,32,1,111.5,39.7,From Free Kick,0.13610949,Saved,Open Play,Normal,Head,,,,True,True
+3940983,Germany,Nico Schlotterbeck,41,42,1,112.3,31.4,From Free Kick,0.039883997,Off T,Open Play,Normal,Head,,,,True,True
+3940983,Denmark,Rasmus Winther Højlund,46,7,1,115.0,51.7,From Throw In,0.061353974,Off T,Open Play,Normal,Right Foot,,True,,,
+3940983,Denmark,Rasmus Winther Højlund,49,35,1,108.2,37.4,Regular Play,0.48120555,Saved,Open Play,Normal,Left Foot,True,,,,
+3940983,Germany,Kai Havertz,52,58,2,108.0,40.0,Other,0.7835,Goal,Penalty,Normal,Left Foot,,,,,
+3940983,Germany,Kai Havertz,58,24,2,108.9,31.0,Regular Play,0.42521873,Off T,Open Play,Lob,Left Foot,,True,,,
+3940983,Denmark,Rasmus Winther Højlund,65,39,2,105.6,30.8,Regular Play,0.059370115,Saved,Open Play,Normal,Left Foot,,,,,True
+3940983,Germany,Jamal Musiala,67,48,2,110.2,28.9,Regular Play,0.25639373,Goal,Open Play,Normal,Right Foot,,True,,,
+3940983,Denmark,Joachim Andersen,76,5,2,114.2,33.2,From Corner,0.0607214,Wayward,Open Play,Normal,Head,,,,,
+3940983,Germany,Joshua Kimmich,78,35,2,48.1,47.9,Regular Play,0.0027235784,Wayward,Open Play,Normal,Right Foot,True,,,,True
+3940983,Denmark,Pierre-Emile Højbjerg,82,1,2,94.3,43.0,Regular Play,0.03581329,Blocked,Open Play,Normal,Right Foot,True,,,,
+3940983,Germany,Benjamin Henrichs,88,37,2,97.7,22.4,Regular Play,0.018572439,Off T,Open Play,Normal,Right Foot,,,,,
+3940983,Germany,Florian Wirtz,89,11,2,101.4,45.0,Regular Play,0.11136572,Saved,Open Play,Normal,Left Foot,,,,,True
+3940983,Denmark,Jannik Vestergaard,93,27,2,106.8,42.2,From Corner,0.061550424,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3940983,Germany,Kai Havertz,94,4,2,106.6,29.6,From Counter,0.18960205,Saved,Open Play,Normal,Left Foot,,,,,True
+3940878,Switzerland,Dan Ndoye,11,0,1,108.4,51.9,Regular Play,0.04959083,Wayward,Open Play,Volley,Right Foot,True,,,,True
+3940878,Switzerland,Breel-Donald Embolo,23,27,1,106.4,30.3,Regular Play,0.19980636,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3940878,Switzerland,Dan Ndoye,23,32,1,108.0,50.3,Regular Play,0.037947614,Blocked,Open Play,Normal,Left Foot,,,,,
+3940878,Switzerland,Remo Freuler,23,36,1,94.4,42.5,Regular Play,0.029872663,Blocked,Open Play,Normal,Right Foot,,,,,
+3940878,Switzerland,Breel-Donald Embolo,25,0,1,93.7,36.4,Regular Play,0.028032592,Blocked,Open Play,Normal,Left Foot,,,,,
+3940878,Italy,Federico Chiesa,25,29,1,109.2,27.3,Regular Play,0.060102012,Blocked,Open Play,Normal,Right Foot,,,,,True
+3940878,Switzerland,Dan Ndoye,27,17,1,108.7,53.7,Regular Play,0.03514188,Blocked,Open Play,Normal,Right Foot,,,,,
+3940878,Switzerland,Fabian Lukas Schär,30,58,1,108.1,55.0,Regular Play,0.017792227,Blocked,Open Play,Normal,Left Foot,,,,,
+3940878,Switzerland,Ricardo Iván Rodríguez Araya,31,7,1,91.6,25.6,Regular Play,0.014435371,Off T,Open Play,Normal,Left Foot,,,,,
+3940878,Switzerland,Remo Freuler,36,20,1,111.1,34.4,From Free Kick,0.14406602,Goal,Open Play,Half Volley,Left Foot,,,,,
+3940878,Switzerland,Fabian Rieder,45,12,1,100.0,66.4,From Free Kick,0.008087687,Saved to Post,Free Kick,Normal,Left Foot,,,,,
+3940878,Switzerland,Ruben Vargas,45,27,2,103.5,25.6,Regular Play,0.044832002,Goal,Open Play,Normal,Right Foot,,,,,
+3940878,Italy,Federico Chiesa,51,6,2,116.2,51.2,Regular Play,0.046473652,Wayward,Open Play,Half Volley,Right Foot,True,,,,True
+3940878,Italy,Federico Chiesa,52,26,2,95.3,39.3,From Corner,0.026729954,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3940878,Switzerland,Ricardo Iván Rodríguez Araya,54,19,2,91.6,28.4,Regular Play,0.023338681,Blocked,Open Play,Normal,Left Foot,,,,,
+3940878,Italy,Bryan Cristante,55,40,2,90.0,45.3,Regular Play,0.021880716,Blocked,Open Play,Normal,Right Foot,,,,,
+3940878,Switzerland,Dan Ndoye,58,43,2,94.9,52.6,From Free Kick,0.026606286,Off T,Open Play,Normal,Left Foot,,,,,
+3940878,Switzerland,Granit Xhaka,64,12,2,100.3,30.0,Regular Play,0.0407081,Blocked,Open Play,Normal,Left Foot,,,,,
+3940878,Italy,Mateo Retegui,72,20,2,99.1,44.7,From Throw In,0.0671122,Saved,Open Play,Normal,Left Foot,,,,,
+3940878,Italy,Mattia Zaccagni,73,33,2,109.4,41.6,From Throw In,0.11148876,Wayward,Open Play,Normal,Head,,True,,,
+3940878,Italy,Gianluca Scamacca,73,34,2,116.9,34.1,From Throw In,0.3101263,Post,Open Play,Half Volley,Right Foot,True,,,,
+3940878,Italy,Nicolò Fagioli,73,48,2,91.4,28.3,Regular Play,0.018499942,Off T,Open Play,Normal,Right Foot,,,,,
+3940878,Italy,Gianluca Scamacca,75,48,2,97.5,43.0,From Free Kick,0.032929283,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3940878,Switzerland,Remo Freuler,78,15,2,98.7,40.3,From Corner,0.037396807,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3940878,Switzerland,Steven Zuber,82,39,2,114.8,26.8,Regular Play,0.044701636,Wayward,Open Play,Normal,Left Foot,True,,,,
+3940878,Italy,Lorenzo Pellegrini,84,37,2,93.0,29.9,From Goal Kick,0.021618782,Off T,Open Play,Normal,Right Foot,,,,,
+3940878,Italy,Federico Chiesa,90,47,2,103.4,63.1,Regular Play,0.008696314,Wayward,Open Play,Normal,Left Foot,,,,,True
+3930177,Hungary,Bendegúz Bolla,7,9,1,89.7,52.3,Regular Play,0.015725836,Saved,Open Play,Normal,Right Foot,,,,,
+3930177,Hungary,Dominik Szoboszlai,31,26,1,88.7,42.2,From Free Kick,0.025828812,Blocked,Free Kick,Normal,Right Foot,,,,,
+3930177,Hungary,Roland Sallai,34,4,1,94.0,53.7,From Throw In,0.019044949,Off T,Open Play,Normal,Right Foot,,,,,
+3930177,Hungary,Willi Orban,40,18,1,116.5,32.3,From Free Kick,0.14024208,Post,Open Play,Normal,Head,,True,,,True
+3930177,Hungary,Dominik Szoboszlai,45,43,1,94.9,41.6,From Counter,0.043323457,Off T,Open Play,Normal,Left Foot,,,,,True
+3930177,Hungary,Roland Sallai,48,42,2,104.9,32.0,From Throw In,0.05792367,Saved,Open Play,Half Volley,Left Foot,True,,,,
+3930177,Scotland,Che Adams,52,54,2,96.1,25.7,From Throw In,0.020522645,Off T,Open Play,Normal,Right Foot,,,,,
+3930177,Hungary,Roland Sallai,55,32,2,104.1,28.3,From Counter,0.038458098,Blocked,Open Play,Normal,Right Foot,,,,,
+3930177,Hungary,Márton Dárdai,63,46,2,110.5,43.0,From Corner,0.05713405,Off T,Open Play,Normal,Head,,,,True,True
+3930177,Hungary,András Schäfer,89,32,2,103.9,55.7,From Free Kick,0.0365714,Saved,Open Play,Normal,Right Foot,,,,,
+3930177,Hungary,András Schäfer,89,58,2,97.0,44.5,From Corner,0.029436294,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930177,Hungary,Dominik Szoboszlai,90,44,2,111.0,54.9,Regular Play,0.06067144,Saved,Open Play,Normal,Right Foot,,,,,
+3930177,Hungary,Kevin Csoboth,91,40,2,113.8,51.1,From Throw In,0.18480031,Post,Open Play,Normal,Right Foot,,True,,,
+3930177,Scotland,Callum McGregor,93,22,2,95.1,32.3,From Free Kick,0.026212929,Blocked,Open Play,Normal,Left Foot,,,,,
+3930177,Hungary,Ádám Nagy,96,41,2,93.3,29.7,From Free Kick,0.028947517,Off T,Open Play,Normal,Left Foot,,,,,
+3930177,Scotland,Lewis Morgan,97,8,2,105.4,30.9,From Goal Kick,0.05578008,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930177,Scotland,Callum McGregor,99,17,2,110.3,39.8,From Corner,0.0810196,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3930177,Hungary,Kevin Csoboth,99,33,2,107.2,36.6,Regular Play,0.26290518,Goal,Open Play,Normal,Right Foot,True,,,,
+3930173,Netherlands,Jeremie Frimpong,0,56,1,108.6,53.7,From Kick Off,0.09676152,Saved,Open Play,Normal,Right Foot,,True,,,True
+3930173,France,Antoine Griezmann,3,48,1,95.1,22.1,Regular Play,0.0084621785,Saved,Open Play,Normal,Left Foot,,,,,
+3930173,France,Antoine Griezmann,13,47,1,107.7,37.5,Regular Play,0.09589434,Off T,Open Play,Normal,Left Foot,True,,,,True
+3930173,Netherlands,Cody Mathès Gakpo,15,56,1,99.8,29.6,From Throw In,0.049663115,Saved,Open Play,Normal,Right Foot,,,,,
+3930173,Netherlands,Tijjani Reijnders,27,17,1,92.8,30.8,Regular Play,0.024566133,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930173,France,Marcus Thuram,27,39,1,109.8,55.4,From Keeper,0.057095893,Off T,Open Play,Normal,Right Foot,True,,,,
+3930173,Netherlands,Jeremie Frimpong,34,27,1,105.9,50.3,From Keeper,0.07304683,Blocked,Open Play,Normal,Right Foot,,,,,
+3930173,Netherlands,Xavi Simons,35,5,1,94.8,31.5,From Keeper,0.033340927,Saved,Open Play,Normal,Right Foot,,,,,
+3930173,France,Antoine Griezmann,40,34,1,99.3,55.2,From Free Kick,0.043873254,Blocked,Free Kick,Normal,Left Foot,,,,,
+3930173,France,Antoine Griezmann,42,20,1,107.6,35.3,From Throw In,0.067954645,Saved,Open Play,Normal,Head,,,,,
+3930173,France,Ousmane Dembélé,50,21,2,98.5,45.2,From Free Kick,0.048582327,Blocked,Open Play,Normal,Left Foot,,,,,
+3930173,France,N'Golo Kanté,51,57,2,94.8,56.3,From Throw In,0.020307582,Off T,Open Play,Normal,Right Foot,,,,,True
+3930173,Netherlands,Memphis Depay,54,39,2,92.3,33.5,From Free Kick,0.053838786,Blocked,Free Kick,Normal,Right Foot,,,,,
+3930173,France,Adrien Rabiot,56,36,2,110.5,38.1,From Free Kick,0.19072829,Off T,Open Play,Half Volley,Right Foot,True,,,,True
+3930173,France,Aurélien Djani Tchouaméni,58,32,2,91.3,33.0,Regular Play,0.020245472,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930173,France,Marcus Thuram,59,47,2,98.8,41.7,From Throw In,0.07412944,Off T,Open Play,Normal,Right Foot,,,,,
+3930173,France,Aurélien Djani Tchouaméni,62,13,2,109.8,41.1,From Corner,0.06818111,Off T,Open Play,Normal,Head,,,,True,True
+3930173,France,Antoine Griezmann,64,43,2,113.8,43.8,Regular Play,0.38357785,Saved,Open Play,Half Volley,Left Foot,,,,,
+3930173,France,Aurélien Djani Tchouaméni,65,36,2,96.6,20.8,From Corner,0.009652127,Blocked,Open Play,Normal,Right Foot,,,,,
+3930173,France,Ousmane Dembélé,67,19,2,102.5,50.5,Regular Play,0.05260031,Off T,Open Play,Normal,Left Foot,,,,,
+3930173,Netherlands,Memphis Depay,68,32,2,110.3,32.8,From Goal Kick,0.27552643,Saved,Open Play,Half Volley,Left Foot,,,,,True
+3930173,Netherlands,Xavi Simons,68,33,2,103.9,36.2,From Goal Kick,0.106497265,Wayward,Open Play,Half Volley,Right Foot,True,,,,
+3930173,Netherlands,Virgil van Dijk,78,38,2,106.8,38.5,From Corner,0.024942296,Blocked,Open Play,Normal,Head,,,,True,True
+3930173,France,N'Golo Kanté,90,29,2,107.0,50.6,From Throw In,0.07711755,Blocked,Open Play,Normal,Right Foot,,,,,
+3930172,Spain,Pedro González López,1,25,1,113.1,39.3,From Goal Kick,0.20873496,Saved,Open Play,Normal,Head,,,,,
+3930172,Spain,Nicholas Williams Arthuer,9,44,1,112.6,43.2,From Free Kick,0.16577838,Off T,Open Play,Normal,Head,,,,,
+3930172,Spain,Álvaro Borja Morata Martín,14,3,1,101.1,29.8,Regular Play,0.045866285,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930172,Spain,Álvaro Borja Morata Martín,23,27,1,115.3,49.5,From Throw In,0.0889132,Saved,Open Play,Normal,Right Foot,,,,,True
+3930172,Spain,Fabián Ruiz Peña,24,27,1,88.6,42.3,Regular Play,0.020980582,Saved,Open Play,Normal,Left Foot,,,,,
+3930172,Spain,Rodrigo Hernández Cascante,26,21,1,83.3,37.9,From Goal Kick,0.0063212407,Off T,Open Play,Normal,Right Foot,,,,,
+3930172,Spain,Rodrigo Hernández Cascante,27,41,1,99.7,38.8,Regular Play,0.06796482,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930172,Spain,Fabián Ruiz Peña,36,31,1,93.4,47.8,From Free Kick,0.018837484,Off T,Open Play,Half Volley,Left Foot,,,,,True
+3930172,Spain,Fabián Ruiz Peña,40,56,1,94.8,46.2,From Throw In,0.05605037,Saved,Open Play,Normal,Left Foot,True,,,,
+3930172,Italy,Federico Chiesa,45,0,1,103.2,57.2,Regular Play,0.028738793,Off T,Open Play,Normal,Right Foot,,,,,
+3930172,Spain,Pedro González López,51,25,2,110.9,35.1,From Keeper,0.22276898,Off T,Open Play,Normal,Right Foot,True,,,,
+3930172,Spain,Pedro González López,52,44,2,92.3,35.6,Regular Play,0.031200469,Saved,Open Play,Normal,Right Foot,,,,,
+3930172,Spain,Álvaro Borja Morata Martín,54,3,2,113.8,27.3,Regular Play,0.043265585,Saved Off Target,Open Play,Normal,Head,,,,,
+3930172,Spain,Álvaro Borja Morata Martín,57,16,2,93.0,33.9,From Throw In,0.039537966,Saved,Open Play,Normal,Right Foot,,,,,
+3930172,Spain,Robin Aime Robert Le Normand,57,57,2,113.0,44.1,From Corner,0.07005949,Blocked,Open Play,Normal,Head,,,,True,True
+3930172,Spain,Lamine Yamal Nasraoui Ebana,59,41,2,97.3,55.7,From Free Kick,0.022184672,Off T,Open Play,Normal,Left Foot,,,,,
+3930172,Spain,Nicholas Williams Arthuer,69,58,2,103.5,21.2,Regular Play,0.0101199495,Post,Open Play,Normal,Right Foot,,,,,True
+3930172,Italy,Lorenzo Pellegrini,73,27,2,94.5,25.7,From Free Kick,0.041307483,Off T,Free Kick,Normal,Right Foot,,,,,
+3930172,Spain,Ayoze Pérez Gutiérrez,80,13,2,109.9,29.1,Regular Play,0.081019565,Blocked,Open Play,Normal,Left Foot,,,,,
+3930172,Spain,Aymeric Laporte,80,41,2,113.5,46.0,From Corner,0.09134299,Off T,Open Play,Normal,Head,,,,True,True
+3930172,Italy,Bryan Cristante,85,50,2,115.1,31.7,From Corner,0.04522397,Saved,Open Play,Backheel,Right Foot,True,,,,True
+3930172,Spain,Ayoze Pérez Gutiérrez,90,50,2,112.0,24.5,From Goal Kick,0.030097554,Saved,Open Play,Normal,Right Foot,,,,,True
+3930172,Spain,Ayoze Pérez Gutiérrez,91,41,2,106.6,29.2,From Free Kick,0.21283588,Saved,Open Play,Normal,Right Foot,,True,,,True
+3930172,Italy,Riccardo Calafiori,96,9,2,102.5,30.0,From Corner,0.028129116,Off T,Open Play,Volley,Left Foot,True,,,,
+3930167,Albania,Qazim Laçi,10,15,1,111.4,42.7,Regular Play,0.15271324,Goal,Open Play,Normal,Head,,,,,
+3930167,Albania,Nedim Bajrami,14,26,1,106.7,25.1,From Free Kick,0.042951755,Blocked,Open Play,Normal,Right Foot,,,,,
+3930167,Albania,Elseid Hysaj,15,7,1,97.8,46.2,From Corner,0.026227653,Blocked,Open Play,Volley,Left Foot,True,,,,
+3930167,Croatia,Mateo Kovačić,19,34,1,94.7,32.2,Regular Play,0.02367818,Blocked,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Marcelo Brozović,19,45,1,101.7,54.2,Regular Play,0.037039116,Off T,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Bruno Petković,25,56,1,111.9,40.4,From Free Kick,0.15187249,Off T,Open Play,Normal,Head,,True,,True,True
+3930167,Albania,Elseid Hysaj,28,46,1,102.8,44.5,Regular Play,0.07158221,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930167,Albania,Kristjan Asllani,30,28,1,106.4,34.7,From Counter,0.4143787,Saved,Open Play,Normal,Right Foot,True,,,,
+3930167,Croatia,Marcelo Brozović,37,53,1,87.8,29.0,From Keeper,0.012439796,Saved,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Lovro Majer,42,17,1,109.1,43.0,From Throw In,0.053446807,Blocked,Open Play,Normal,Head,,,,True,True
+3930167,Albania,Jasir Asani,45,31,1,92.7,55.5,Regular Play,0.013309195,Blocked,Open Play,Normal,Left Foot,,,,,
+3930167,Albania,Rey Manaj,45,34,1,109.1,39.2,Regular Play,0.11167682,Saved,Open Play,Normal,Head,,,,,
+3930167,Croatia,Bruno Petković,46,15,2,111.9,35.4,From Throw In,0.053682253,Blocked,Open Play,Normal,Head,,,,True,True
+3930167,Croatia,Luka Sučić,49,41,2,106.9,52.1,From Free Kick,0.05831094,Saved,Open Play,Normal,Left Foot,,,,,
+3930167,Croatia,Mario Pašalić,50,4,2,114.6,45.6,From Free Kick,0.09518195,Off T,Open Play,Normal,Head,,,,True,True
+3930167,Croatia,Mateo Kovačić,52,54,2,96.8,31.1,Regular Play,0.034642614,Saved,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Mario Pašalić,53,46,2,111.2,47.0,Regular Play,0.08055008,Off T,Open Play,Normal,Head,,,,True,True
+3930167,Croatia,Bruno Petković,56,45,2,112.5,39.2,From Throw In,0.14854461,Blocked,Open Play,Normal,Head,,,,True,True
+3930167,Croatia,Josip Šutalo,57,14,2,117.2,36.5,From Corner,0.27776286,Off T,Open Play,Normal,Head,,,,,
+3930167,Croatia,Luka Modrić,58,54,2,95.5,50.4,Regular Play,0.027270537,Blocked,Open Play,Normal,Right Foot,True,,,,True
+3930167,Croatia,Ivan Perišić,60,18,2,93.8,28.3,Regular Play,0.019084653,Saved,Open Play,Normal,Left Foot,,,,,
+3930167,Albania,Kristjan Asllani,62,47,2,97.9,33.3,From Free Kick,0.047146343,Saved,Open Play,Normal,Right Foot,,,,,True
+3930167,Albania,Nedim Bajrami,66,7,2,102.5,50.5,From Counter,0.067161754,Off T,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Mario Pašalić,68,9,2,113.6,43.1,Regular Play,0.103066094,Off T,Open Play,Normal,Head,,,,True,True
+3930167,Albania,Taulant Sulejmanov,72,54,2,92.4,34.4,Regular Play,0.03424818,Saved,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Andrej Kramarić,73,19,2,107.3,33.5,From Keeper,0.17964375,Goal,Open Play,Normal,Right Foot,,,,,True
+3930167,Croatia,Luka Sučić,75,44,2,111.7,38.8,Regular Play,0.23861712,Blocked,Open Play,Normal,Left Foot,True,,,,
+3930167,Croatia,Ante Budimir,79,12,2,105.9,35.7,From Free Kick,0.11424082,Saved,Open Play,Normal,Left Foot,,,,,True
+3930167,Croatia,Luka Modrić,87,39,2,95.3,47.0,From Free Kick,0.047361944,Off T,Open Play,Normal,Right Foot,,,,,
+3930167,Croatia,Martin Baturina,88,20,2,112.1,23.1,From Goal Kick,0.018151348,Saved,Open Play,Normal,Right Foot,,,,,True
+3930167,Albania,Arbër Hoxha,89,5,2,96.3,46.2,From Keeper,0.03468018,Saved,Open Play,Normal,Right Foot,,,,,
+3930167,Albania,Mirlind Daku,92,29,2,110.2,36.4,Regular Play,0.13273408,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930167,Albania,Klaus Gjasula,94,23,2,108.0,40.2,From Throw In,0.11446814,Goal,Open Play,Normal,Left Foot,True,,,,
+3930167,Albania,Klaus Gjasula,96,34,2,99.3,39.6,Regular Play,0.062581755,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930167,Croatia,Mateo Kovačić,98,0,2,103.2,30.4,Regular Play,0.08401197,Saved,Open Play,Normal,Left Foot,,,,,
+3930168,Hungary,Roland Sallai,0,15,1,113.3,35.8,Regular Play,0.43428022,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3930168,Germany,Kai Havertz,4,4,1,101.1,50.7,Regular Play,0.0723028,Saved,Open Play,Normal,Left Foot,,,,,
+3930168,Hungary,Bendegúz Bolla,5,57,1,109.3,54.7,From Corner,0.042028096,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930168,Germany,Kai Havertz,10,50,1,114.9,48.7,From Throw In,0.17632313,Saved,Open Play,Half Volley,Left Foot,,,,,
+3930168,Germany,Robert Andrich,11,35,1,109.2,48.8,From Corner,0.058733784,Blocked,Open Play,Volley,Right Foot,True,,,,
+3930168,Hungary,Roland Sallai,14,24,1,101.3,38.3,Regular Play,0.060010985,Blocked,Open Play,Normal,Right Foot,,,,,
+3930168,Germany,Jamal Musiala,21,44,1,111.1,36.9,Regular Play,0.17679916,Goal,Open Play,Normal,Right Foot,,,,,True
+3930168,Hungary,Dominik Szoboszlai,25,17,1,95.7,21.5,From Free Kick,0.011125852,Saved,Free Kick,Normal,Right Foot,,,,,
+3930168,Hungary,Barnabás Varga,25,20,1,120.0,34.2,From Free Kick,0.016573403,Wayward,Open Play,Half Volley,Left Foot,True,,,,
+3930168,Germany,İlkay Gündoğan,26,42,1,103.4,42.8,From Free Kick,0.07659019,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3930168,Hungary,Dominik Szoboszlai,28,28,1,107.1,32.0,Regular Play,0.062200293,Blocked,Open Play,Half Volley,Left Foot,,,,,
+3930168,Hungary,Bendegúz Bolla,29,3,1,99.3,51.3,From Corner,0.02690711,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930168,Germany,Maximilian Mittelstädt,36,28,1,98.4,43.3,From Corner,0.035652474,Blocked,Open Play,Volley,Right Foot,True,,,,
+3930168,Germany,Florian Wirtz,41,4,1,97.9,58.4,From Corner,0.009146902,Off T,Open Play,Normal,Right Foot,,,,,True
+3930168,Germany,Jamal Musiala,43,49,1,102.8,49.0,Regular Play,0.057380453,Off T,Open Play,Normal,Right Foot,,,,,True
+3930168,Germany,Antonio Rüdiger,45,55,2,90.2,56.9,Regular Play,0.007015708,Blocked,Open Play,Normal,Right Foot,,,,,
+3930168,Germany,Toni Kroos,54,13,2,99.5,44.2,Regular Play,0.05673947,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3930168,Hungary,Dominik Szoboszlai,57,51,2,100.1,56.9,From Throw In,0.016451184,Wayward,Open Play,Half Volley,Right Foot,,,,,
+3930168,Hungary,Roland Sallai,57,51,2,107.7,39.4,From Throw In,0.08636546,Off T,Open Play,Half Volley,Right Foot,True,,,,True
+3930168,Hungary,Barnabás Varga,59,7,2,113.5,42.2,Regular Play,0.18803331,Off T,Open Play,Normal,Head,,,,,
+3930168,Germany,Jamal Musiala,61,14,2,96.7,35.8,Regular Play,0.0370909,Off T,Open Play,Normal,Right Foot,,,,,
+3930168,Germany,İlkay Gündoğan,66,20,2,107.9,35.3,From Free Kick,0.2238691,Goal,Open Play,Normal,Left Foot,True,,,,
+3930168,Germany,Joshua Kimmich,68,49,2,112.0,56.5,Regular Play,0.015231439,Off T,Open Play,Normal,Right Foot,,,,,
+3930168,Germany,Joshua Kimmich,73,23,2,107.3,48.4,Regular Play,0.11168318,Saved,Open Play,Normal,Left Foot,,,,,
+3930168,Germany,Leroy Sané,74,15,2,98.8,47.3,Regular Play,0.03144114,Saved,Open Play,Normal,Right Foot,,,,,
+3930168,Germany,Leroy Sané,76,43,2,88.7,42.1,From Free Kick,0.02867941,Off T,Free Kick,Normal,Left Foot,,,,,
+3930168,Germany,Chris Führich,80,21,2,111.4,24.3,Regular Play,0.027013024,Off T,Open Play,Normal,Right Foot,,,,,
+3930168,Germany,Niclas Füllkrug,86,6,2,113.5,40.6,From Throw In,0.2278667,Off T,Open Play,Normal,Head,,,,True,True
+3930168,Germany,Leroy Sané,87,53,2,106.4,51.1,From Counter,0.05413388,Blocked,Open Play,Normal,Left Foot,,,,,
+3930168,Hungary,Willi Orban,89,12,2,112.1,38.3,From Free Kick,0.2840574,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930165,France,Kylian Mbappé Lottin,7,58,1,109.4,25.8,From Throw In,0.08037747,Saved,Open Play,Normal,Right Foot,,,,,True
+3930165,France,Theo Bernard François Hernández,12,29,1,115.5,26.8,From Free Kick,0.020863526,Wayward,Open Play,Normal,Left Foot,True,,,,
+3930165,France,Antoine Griezmann,18,16,1,103.8,52.8,From Counter,0.054649312,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930165,France,Marcus Thuram,18,54,1,115.3,47.9,From Corner,0.06899431,Wayward,Open Play,Normal,Head,,,,True,True
+3930165,France,Kylian Mbappé Lottin,32,32,1,103.5,28.8,Regular Play,0.048833035,Blocked,Open Play,Normal,Right Foot,,,,,
+3930165,Austria,Christoph Baumgartner,35,7,1,111.3,38.4,Regular Play,0.47129205,Saved,Open Play,Half Volley,Right Foot,True,,,,
+3930165,Austria,Kevin Danso,41,32,1,108.8,36.7,From Corner,0.037411693,Wayward,Open Play,Normal,Head,,,,,
+3930165,Austria,Stefan Posch,47,41,2,95.2,54.1,From Throw In,0.021681927,Off T,Open Play,Normal,Right Foot,,,,,
+3930165,France,Kylian Mbappé Lottin,54,33,2,103.9,37.9,From Counter,0.40426746,Off T,Open Play,Normal,Right Foot,,,,,True
+3930165,France,Ousmane Dembélé,63,44,2,101.6,58.4,From Throw In,0.01604397,Off T,Open Play,Normal,Left Foot,,,,,
+3930165,France,Antoine Griezmann,65,51,2,114.1,41.1,Regular Play,0.6972375,Wayward,Open Play,Half Volley,Right Foot,True,,True,,
+3930165,France,Jules Koundé,65,57,2,106.4,48.3,Regular Play,0.07075118,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930165,France,Marcus Thuram,66,53,2,111.7,52.9,Regular Play,0.07894939,Saved,Open Play,Normal,Right Foot,True,,,,
+3930165,France,Marcus Thuram,72,16,2,103.4,28.8,From Throw In,0.04839009,Off T,Open Play,Normal,Right Foot,,,,,
+3930165,Austria,Christoph Baumgartner,77,52,2,113.9,50.8,From Free Kick,0.1976641,Saved,Open Play,Normal,Right Foot,True,,,,
+3930165,France,Marcus Thuram,82,8,2,108.1,33.2,Regular Play,0.19990508,Saved,Open Play,Normal,Left Foot,True,,,,True
+3930165,France,Kylian Mbappé Lottin,84,32,2,111.9,40.2,From Free Kick,0.080690145,Blocked,Open Play,Normal,Head,,,,True,True
+3930165,Austria,Patrick Wimmer,91,11,2,111.8,53.1,From Throw In,0.020267555,Saved,Open Play,Normal,Head,,,,True,True
+3930165,France,Marcus Thuram,94,35,2,101.2,26.4,From Free Kick,0.034579307,Blocked,Open Play,Normal,Right Foot,,,,,
+3930164,Belgium,Kevin De Bruyne,2,12,1,107.4,41.5,Regular Play,0.14977165,Wayward,Open Play,Half Volley,Left Foot,True,,,,
+3930164,Belgium,Romelu Lukaku Menama,2,13,1,114.4,38.1,Regular Play,0.54738164,Saved,Open Play,Half Volley,Right Foot,,True,,,True
+3930164,Slovakia,Juraj Kucka,6,3,1,105.4,32.4,Regular Play,0.16258486,Saved,Open Play,Normal,Right Foot,True,,,,
+3930164,Slovakia,Ivan Schranz,6,5,1,116.3,28.9,Regular Play,0.06667144,Goal,Open Play,Volley,Right Foot,True,,,,
+3930164,Belgium,Jeremy Doku,15,1,1,106.4,57.6,From Keeper,0.027797548,Blocked,Open Play,Normal,Left Foot,,,,,True
+3930164,Belgium,Leandro Trossard,20,6,1,91.7,24.9,Regular Play,0.028659014,Off T,Open Play,Half Volley,Right Foot,,,,,
+3930164,Slovakia,Róbert Boženík,22,34,1,102.7,49.3,Regular Play,0.04691546,Blocked,Open Play,Half Volley,Right Foot,,,,,True
+3930164,Slovakia,Róbert Boženík,30,37,1,99.8,38.5,From Throw In,0.064620696,Saved,Open Play,Normal,Right Foot,,,,,
+3930164,Belgium,Leandro Trossard,31,57,1,99.4,31.0,From Keeper,0.039659355,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930164,Belgium,Amadou Onana,35,15,1,112.7,41.8,From Corner,0.11087667,Saved,Open Play,Normal,Head,,,,True,True
+3930164,Slovakia,Lukáš Haraslín,39,19,1,103.8,38.0,Regular Play,0.100932,Saved,Open Play,Volley,Right Foot,True,,,,
+3930164,Slovakia,Juraj Kucka,47,23,1,115.7,49.2,From Corner,0.06432098,Off T,Open Play,Normal,Head,,,,,
+3930164,Slovakia,Lukáš Haraslín,46,42,2,100.0,24.7,Regular Play,0.02820586,Off T,Open Play,Normal,Right Foot,,,,,
+3930164,Slovakia,Denis Vavro,51,25,2,79.8,40.3,From Throw In,0.0061508114,Off T,Open Play,Normal,Right Foot,,,,,
+3930164,Belgium,Romelu Lukaku Menama,54,56,2,110.7,53.2,From Throw In,0.09231648,Saved,Open Play,Normal,Right Foot,,,,,
+3930164,Belgium,Leandro Trossard,58,21,2,99.9,47.5,Regular Play,0.09907409,Saved,Open Play,Normal,Right Foot,,,,,True
+3930164,Belgium,Yannick Ferreira Carrasco,60,35,2,109.8,39.3,From Corner,0.10049267,Blocked,Open Play,Volley,Left Foot,True,,,,True
+3930164,Belgium,Romelu Lukaku Menama,60,59,2,114.8,49.2,Regular Play,0.08940556,Off T,Open Play,Volley,Right Foot,True,,,,
+3930164,Belgium,Johan Bakayoko,61,49,2,110.9,40.0,Regular Play,0.195297,Blocked,Open Play,Half Volley,Left Foot,,,,,True
+3930164,Belgium,Kevin De Bruyne,66,17,2,99.7,51.7,Regular Play,0.03400005,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930164,Slovakia,David Strelec,75,59,2,111.6,44.8,From Free Kick,0.12313379,Blocked,Open Play,Backheel,Right Foot,True,,,,True
+3930164,Slovakia,Juraj Kucka,77,52,2,97.5,49.6,From Throw In,0.047570586,Off T,Open Play,Normal,Left Foot,,,,,
+3930164,Belgium,Yannick Ferreira Carrasco,79,19,2,98.6,35.1,From Throw In,0.046634816,Blocked,Open Play,Normal,Right Foot,,,,,
+3930164,Belgium,Amadou Onana,79,55,2,108.7,35.8,From Corner,0.034820676,Off T,Open Play,Normal,Head,,,,True,True
+3930164,Belgium,Johan Bakayoko,90,43,2,100.3,47.6,From Corner,0.030715866,Off T,Open Play,Half Volley,Left Foot,,,,,True
+3930164,Belgium,Kevin De Bruyne,92,46,2,109.4,52.0,Regular Play,0.123351954,Saved,Open Play,Normal,Right Foot,,,,,True
+3930161,Albania,Nedim Bajrami,0,23,1,111.8,51.9,From Throw In,0.08619496,Goal,Open Play,Normal,Right Foot,,,,,
+3930161,Italy,Lorenzo Pellegrini,1,55,1,105.9,42.6,From Kick Off,0.20114782,Off T,Open Play,Normal,Right Foot,True,,,,
+3930161,Italy,Federico Chiesa,5,53,1,111.0,57.1,From Throw In,0.015626727,Blocked,Open Play,Normal,Left Foot,,,,,
+3930161,Albania,Jasir Asani,7,18,1,106.8,57.6,From Goal Kick,0.014936902,Blocked,Open Play,Normal,Left Foot,,,,,
+3930161,Albania,Berat Djimsiti,8,45,1,103.5,35.1,From Corner,0.05804902,Wayward,Open Play,Half Volley,Left Foot,True,,,,
+3930161,Italy,Federico Dimarco,9,38,1,105.2,23.6,From Free Kick,0.015797285,Blocked,Open Play,Normal,Left Foot,,,,,
+3930161,Italy,Alessandro Bastoni,10,15,1,117.6,45.7,From Corner,0.1377708,Goal,Open Play,Normal,Head,,True,,,
+3930161,Italy,Gianluca Scamacca,15,50,1,104.8,50.9,From Throw In,0.05321112,Blocked,Open Play,Normal,Right Foot,,,,,
+3930161,Italy,Nicolò Barella,15,52,1,100.8,36.7,From Throw In,0.0846303,Goal,Open Play,Half Volley,Right Foot,True,,,,
+3930161,Italy,Riccardo Calafiori,20,32,1,115.6,39.0,From Corner,0.1803363,Blocked,Open Play,Normal,Head,,,,True,True
+3930161,Italy,Federico Chiesa,20,35,1,95.4,34.3,From Corner,0.027081154,Blocked,Open Play,Half Volley,Right Foot,True,,,,True
+3930161,Italy,Lorenzo Pellegrini,30,17,1,112.8,31.8,Regular Play,0.050647445,Wayward,Open Play,Overhead Kick,Right Foot,True,,,,True
+3930161,Italy,Davide Frattesi,32,54,1,113.1,50.5,From Throw In,0.21950644,Saved to Post,Open Play,Normal,Right Foot,True,,,,
+3930161,Italy,Gianluca Scamacca,39,18,1,114.8,50.6,From Throw In,0.08583342,Saved,Open Play,Half Volley,Right Foot,,True,,,
+3930161,Italy,Riccardo Calafiori,40,1,1,112.8,39.8,From Corner,0.10085189,Blocked,Open Play,Normal,Head,,,,True,True
+3930161,Albania,Jasir Asani,43,49,1,93.3,50.5,From Free Kick,0.023186801,Off T,Open Play,Normal,Left Foot,,,,,True
+3930161,Italy,Lorenzo Pellegrini,46,15,1,109.0,36.9,From Throw In,0.11972189,Off T,Open Play,Normal,Other,,,,,
+3930161,Italy,Gianluca Scamacca,47,38,2,97.7,44.6,Regular Play,0.03734544,Blocked,Open Play,Half Volley,Right Foot,True,,,,
+3930161,Albania,Kristjan Asllani,51,43,2,92.6,22.7,From Free Kick,0.008601317,Blocked,Free Kick,Normal,Right Foot,,,,,
+3930161,Italy,Federico Chiesa,59,3,2,101.6,52.7,From Throw In,0.03460156,Off T,Open Play,Normal,Left Foot,,,,,
+3930161,Italy,Giovanni Di Lorenzo,66,7,2,116.2,31.1,From Corner,0.07586851,Blocked,Open Play,Normal,Head,,,,,
+3930161,Albania,Kristjan Asllani,68,54,2,97.3,43.8,From Corner,0.028912615,Off T,Open Play,Volley,Left Foot,True,,,,
+3930161,Italy,Federico Dimarco,79,10,2,95.3,22.5,Regular Play,0.009818552,Saved,Open Play,Normal,Left Foot,,,,,
+3930161,Albania,Rey Manaj,89,35,2,114.6,51.8,Regular Play,0.104034275,Saved,Open Play,Lob,Right Foot,,True,,,True
+3930161,Albania,Mario Mitaj,94,59,2,100.7,25.2,Regular Play,0.030680664,Off T,Open Play,Normal,Left Foot,True,,,,
+3930183,Slovakia,Juraj Kucka,0,11,1,99.2,37.7,From Kick Off,0.042125423,Blocked,Open Play,Half Volley,Right Foot,True,,,,True
+3930183,Slovakia,Peter Pekarík,0,13,1,94.7,52.1,From Kick Off,0.018847207,Wayward,Open Play,Half Volley,Right Foot,True,,,,
+3930183,Slovakia,David Strelec,0,14,1,105.8,41.1,From Kick Off,0.16629212,Wayward,Open Play,Volley,Left Foot,True,,,,
+3930183,Slovakia,Juraj Kucka,8,13,1,108.5,45.8,From Corner,0.04360604,Saved,Open Play,Normal,Head,,,,,
+3930183,Slovakia,Dávid Hancko,9,25,1,104.9,42.4,From Corner,0.061454203,Off T,Open Play,Volley,Right Foot,True,,,,
+3930183,Romania,Andrei Florin Ratiu,10,22,1,106.4,27.8,Regular Play,0.083783165,Saved,Open Play,Normal,Right Foot,,,,,
+3930183,Romania,Ianis Hagi,10,24,1,109.9,53.7,Regular Play,0.042076837,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930183,Romania,Răzvan Gabriel Marin,12,25,1,85.4,26.7,From Free Kick,0.007878168,Off T,Free Kick,Normal,Right Foot,,,,,
+3930183,Slovakia,Milan Škriniar,21,30,1,112.3,37.0,From Free Kick,0.12854967,Off T,Open Play,Normal,Other,,,,,
+3930183,Romania,Nicolae Claudiu Stanciu,22,55,1,97.0,22.1,From Throw In,0.010006143,Saved,Open Play,Normal,Right Foot,,,,,
+3930183,Slovakia,Ondrej Duda,23,43,1,111.2,35.7,From Keeper,0.10944717,Goal,Open Play,Normal,Head,,,,,
+3930183,Slovakia,David Strelec,30,41,1,109.3,44.5,From Throw In,0.087866805,Off T,Open Play,Half Volley,Left Foot,True,,,,True
+3930183,Romania,Andrei Florin Ratiu,32,48,1,94.0,43.4,Regular Play,0.03746017,Saved,Open Play,Normal,Right Foot,,,,,
+3930183,Romania,Răzvan Gabriel Marin,36,18,1,108.1,40.1,Other,0.7835,Goal,Penalty,Normal,Right Foot,,,,,
+3930183,Romania,Denis Mihai Drăguş,42,21,1,102.7,30.5,From Counter,0.045624558,Off T,Open Play,Normal,Right Foot,,,,,
+3930183,Slovakia,David Strelec,43,19,1,87.6,38.5,From Goal Kick,0.016442684,Off T,Open Play,Half Volley,Left Foot,,,,,
+3930183,Slovakia,Lukáš Haraslín,51,22,2,116.4,26.9,Regular Play,0.012604465,Saved,Open Play,Normal,Right Foot,,,,,
+3930183,Romania,Răzvan Gabriel Marin,60,8,2,101.6,49.2,Regular Play,0.052743744,Saved,Open Play,Normal,Right Foot,,,,,
+3930183,Romania,Denis Mihai Drăguş,60,18,2,104.3,26.3,Regular Play,0.058865298,Off T,Open Play,Normal,Right Foot,,,,,
+3930183,Slovakia,David Strelec,63,20,2,103.7,41.8,From Free Kick,0.114570245,Saved,Open Play,Normal,Left Foot,,,,,
+3930183,Slovakia,Lukáš Haraslín,64,45,2,105.1,23.6,From Throw In,0.036418177,Off T,Open Play,Normal,Right Foot,,,,,
+3930183,Slovakia,Denis Vavro,75,7,2,84.5,53.0,From Throw In,0.006518632,Off T,Open Play,Normal,Right Foot,,,,,
+3930175,Belgium,Youri Tielemans,1,14,1,100.4,44.1,Regular Play,0.056764796,Goal,Open Play,Normal,Right Foot,True,,,,True
+3930175,Romania,Răzvan Gabriel Marin,2,38,1,93.6,55.2,Regular Play,0.020378055,Off T,Open Play,Normal,Right Foot,,,,,
+3930175,Romania,Radu Drăgușin,4,1,1,112.5,41.9,From Corner,0.10383942,Saved,Open Play,Normal,Head,,,,,
+3930175,Belgium,Youri Tielemans,10,57,1,97.9,35.9,Regular Play,0.041907914,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930175,Belgium,Romelu Lukaku Menama,12,59,1,109.4,38.9,From Throw In,0.1279859,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930175,Belgium,Amadou Onana,17,18,1,95.2,41.2,From Throw In,0.021880424,Wayward,Open Play,Half Volley,Right Foot,True,,,,
+3930175,Belgium,Dodi Lukebakio,17,57,1,105.6,47.5,Regular Play,0.078508794,Saved,Open Play,Normal,Left Foot,,,,,
+3930175,Belgium,Jan Vertonghen,18,29,1,109.5,34.6,From Corner,0.104912855,Off T,Open Play,Normal,Left Foot,True,,,,True
+3930175,Romania,Valentin Mihai Mihăilă,20,44,1,96.8,36.4,From Corner,0.036989477,Off T,Open Play,Normal,Right Foot,True,,,,
+3930175,Romania,Valentin Mihai Mihăilă,23,45,1,99.7,27.7,From Keeper,0.030926589,Blocked,Open Play,Normal,Right Foot,,,,,True
+3930175,Belgium,Jeremy Doku,30,15,1,116.0,27.9,From Corner,0.021825416,Saved,Open Play,Normal,Left Foot,,True,,,True
+3930175,Belgium,Dodi Lukebakio,30,17,1,114.9,25.6,From Corner,0.012732397,Blocked,Open Play,Volley,Left Foot,True,,,,
+3930175,Belgium,Dodi Lukebakio,32,57,1,103.5,54.0,Regular Play,0.031616453,Blocked,Open Play,Normal,Left Foot,,,,,
+3930175,Romania,Dennis Man,36,4,1,102.7,54.8,From Throw In,0.033510946,Saved,Open Play,Normal,Left Foot,,,,,
+3930175,Belgium,Kevin De Bruyne,42,6,1,103.1,52.4,Regular Play,0.09735306,Saved,Open Play,Normal,Right Foot,,,,,
+3930175,Romania,Andrei Burcă Andonie,44,53,1,112.0,41.3,From Corner,0.11149162,Off T,Open Play,Normal,Head,,,,True,True
+3930175,Romania,Dennis Man,45,44,2,95.8,55.5,From Kick Off,0.021334786,Saved,Open Play,Normal,Left Foot,,,,,
+3930175,Romania,Valentin Mihai Mihăilă,47,20,2,106.3,28.4,From Throw In,0.11731382,Off T,Open Play,Normal,Left Foot,,,,,True
+3930175,Belgium,Kevin De Bruyne,51,38,2,100.1,24.4,From Throw In,0.025796724,Off T,Open Play,Normal,Right Foot,,,,,True
+3930175,Belgium,Kevin De Bruyne,54,43,2,101.0,40.8,Regular Play,0.13007036,Saved,Open Play,Normal,Right Foot,,,,,True
+3930175,Romania,Valentin Mihai Mihăilă,56,14,2,97.2,31.6,From Throw In,0.039179783,Off T,Open Play,Half Volley,Right Foot,,,,,True
+3930175,Belgium,Romelu Lukaku Menama,57,16,2,105.7,50.3,From Goal Kick,0.072152875,Blocked,Open Play,Normal,Right Foot,True,,,,
+3930175,Belgium,Romelu Lukaku Menama,58,2,2,111.0,45.3,From Free Kick,0.16418488,Saved,Open Play,Half Volley,Right Foot,True,,,,True
+3930175,Belgium,Jeremy Doku,62,3,2,110.6,27.2,Regular Play,0.11017092,Off T,Open Play,Normal,Left Foot,,,,,True
+3930175,Belgium,Romelu Lukaku Menama,65,40,2,109.0,43.5,From Free Kick,0.20404467,Saved,Open Play,Normal,Right Foot,,,,,
+3930175,Belgium,Kevin De Bruyne,66,31,2,94.3,30.6,From Throw In,0.025171522,Off T,Open Play,Normal,Right Foot,,,,,
+3930175,Romania,Dennis Man,67,41,2,107.2,46.5,From Goal Kick,0.32217968,Saved,Open Play,Normal,Right Foot,,,,,True
+3930175,Romania,Răzvan Gabriel Marin,74,1,2,83.8,29.8,From Throw In,0.005796874,Off T,Open Play,Normal,Right Foot,,,,,
+3930175,Belgium,Kevin De Bruyne,79,1,2,106.4,44.6,From Free Kick,0.17672184,Goal,Open Play,Half Volley,Right Foot,True,,,,
+3930175,Romania,Denis Alibec,84,22,2,105.8,34.7,From Goal Kick,0.36282617,Blocked,Open Play,Normal,Left Foot,True,,,,True
+3930175,Romania,Radu Drăgușin,84,58,2,112.9,29.4,From Corner,0.024504332,Wayward,Open Play,Normal,Head,,,,True,True
+3930175,Belgium,Leandro Trossard,85,26,2,109.3,54.4,Regular Play,0.033712856,Blocked,Open Play,Normal,Right Foot,,,,,
+3930175,Belgium,Romelu Lukaku Menama,88,30,2,114.2,51.8,From Free Kick,0.10830227,Saved,Open Play,Normal,Right Foot,,True,,,
+3930175,Romania,Radu Drăgușin,91,47,2,90.4,46.8,From Throw In,0.015765483,Blocked,Open Play,Normal,Right Foot,,,,,
+3930158,Germany,Florian Wirtz,9,55,1,101.1,42.0,From Throw In,0.064226404,Goal,Open Play,Normal,Right Foot,True,,,,
+3930158,Germany,Jamal Musiala,18,43,1,106.4,35.4,From Throw In,0.09347519,Goal,Open Play,Normal,Right Foot,,,,,
+3930158,Germany,Kai Havertz,27,18,1,101.2,41.6,From Free Kick,0.061890993,Saved,Open Play,Normal,Left Foot,True,,,,
+3930158,Germany,İlkay Gündoğan,41,5,1,111.0,43.4,Regular Play,0.08211112,Saved,Open Play,Normal,Head,,,,True,True
+3930158,Germany,Kai Havertz,45,35,1,108.1,40.1,Other,0.7835,Goal,Penalty,Normal,Left Foot,,,,,
+3930158,Germany,Antonio Rüdiger,50,24,2,82.1,44.8,Regular Play,0.006107928,Saved,Open Play,Normal,Right Foot,,,,,
+3930158,Germany,Antonio Rüdiger,51,13,2,106.9,43.3,From Corner,0.07437212,Blocked,Open Play,Normal,Head,,,,True,True
+3930158,Germany,Pascal Groß,56,7,2,98.1,29.4,From Corner,0.030512892,Blocked,Open Play,Normal,Right Foot,,,,,
+3930158,Germany,Joshua Kimmich,56,29,2,95.4,57.2,From Corner,0.01540596,Blocked,Open Play,Normal,Right Foot,,,,,
+3930158,Germany,Florian Wirtz,57,5,2,112.6,50.1,From Corner,0.11507621,Off T,Open Play,Half Volley,Right Foot,True,,,,
+3930158,Germany,İlkay Gündoğan,58,31,2,110.1,37.4,Regular Play,0.13365488,Blocked,Open Play,Normal,Left Foot,True,,,,
+3930158,Germany,Maximilian Mittelstädt,59,46,2,102.9,28.5,Regular Play,0.025077615,Blocked,Open Play,Normal,Left Foot,,,,,
+3930158,Germany,Florian Wirtz,59,55,2,88.9,37.2,Regular Play,0.020383658,Off T,Open Play,Normal,Right Foot,,,,,
+3930158,Germany,Leroy Sané,63,0,2,107.5,54.1,From Counter,0.07334591,Saved,Open Play,Normal,Left Foot,,,,,
+3930158,Germany,Maximilian Mittelstädt,65,23,2,99.2,28.8,From Corner,0.023070266,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930158,Germany,Niclas Füllkrug,67,42,2,104.1,39.3,From Throw In,0.113960005,Goal,Open Play,Half Volley,Right Foot,,,,,
+3930158,Germany,Maximilian Mittelstädt,79,23,2,102.8,25.6,From Corner,0.021256333,Off T,Open Play,Half Volley,Left Foot,True,,,,
+3930158,Germany,Leroy Sané,82,53,2,98.9,55.4,Regular Play,0.026378801,Saved,Open Play,Normal,Left Foot,,,,,True
+3930158,Germany,Leroy Sané,85,11,2,92.6,43.3,From Counter,0.030833129,Off T,Open Play,Normal,Left Foot,,,,,
+3930158,Scotland,Scott McKenna,86,31,2,108.8,50.0,From Free Kick,0.060525935,Wayward,Open Play,Normal,Head,,,,True,True
+3930158,Germany,Emre Can,92,32,2,98.5,39.4,Regular Play,0.0499945,Goal,Open Play,Normal,Right Foot,,,,,True
