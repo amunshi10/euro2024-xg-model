@@ -141,6 +141,25 @@ around their toothless attack despite reaching the semi-finals. Portugal and Cro
 also finished well below their xG, while Switzerland, Germany, and the Netherlands
 outperformed theirs.
 
+## Player Over/Underperformance
+
+Same idea, one level down — filtered to players with at least 2.0 total xG *or* at
+least 2 goals, so a player who scored their only, low-xG shot of the tournament doesn't
+distort the extremes, while still catching low-volume clinical finishers.
+
+![Player goals minus xG across Euro 2024, min 2.0 xG or 2 goals](outputs/player_overperformance.png)
+
+**Cristiano Ronaldo was the biggest underperformer at the tournament** — 23 shots,
+2.23 xG, **zero goals**, matching the widely-covered narrative of his missed penalty
+against Slovenia and a frustrating tournament in front of goal. **Kylian Mbappé** was
+close behind (1 goal from 2.12 xG across 24 shots), consistent with a tournament spent
+playing through a broken nose. On the other end, **Ivan Schranz** (Slovakia) was the
+standout overperformer — just 5 shots and 0.65 xG produced 3 goals — with **Jamal
+Musiala** and **Cody Gakpo** right behind him, both roughly tripling their expected
+output from a modest shot count. It's a useful sanity check on the model too: the
+players it flags as most over/underperforming are exactly the storylines that defined
+the tournament.
+
 ## Repository Structure
 
 ```
@@ -179,9 +198,10 @@ python src/predict.py --input data/new_shots.csv   # score new shots
   proprietary xG reasonably closely on log loss and calibration, despite using far
   fewer features — the gap is mostly explained by StatsBomb's use of defender/keeper
   freeze-frame positioning, which this project doesn't have access to.
-- **Team over/underperformance vs. xG** is a useful lens independent of shot volume —
-  it separates teams that created chances from teams that actually converted them,
-  and lines up with the eye-test from the tournament (Spain clinical, France wasteful).
+- **Team and player over/underperformance vs. xG** is a useful lens independent of shot
+  volume — it separates who created chances from who actually converted them, and lines
+  up with the eye-test from the tournament (Spain clinical, France wasteful; Ronaldo and
+  Mbappé badly off the pace, Schranz and Musiala clinical).
 
 ## Tech Stack
 
