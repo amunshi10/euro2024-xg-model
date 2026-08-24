@@ -69,5 +69,5 @@ if __name__ == "__main__":
     parser.add_argument("--output", default="data/euro2024_shots.csv")
     args = parser.parse_args()
     df = fetch_all_shots()
-    df.to_csv(args.output, index=False)
+    df.to_csv(args.output, index=False, encoding="utf-8")
     print(f"\nSaved {len(df)} shots to {args.output}")
