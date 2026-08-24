@@ -1,0 +1,817 @@
+<meta charset="UTF-8">
+<title>Shot Predictor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --pitch: #1d2b26;
+    --pitch-line: #c7d5cc;
+    --accent: #2e86ab;
+    --accent-ink: #ffffff;
+    --emphasis: #e84855;
+    --emphasis-ink: #ffffff;
+
+    --bg: #f4f7f5;
+    --surface: #ffffff;
+    --surface-2: #eaf0ed;
+    --border: #d7e0dc;
+    --ink: #16211c;
+    --muted: #5b6a63;
+    --muted-2: #8b978f;
+
+    --shadow: 0 1px 2px rgba(20, 30, 25, 0.06), 0 8px 24px rgba(20, 30, 25, 0.07);
+    --radius: 14px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #10160f;
+      --surface: #161f19;
+      --surface-2: #1c2620;
+      --border: #2a362f;
+      --ink: #eef3ef;
+      --muted: #9caea3;
+      --muted-2: #6e7d74;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 28px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #10160f;
+    --surface: #161f19;
+    --surface-2: #1c2620;
+    --border: #2a362f;
+    --ink: #eef3ef;
+    --muted: #9caea3;
+    --muted-2: #6e7d74;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 12px 28px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 28px 20px 48px;
+  }
+
+  header.top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+  }
+
+  .kicker {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  h1 {
+    font-family: "Big Shoulders Display", ui-sans-serif, sans-serif;
+    font-weight: 800;
+    font-size: clamp(28px, 4vw, 40px);
+    letter-spacing: 0.01em;
+    margin: 2px 0 0;
+    text-wrap: balance;
+    line-height: 0.95;
+  }
+
+  .top-note {
+    font-size: 13px;
+    color: var(--muted);
+    max-width: 320px;
+    line-height: 1.5;
+    text-align: right;
+  }
+  .top-note a { color: var(--accent); text-decoration: none; }
+  .top-note a:hover { text-decoration: underline; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+    gap: 22px;
+    align-items: start;
+  }
+
+  @media (max-width: 860px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+
+  /* ---- Pitch ---- */
+  .pitch-panel { padding: 18px 18px 14px; }
+
+  .pitch-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .pitch-caption h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 0.01em;
+  }
+
+  .pitch-hint {
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+
+  .pitch-svg-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  svg.pitch {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    cursor: crosshair;
+    touch-action: manipulation;
+  }
+
+  svg.pitch.locked { cursor: not-allowed; }
+
+  .readout-row {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+
+  .readout-row b { color: var(--ink); font-weight: 600; }
+
+  /* ---- Controls ---- */
+  .controls-panel { padding: 18px; display: flex; flex-direction: column; gap: 16px; }
+
+  .field label.group-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 7px;
+  }
+
+  .segmented {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    background: var(--surface-2);
+    border-radius: 10px;
+    padding: 3px;
+    gap: 2px;
+  }
+
+  .segmented button {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 7px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .segmented button.active {
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-weight: 600;
+  }
+
+  .segmented button:focus-visible,
+  select:focus-visible,
+  .switch input:focus-visible + .track {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  select {
+    width: 100%;
+    appearance: none;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    color: var(--ink);
+    font: inherit;
+    font-size: 13px;
+    padding: 9px 32px 9px 11px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%235b6a63'><path d='M5.5 7.5l4.5 4.5 4.5-4.5' stroke='%235b6a63' stroke-width='1.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+
+  .toggles { display: flex; flex-direction: column; gap: 10px; }
+
+  .switch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .switch-row .switch-label {
+    font-size: 13px;
+    color: var(--ink);
+  }
+
+  .switch { position: relative; display: inline-block; width: 38px; height: 22px; flex: none; }
+  .switch input { opacity: 0; width: 0; height: 0; }
+  .switch .track {
+    position: absolute; inset: 0;
+    background: var(--border);
+    border-radius: 999px;
+    transition: background 0.15s ease;
+  }
+  .switch .thumb {
+    position: absolute; top: 2px; left: 2px;
+    width: 18px; height: 18px;
+    background: var(--surface);
+    border-radius: 999px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    transition: transform 0.15s ease;
+  }
+  .switch input:checked + .track { background: var(--accent); }
+  .switch input:checked + .track + .thumb { transform: translateX(16px); }
+
+  hr.div { border: none; border-top: 1px solid var(--border); margin: 2px 0; }
+
+  /* ---- Result ---- */
+  .result-panel { padding: 20px 18px; }
+
+  .result-empty {
+    text-align: center;
+    color: var(--muted-2);
+    font-size: 13px;
+    padding: 30px 10px;
+  }
+
+  .xg-headline { text-align: center; }
+
+  .xg-value {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  .xg-value .unit { font-size: 28px; color: var(--muted); font-weight: 700; }
+
+  .xg-chip {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  .xg-sub {
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 8px;
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  .why-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 20px 0 10px;
+  }
+
+  .why-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    padding: 5px 0;
+  }
+
+  .why-label { color: var(--ink); }
+
+  .why-bar-holder {
+    grid-column: 1 / -1;
+    height: 5px;
+    background: var(--surface-2);
+    border-radius: 999px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4px;
+  }
+
+  .why-bar {
+    position: absolute;
+    top: 0; bottom: 0;
+    border-radius: 999px;
+  }
+
+  .why-bar.pos { background: var(--accent); left: 50%; }
+  .why-bar.neg { background: var(--emphasis); right: 50%; }
+  .why-mid {
+    position: absolute; left: 50%; top: 0; bottom: 0;
+    width: 1px; background: var(--border);
+  }
+
+  footer {
+    margin-top: 26px;
+    font-size: 12px;
+    color: var(--muted-2);
+    text-align: center;
+    line-height: 1.6;
+  }
+  footer a { color: var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="kicker">Euro 2024 xG Model</div>
+      <h1>Shot Predictor</h1>
+    </div>
+    <div class="top-note">
+      Click anywhere on the pitch to place a shot. Runs the exact trained
+      Logistic Regression from the project repo, entirely in your browser.
+    </div>
+  </header>
+
+  <div class="layout">
+    <section class="panel pitch-panel">
+      <div class="pitch-caption">
+        <h2>Place your shot</h2>
+        <span class="pitch-hint" id="pitchHint">click the pitch</span>
+      </div>
+      <div class="pitch-svg-holder">
+        <svg id="pitchSvg" class="pitch" viewBox="0 0 688 564" role="img" aria-label="Attacking-half pitch, click to place a shot"></svg>
+      </div>
+      <div class="readout-row">
+        <span>Angle&nbsp; <b id="readAngle">–</b>°</span>
+        <span>Distance&nbsp; <b id="readDistance">–</b> yd</span>
+      </div>
+    </section>
+
+    <div style="display:flex; flex-direction:column; gap:22px;">
+      <section class="panel controls-panel">
+        <div class="field">
+          <label class="group-label">Body part</label>
+          <div class="segmented" id="bodyPartSeg">
+            <button data-val="Right Foot" class="active">Right foot</button>
+            <button data-val="Left Foot">Left foot</button>
+            <button data-val="Head">Head</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="group-label">Shot type</label>
+          <div class="segmented" id="shotTypeSeg">
+            <button data-val="Open Play" class="active">Open play</button>
+            <button data-val="Free Kick">Free kick</button>
+            <button data-val="Corner">Corner</button>
+            <button data-val="Penalty">Penalty</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="group-label" for="techniqueSelect">Technique</label>
+          <select id="techniqueSelect">
+            <option value="Normal">Normal</option>
+            <option value="Volley">Volley</option>
+            <option value="Half Volley">Half-volley</option>
+            <option value="Lob">Lob</option>
+            <option value="Overhead Kick">Overhead kick</option>
+            <option value="Diving Header">Diving header</option>
+            <option value="Backheel">Backheel</option>
+          </select>
+        </div>
+
+        <hr class="div">
+
+        <div class="toggles">
+          <div class="switch-row">
+            <span class="switch-label">First-time strike</span>
+            <label class="switch"><input type="checkbox" id="tglFirstTime"><span class="track"></span><span class="thumb"></span></label>
+          </div>
+          <div class="switch-row">
+            <span class="switch-label">One-on-one with keeper</span>
+            <label class="switch"><input type="checkbox" id="tglOneOnOne"><span class="track"></span><span class="thumb"></span></label>
+          </div>
+          <div class="switch-row">
+            <span class="switch-label">Open goal</span>
+            <label class="switch"><input type="checkbox" id="tglOpenGoal"><span class="track"></span><span class="thumb"></span></label>
+          </div>
+          <div class="switch-row">
+            <span class="switch-label">Under pressure</span>
+            <label class="switch"><input type="checkbox" id="tglPressure"><span class="track"></span><span class="thumb"></span></label>
+          </div>
+          <div class="switch-row" id="rowAerial" style="display:none;">
+            <span class="switch-label">Won the aerial duel</span>
+            <label class="switch"><input type="checkbox" id="tglAerial"><span class="track"></span><span class="thumb"></span></label>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel result-panel" id="resultPanel">
+        <div class="result-empty" id="resultEmpty">Place a shot on the pitch to see its xG.</div>
+        <div id="resultBody" style="display:none;">
+          <div class="xg-headline">
+            <div class="xg-value"><span id="xgNum">0.0</span><span class="unit">%</span></div>
+            <div class="xg-chip" id="xgChip">—</div>
+            <div class="xg-sub" id="xgSub"></div>
+          </div>
+          <div class="why-title">Why</div>
+          <div id="whyList"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    Trained on 1,316 Euro 2024 shots from StatsBomb's free open data · Logistic Regression, v1 (event features only) ·
+    <a href="https://github.com/amunshi10/euro2024-xg-model" target="_blank" rel="noopener">github.com/amunshi10/euro2024-xg-model</a>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---- Exact trained LogisticRegression coefficients + StandardScaler params ----
+  // Exported from src/train.py's LogisticRegression pipeline (v1, event-only features).
+  const MODEL = {
+    featureNames: ["angle","distance","header","preferable_side","shot_first_time","shot_one_on_one","shot_open_goal","shot_aerial_won","under_pressure","technique_Backheel","technique_Diving Header","technique_Half Volley","technique_Lob","technique_Normal","technique_Overhead Kick","technique_Volley","type_Corner","type_Free Kick","type_Open Play","type_Penalty"],
+    scalerMean: [25.302318132971333,17.593350980474586,0.17110266159695817,0.41539923954372626,0.2889733840304182,0.03897338403041825,0.005703422053231939,0.10171102661596958,0.30038022813688214,0.0019011406844106464,0.0019011406844106464,0.12167300380228137,0.008555133079847909,0.8108365019011406,0.005703422053231939,0.049429657794676805,0.0019011406844106464,0.034220532319391636,0.9534220532319392,0.010456273764258554],
+    scalerScale: [14.894287672034185,8.93646188867383,0.37659864682629307,0.4927907378697576,0.453285525196235,0.19353154618210383,0.07530533201649567,0.3022679170548788,0.45842332693844967,0.04356060546535969,0.04356060546535969,0.32690776061147797,0.09209746347122705,0.3916384417876546,0.07530533201649568,0.21676338880211748,0.04356060546535969,0.1817951800438315,0.21073310523724675,0.10171991006300309],
+    coef: [0.5488378618758162,-0.386772610843353,-0.37850893088665205,-0.10549835400128156,0.23934366715340183,0.14161514512978576,0.10730392326502612,-0.3753960009950052,-0.013903726878492239,-0.1787781617337573,0.09907290670044688,-0.08483615001103721,0.10888480356227277,0.16057940343538776,0.011647792570234716,-0.1964751413896975,-0.08543826004092768,-0.3665659727789572,0.16066627732330085,0.3588674607235195],
+    intercept: -2.9044681347953913
+  };
+
+  const NAME_MAP = {
+    angle: "Shot angle", distance: "Distance to goal", header: "Header",
+    preferable_side: "Favoured side", shot_first_time: "First-time strike",
+    shot_one_on_one: "One-on-one", shot_open_goal: "Open goal",
+    shot_aerial_won: "Won aerial duel", under_pressure: "Under pressure",
+    "technique_Backheel": "Backheel", "technique_Diving Header": "Diving header",
+    "technique_Half Volley": "Half-volley", "technique_Lob": "Lob",
+    "technique_Normal": "Standard technique", "technique_Overhead Kick": "Overhead kick",
+    "technique_Volley": "Volley", "type_Corner": "Corner", "type_Free Kick": "Free kick",
+    "type_Open Play": "Open play", "type_Penalty": "Penalty"
+  };
+
+  // ---- Pitch geometry (StatsBomb 120x80, showing the attacking half x:[60,120]) ----
+  const GOAL_X = 120, GOAL_Y_LEFT = 36, GOAL_Y_RIGHT = 44;
+  const MIN_X = 60, MAX_X = 120, MIN_Y = 0, MAX_Y = 80;
+  const SCALE = 8, PAD = { left: 24, right: 24, top: 58, bottom: 24 };
+
+  function toScreenX(pitchY) { return PAD.left + pitchY * SCALE; }
+  function toScreenY(pitchX) { return PAD.top + (MAX_X - pitchX) * SCALE; }
+  function toPitchY(screenX) { return (screenX - PAD.left) / SCALE; }
+  function toPitchX(screenY) { return MAX_X - (screenY - PAD.top) / SCALE; }
+
+  function calcAngle(x, y) {
+    const g0x = GOAL_X - x, g0y = GOAL_Y_RIGHT - y;
+    const g1x = GOAL_X - x, g1y = GOAL_Y_LEFT - y;
+    const det = g0x * g1y - g0y * g1x;
+    const dot = g0x * g1x + g0y * g1y;
+    return Math.abs(Math.atan2(det, dot) * 180 / Math.PI);
+  }
+
+  function calcDistance(x, y) {
+    const xd = GOAL_X - x;
+    let yd = 0;
+    if (y < GOAL_Y_LEFT) yd = GOAL_Y_LEFT - y;
+    else if (y > GOAL_Y_RIGHT) yd = y - GOAL_Y_RIGHT;
+    return Math.sqrt(xd * xd + yd * yd);
+  }
+
+  function sigmoid(z) { return 1 / (1 + Math.exp(-z)); }
+
+  function buildFeatureValues(state) {
+    const angle = calcAngle(state.x, state.y);
+    const distance = calcDistance(state.x, state.y);
+    const header = state.bodyPart === "Head" ? 1 : 0;
+    const side = state.y < 40 ? "left" : (state.y > 40 ? "right" : "center");
+    const preferableSide = ((side === "left" && state.bodyPart === "Right Foot") ||
+                             (side === "right" && state.bodyPart === "Left Foot")) ? 1 : 0;
+
+    const v = {
+      angle, distance, header, preferable_side: preferableSide,
+      shot_first_time: state.firstTime ? 1 : 0,
+      shot_one_on_one: state.oneOnOne ? 1 : 0,
+      shot_open_goal: state.openGoal ? 1 : 0,
+      shot_aerial_won: state.aerial ? 1 : 0,
+      under_pressure: state.pressure ? 1 : 0,
+      "technique_Backheel": 0, "technique_Diving Header": 0, "technique_Half Volley": 0,
+      "technique_Lob": 0, "technique_Normal": 0, "technique_Overhead Kick": 0, "technique_Volley": 0,
+      "type_Corner": 0, "type_Free Kick": 0, "type_Open Play": 0, "type_Penalty": 0
+    };
+    v["technique_" + state.technique] = 1;
+    v["type_" + state.shotType] = 1;
+    return v;
+  }
+
+  function predict(state) {
+    const values = buildFeatureValues(state);
+    let z = MODEL.intercept;
+    const contributions = [];
+    for (let i = 0; i < MODEL.featureNames.length; i++) {
+      const name = MODEL.featureNames[i];
+      const raw = values[name];
+      const scaled = (raw - MODEL.scalerMean[i]) / MODEL.scalerScale[i];
+      const c = scaled * MODEL.coef[i];
+      z += c;
+      contributions.push({ name, contribution: c });
+    }
+    return { xg: sigmoid(z), contributions, angle: values.angle, distance: values.distance };
+  }
+
+  function chanceBand(xg) {
+    if (xg < 0.05) return { label: "Speculative", bg: "var(--surface-2)", fg: "var(--muted)" };
+    if (xg < 0.15) return { label: "Low chance", bg: "rgba(46,134,171,0.14)", fg: "var(--accent)" };
+    if (xg < 0.30) return { label: "Decent chance", bg: "rgba(46,134,171,0.22)", fg: "var(--accent)" };
+    if (xg < 0.50) return { label: "Good chance", bg: "rgba(232,72,85,0.16)", fg: "var(--emphasis)" };
+    if (xg < 0.75) return { label: "High-quality chance", bg: "rgba(232,72,85,0.24)", fg: "var(--emphasis)" };
+    return { label: "Should score", bg: "var(--emphasis)", fg: "var(--emphasis-ink)" };
+  }
+
+  // ---- State ----
+  const state = {
+    x: null, y: null,
+    bodyPart: "Right Foot", shotType: "Open Play", technique: "Normal",
+    firstTime: false, oneOnOne: false, openGoal: false, pressure: false, aerial: false
+  };
+  const PENALTY_SPOT = { x: 108, y: 40 };
+
+  // ---- Build pitch SVG ----
+  const svg = document.getElementById("pitchSvg");
+  const NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs) {
+    const e = document.createElementNS(NS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+
+  function drawPitch() {
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+
+    const bg = el("rect", {
+      x: toScreenX(MIN_Y), y: toScreenY(MAX_X),
+      width: toScreenX(MAX_Y) - toScreenX(MIN_Y),
+      height: toScreenY(MIN_X) - toScreenY(MAX_X),
+      fill: "var(--pitch)", rx: 4
+    });
+    svg.appendChild(bg);
+
+    const lineStyle = { stroke: "var(--pitch-line)", "stroke-width": 1.6, fill: "none" };
+
+    // outer boundary
+    svg.appendChild(el("rect", { ...lineStyle,
+      x: toScreenX(MIN_Y), y: toScreenY(MAX_X),
+      width: toScreenX(MAX_Y) - toScreenX(MIN_Y),
+      height: toScreenY(MIN_X) - toScreenY(MAX_X)
+    }));
+
+    // halfway line (bottom edge, x=60)
+    svg.appendChild(el("line", { ...lineStyle,
+      x1: toScreenX(MIN_Y), y1: toScreenY(MIN_X), x2: toScreenX(MAX_Y), y2: toScreenY(MIN_X)
+    }));
+    svg.appendChild(el("path", { ...lineStyle,
+      d: `M ${toScreenX(30)} ${toScreenY(MIN_X)} A ${10*SCALE} ${10*SCALE} 0 0 1 ${toScreenX(50)} ${toScreenY(MIN_X)}`
+    }));
+
+    // penalty box
+    svg.appendChild(el("rect", { ...lineStyle,
+      x: toScreenX(18), y: toScreenY(102), width: toScreenX(62) - toScreenX(18), height: toScreenY(102) - toScreenY(120)
+    }));
+    // six-yard box
+    svg.appendChild(el("rect", { ...lineStyle,
+      x: toScreenX(30), y: toScreenY(114), width: toScreenX(50) - toScreenX(30), height: toScreenY(114) - toScreenY(120)
+    }));
+    // penalty spot
+    svg.appendChild(el("circle", { cx: toScreenX(40), cy: toScreenY(108), r: 2.4, fill: "var(--pitch-line)" }));
+    // penalty arc (portion outside the box)
+    svg.appendChild(el("path", { ...lineStyle,
+      d: `M ${toScreenX(50)} ${toScreenY(102)} A ${10*SCALE} ${10*SCALE} 0 0 1 ${toScreenX(30)} ${toScreenY(102)}`
+    }));
+
+    // goal frame (drawn slightly proud of the goal line, into the top padding)
+    const gx = toScreenX(GOAL_Y_LEFT), gx2 = toScreenX(GOAL_Y_RIGHT), gy = toScreenY(GOAL_X);
+    svg.appendChild(el("rect", { ...lineStyle, x: gx, y: gy - 16, width: gx2 - gx, height: 16 }));
+    for (let i = 1; i < 6; i++) {
+      svg.appendChild(el("line", { stroke: "var(--pitch-line)", "stroke-width": 0.6, opacity: 0.5,
+        x1: gx + (i / 6) * (gx2 - gx), y1: gy - 16, x2: gx + (i / 6) * (gx2 - gx), y2: gy
+      }));
+    }
+
+    // click-catcher
+    const catcher = el("rect", {
+      x: toScreenX(MIN_Y), y: toScreenY(MAX_X),
+      width: toScreenX(MAX_Y) - toScreenX(MIN_Y),
+      height: toScreenY(MIN_X) - toScreenY(MAX_X),
+      fill: "transparent"
+    });
+    catcher.addEventListener("click", onPitchClick);
+    svg.appendChild(catcher);
+
+    if (state.x !== null) drawMarker();
+  }
+
+  function drawMarker() {
+    const old = svg.querySelector("#shotMarker");
+    if (old) old.remove();
+    const g = el("g", { id: "shotMarker" });
+    const cx = toScreenX(state.y), cy = toScreenY(state.x);
+    g.appendChild(el("circle", { cx, cy, r: 9, fill: "var(--emphasis)", opacity: 0.18 }));
+    g.appendChild(el("circle", { cx, cy, r: 5, fill: "var(--emphasis)", stroke: "var(--surface)", "stroke-width": 1.5 }));
+    svg.appendChild(g);
+  }
+
+  function onPitchClick(evt) {
+    if (state.shotType === "Penalty") return;
+    const rect = svg.getBoundingClientRect();
+    const viewBoxScale = 688 / rect.width;
+    const px = (evt.clientX - rect.left) * viewBoxScale;
+    const py = (evt.clientY - rect.top) * viewBoxScale;
+    let pitchY = toPitchY(px);
+    let pitchX = toPitchX(py);
+    pitchX = Math.min(MAX_X - 0.5, Math.max(MIN_X, pitchX));
+    pitchY = Math.min(MAX_Y, Math.max(MIN_Y, pitchY));
+    state.x = pitchX; state.y = pitchY;
+    drawMarker();
+    update();
+  }
+
+  // ---- Controls wiring ----
+  function wireSegmented(id, onChange) {
+    const container = document.getElementById(id);
+    container.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", () => {
+        container.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        onChange(btn.dataset.val);
+      });
+    });
+  }
+
+  wireSegmented("bodyPartSeg", val => {
+    state.bodyPart = val;
+    document.getElementById("rowAerial").style.display = val === "Head" ? "flex" : "none";
+    update();
+  });
+
+  wireSegmented("shotTypeSeg", val => {
+    state.shotType = val;
+    const svgEl = document.getElementById("pitchSvg");
+    const hint = document.getElementById("pitchHint");
+    if (val === "Penalty") {
+      state.x = PENALTY_SPOT.x; state.y = PENALTY_SPOT.y;
+      svgEl.classList.add("locked");
+      hint.textContent = "fixed at the penalty spot";
+      drawMarker();
+    } else {
+      svgEl.classList.remove("locked");
+      hint.textContent = "click the pitch";
+    }
+    update();
+  });
+
+  document.getElementById("techniqueSelect").addEventListener("change", e => {
+    state.technique = e.target.value; update();
+  });
+
+  const toggleMap = {
+    tglFirstTime: "firstTime", tglOneOnOne: "oneOnOne", tglOpenGoal: "openGoal",
+    tglPressure: "pressure", tglAerial: "aerial"
+  };
+  Object.keys(toggleMap).forEach(id => {
+    document.getElementById(id).addEventListener("change", e => {
+      state[toggleMap[id]] = e.target.checked; update();
+    });
+  });
+
+  // ---- Result rendering ----
+  let displayedXg = null;
+
+  function animateNumber(to) {
+    const numEl = document.getElementById("xgNum");
+    // Always set the correct final value synchronously first - the count-up
+    // below is a cosmetic enhancement and must never be the only path to the
+    // right number (rAF can be throttled/skipped in backgrounded tabs).
+    numEl.textContent = (to * 100).toFixed(1);
+
+    const from = displayedXg === null ? to : displayedXg;
+    displayedXg = to;
+    if (Math.abs(to - from) < 0.0005) return;
+
+    const dur = 320, start = performance.now();
+    function frame(now) {
+      const t = Math.min(1, (now - start) / dur);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const val = (from + (to - from) * eased) * 100;
+      numEl.textContent = val.toFixed(1);
+      if (t < 1) requestAnimationFrame(frame);
+      else numEl.textContent = (to * 100).toFixed(1);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function update() {
+    if (state.x === null) return;
+    const result = predict(state);
+
+    document.getElementById("resultEmpty").style.display = "none";
+    document.getElementById("resultBody").style.display = "block";
+
+    animateNumber(result.xg);
+    const band = chanceBand(result.xg);
+    const chip = document.getElementById("xgChip");
+    chip.textContent = band.label;
+    chip.style.background = band.bg;
+    chip.style.color = band.fg;
+
+    document.getElementById("xgSub").textContent =
+      `1 in ${Math.max(1, Math.round(1 / Math.max(result.xg, 0.001)))} shots like this scores`;
+
+    document.getElementById("readAngle").textContent = result.angle.toFixed(1);
+    document.getElementById("readDistance").textContent = result.distance.toFixed(1);
+
+    const sorted = result.contributions
+      .filter(c => Math.abs(c.contribution) > 0.005)
+      .sort((a, b) => Math.abs(b.contribution) - Math.abs(a.contribution))
+      .slice(0, 6);
+    const maxAbs = Math.max(0.01, ...sorted.map(c => Math.abs(c.contribution)));
+
+    const whyList = document.getElementById("whyList");
+    whyList.innerHTML = "";
+    sorted.forEach(c => {
+      const pct = (Math.abs(c.contribution) / maxAbs) * 50;
+      const row = document.createElement("div");
+      row.innerHTML = `
+        <div class="why-row">
+          <span class="why-label">${NAME_MAP[c.name] || c.name}</span>
+        </div>
+        <div class="why-bar-holder">
+          <span class="why-mid"></span>
+          <span class="why-bar ${c.contribution >= 0 ? "pos" : "neg"}" style="width:${pct}%"></span>
+        </div>`;
+      whyList.appendChild(row);
+    });
+  }
+
+  drawPitch();
+  // seed an initial shot so the tool isn't empty on load
+  state.x = 96; state.y = 46;
+  drawMarker();
+  update();
+})();
+</script>

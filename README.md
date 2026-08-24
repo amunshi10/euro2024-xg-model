@@ -21,6 +21,7 @@ a full European Championship, then extended further with 360 freeze-frame data.
 - [Team Over/Underperformance](#team-overunderperformance)
 - [Player Over/Underperformance](#player-overunderperformance)
 - [360 Freeze-Frame Upgrade](#360-freeze-frame-upgrade)
+- [Interactive Shot Predictor](#interactive-shot-predictor)
 - [Limitations](#limitations)
 - [Repository Structure](#repository-structure)
 - [Usage](#usage)
@@ -230,6 +231,18 @@ one extra defender standing nearby. The remaining gap to StatsBomb is mostly dow
 training data volume: their model learns from millions of shots across many
 competitions, this one from 1,316 shots in a single tournament.
 
+## Interactive Shot Predictor
+
+**[Try it live](https://claude.ai/code/artifact/a3c38aad-9b8a-4c84-b535-a35077264331)** — click anywhere on a half-pitch to place a shot, pick a body part / shot type / technique, flip on situational toggles (first-time, one-on-one, open goal, under pressure), and get an instant xG reading with a breakdown of what's driving it up or down.
+
+It's a single self-contained page (`app/xg_predictor.html`) — no server, no build step, nothing fetched at runtime. The exact trained Logistic Regression coefficients and `StandardScaler` parameters from `src/train.py`'s v1 (event-only) model are exported once to `app/lr_model_export.json` (kept for reference) and hard-coded directly into the page's JavaScript, which reimplements the same angle/distance trig and one-hot feature logic as `src/data_preprocessing.py`. The prediction it shows is not an approximation — it's the same linear model, running client-side instead of through scikit-learn.
+
+Logistic Regression was picked over the (marginally stronger) Random Forest specifically for this: a linear model ports to a dozen lines of JavaScript exactly, while a 300-tree forest doesn't port cleanly to a browser without shipping a large blob of exported logic. It also means the "why" panel is honest — each factor's contribution is `coefficient × scaled value`, not a post-hoc guess.
+
+```bash
+open app/xg_predictor.html   # or just double-click the file - no server needed
+```
+
 ## Limitations
 
 - **Small sample, single tournament.** 1,316 shots is enough to see clear signal, but
@@ -249,6 +262,9 @@ competitions, this one from 1,316 shots in a single tournament.
 ## Repository Structure
 
 ```
+├── app/
+│   ├── xg_predictor.html
+│   └── lr_model_export.json
 ├── data/
 │   ├── euro2024_shots.csv
 │   └── euro2024_shots_360.csv
