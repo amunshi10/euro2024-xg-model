@@ -206,3 +206,22 @@ python src/predict.py --input data/new_shots.csv   # score new shots
 ## Tech Stack
 
 `Python` `scikit-learn` `pandas` `numpy` `MLflow` `matplotlib` `seaborn` `mplsoccer`
+
+## License & Attribution
+
+The code in this repository (`src/`, `notebooks/`) is licensed under the [MIT License](LICENSE).
+
+The **data** (`data/euro2024_shots.csv`) is not covered by that license — it's derived
+from [StatsBomb's free open data](https://github.com/statsbomb/open-data), used under
+their published Terms & Conditions:
+
+> If you publish, share or distribute any research, analysis or insights based on this
+> data, please state the data source as StatsBomb and use our logo, available in their
+> [Media Pack](https://statsbomb.com/media-pack/).
+
+**Data provided by StatsBomb.**
+
+Pitch visualizations use [mplsoccer](https://github.com/andrewRowlinson/mplsoccer)
+(MIT License). Methodology is adapted from Alfian Hakim's
+[xG modelling write-up](https://medium.com/@alf.19x/how-to-build-your-own-expected-goals-xg-model-2bd186dccdf7),
+applied here to a different competition, dataset, and modelling setup.
