@@ -82,3 +82,44 @@ def get_X_y(df: pd.DataFrame):
 
     y = df_clean[TARGET_COL] if TARGET_COL in df_clean.columns else None
     return df_clean[feature_cols], y
+
+
+# --- 360 freeze-frame features (defender/goalkeeper positioning) -----------------
+
+FREEZE_FRAME_FEATURE_COLS = [
+    "defenders_in_cone",
+    "nearest_opponent_distance",
+    "opponents_within_5m",
+    "keeper_distance_to_shot",
+    "keeper_distance_to_goal_line",
+]
+
+
+def engineer_freeze_frame_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Impute missing freeze-frame values (shots with no 360 data) with the column
+    median, keeping `has_360` as a feature so the model can learn to discount them."""
+    df = df.copy()
+    for col in FREEZE_FRAME_FEATURE_COLS:
+        if col not in df.columns:
+            df[col] = np.nan
+        df[col] = df[col].fillna(df[col].median())
+    df["has_360"] = df.get("has_360", 0)
+    df["has_360"] = df["has_360"].fillna(0).astype(int)
+    return df
+
+
+def get_X_y_360(df: pd.DataFrame):
+    """Like get_X_y, but includes 360 freeze-frame features on top of the base set."""
+    dummy_cols = [c for c in df.columns if c.startswith("technique_") or c.startswith("type_")]
+    feature_cols = (
+        [c for c in BASE_FEATURE_COLS if c in df.columns]
+        + dummy_cols
+        + [c for c in FREEZE_FRAME_FEATURE_COLS if c in df.columns]
+        + (["has_360"] if "has_360" in df.columns else [])
+    )
+
+    subset = feature_cols + ([TARGET_COL] if TARGET_COL in df.columns else [])
+    df_clean = df.dropna(subset=subset)
+
+    y = df_clean[TARGET_COL] if TARGET_COL in df_clean.columns else None
+    return df_clean[feature_cols], y

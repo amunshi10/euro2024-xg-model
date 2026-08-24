@@ -16,7 +16,7 @@ COMPETITION_ID = 55  # UEFA Euro
 SEASON_ID = 282  # 2024
 
 KEEP_COLUMNS = [
-    "match_id", "team_name", "player_name", "minute", "second", "period",
+    "id", "match_id", "team_name", "player_name", "minute", "second", "period",
     "location_x", "location_y", "play_pattern_name",
     "shot_statsbomb_xg", "shot_outcome_name", "shot_type_name",
     "shot_technique_name", "shot_body_part_name",

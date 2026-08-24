@@ -1,12 +1,31 @@
 # Euro 2024 Expected Goals (xG) Model
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
+![Data: StatsBomb](https://img.shields.io/badge/Data-StatsBomb%20Open%20Data-orange.svg)
+
 Building an expected goals model from scratch, using StatsBomb's free open shot event
 data for **UEFA Euro 2024**, and checking it against StatsBomb's own published xG for
 the same shots.
 
 Methodology follows [Alfian Hakim's "How to Build Your Own Expected Goals (xG) Model"](https://medium.com/@alf.19x/how-to-build-your-own-expected-goals-xg-model-2bd186dccdf7)
 (which used World Cup 2022 data) — same geometric-feature approach, applied instead to
-a full European Championship.
+a full European Championship, then extended further with 360 freeze-frame data.
+
+## Contents
+
+- [Background](#background)
+- [Data](#data)
+- [Feature Engineering](#feature-engineering)
+- [Modelling](#modelling)
+- [Team Over/Underperformance](#team-overunderperformance)
+- [Player Over/Underperformance](#player-overunderperformance)
+- [360 Freeze-Frame Upgrade](#360-freeze-frame-upgrade)
+- [Limitations](#limitations)
+- [Repository Structure](#repository-structure)
+- [Usage](#usage)
+- [Key Findings](#key-findings)
+- [License & Attribution](#license--attribution)
 
 ## Background
 
@@ -121,10 +140,12 @@ tournament.
 
 StatsBomb's model wins on every metric, which is expected — their xG is trained on
 millions of shots across competitions and, crucially, uses **360 freeze-frame data**
-(defender and goalkeeper positions at the moment of the shot) that this project doesn't
-use. What's notable is *how close* a model built from nine features and 1,316 shots
-gets to a commercial model with orders of magnitude more data behind it — geometry
-alone explains most of what separates a good chance from a bad one.
+(defender and goalkeeper positions at the moment of the shot) that this v1 model
+doesn't use yet. What's notable is *how close* a model built from nine features and
+1,316 shots gets to a commercial model with orders of magnitude more data behind it —
+geometry alone explains most of what separates a good chance from a bad one. The
+[360 Freeze-Frame Upgrade](#360-freeze-frame-upgrade) section below adds that missing
+positioning data back in and narrows the gap further.
 
 ## Team Over/Underperformance
 
@@ -160,18 +181,86 @@ output from a modest shot count. It's a useful sanity check on the model too: th
 players it flags as most over/underperforming are exactly the storylines that defined
 the tournament.
 
+## 360 Freeze-Frame Upgrade
+
+Everything above uses only the shot event itself — no idea what the rest of the pitch
+looked like at the moment of the shot. That's the biggest reason StatsBomb's own xG
+beats ours. **StatsBomb 360 data** fixes that: it captures every visible player's
+position (teammate, opponent, goalkeeper — no identity) at the moment of the shot.
+Available for 97.3% of shots in this dataset (`src/fetch_360.py`), it's used to
+engineer five new features:
+
+| Feature | What it captures |
+|---|---|
+| `defenders_in_cone` | Opponents standing inside the triangle between the shooter and the two goalposts |
+| `nearest_opponent_distance` | Distance to the closest defending outfield player |
+| `opponents_within_5m` | Count of defenders crowding the shooter |
+| `keeper_distance_to_shot` | How far the goalkeeper is from the shot location |
+| `keeper_distance_to_goal_line` | How far off their line the goalkeeper has come |
+
+Shots without 360 coverage get median-imputed values plus a `has_360` flag, so they
+don't get dropped or mislead the model.
+
+![Goal probability vs defenders in cone and goalkeeper distance](outputs/freeze_frame_scatter.png)
+
+Retraining the same four classifiers on the expanded feature set:
+
+| Model | CV AUC | Test Log Loss | Test ROC AUC | Test Brier |
+|-------|--------|----------------|--------------|------------|
+| **Random Forest** | **0.7612** | **0.2495** | **0.7398** | **0.0677** |
+| Logistic Regression | 0.7554 | 0.2616 | 0.7262 | 0.0691 |
+| Gradient Boosting | 0.7128 | 0.2811 | 0.6802 | 0.0753 |
+| Hist Gradient Boosting | 0.6972 | 0.4062 | 0.6618 | 0.0750 |
+
+![v1 vs v2 vs StatsBomb xG comparison](outputs/v1_vs_v2_comparison.png)
+
+Random Forest again comes out on top, and it *improves on every metric* over the v1,
+event-only model (log loss 0.2536 → 0.2495, ROC-AUC 0.7278 → 0.7398, Brier 0.0690 →
+0.0677) — meaningfully closing the gap to StatsBomb's own xG (0.2304 / 0.8082 / 0.0645)
+without changing anything about the underlying shots, just adding better context.
+
+![Feature importance with freeze-frame features highlighted in pink](outputs/feature_importance_360.png)
+
+`keeper_distance_to_goal_line` and `keeper_distance_to_shot` land right behind `angle`
+and `distance` as the 3rd and 4th most important features overall, with
+`nearest_opponent_distance` close behind in 5th — goalkeeper positioning turns out to
+matter more here than the number of outfield defenders in the shot cone. That tracks:
+a keeper who has come off their line changes a shot's quality more dramatically than
+one extra defender standing nearby. The remaining gap to StatsBomb is mostly down to
+training data volume: their model learns from millions of shots across many
+competitions, this one from 1,316 shots in a single tournament.
+
+## Limitations
+
+- **Small sample, single tournament.** 1,316 shots is enough to see clear signal, but
+  not enough to fully trust probability estimates in the tails (e.g. very high or very
+  low xG bins have few shots backing them up).
+- **No hyperparameter tuning.** All models use reasonable fixed defaults
+  (`n_estimators`, `max_depth`, `learning_rate`), not a tuned search — a grid/random
+  search would likely close some of the remaining gap to StatsBomb.
+- **97.3% 360 coverage, not 100%.** The missing 2.7% get median-imputed freeze-frame
+  features rather than real positioning data.
+- **No assist/pass context.** Whether a shot came from a through ball, a cutback, or a
+  long cross isn't modelled — StatsBomb records this as separate pass events that
+  aren't joined in here.
+- **Single-season model.** Trained and evaluated only on Euro 2024; conclusions about
+  feature importance may not generalize cleanly to club football or other tournaments.
+
 ## Repository Structure
 
 ```
 ├── data/
-│   └── euro2024_shots.csv
+│   ├── euro2024_shots.csv
+│   └── euro2024_shots_360.csv
 ├── notebooks/
 │   └── euro2024_xg_model.ipynb
 ├── src/
 │   ├── fetch_data.py
+│   ├── fetch_360.py
 │   ├── data_preprocessing.py
 │   ├── models.py
 │   ├── train.py
+│   ├── train_360.py
 │   └── predict.py
 ├── outputs/
 ├── models/
@@ -182,9 +271,15 @@ the tournament.
 
 ```bash
 pip install -r requirements.txt
+
+# v1: event-only model
 python src/fetch_data.py                          # cache shot data to data/euro2024_shots.csv
 python src/train.py                                # train + log models, save the best one
 python src/predict.py --input data/new_shots.csv   # score new shots
+
+# v2: + 360 freeze-frame features
+python src/fetch_360.py                            # cache shot + freeze-frame data
+python src/train_360.py                            # train + log v2 models, save the best one
 ```
 
 ## Key Findings
@@ -196,8 +291,12 @@ python src/predict.py --input data/new_shots.csv   # score new shots
   `type_Penalty` is the single strongest correlate with scoring.
 - A from-scratch model trained on ~1,300 shots tracks a commercial provider's
   proprietary xG reasonably closely on log loss and calibration, despite using far
-  fewer features — the gap is mostly explained by StatsBomb's use of defender/keeper
-  freeze-frame positioning, which this project doesn't have access to.
+  fewer features.
+- **Adding StatsBomb 360 freeze-frame data closes a real chunk of that gap** — five
+  defender/goalkeeper positioning features improve the best model on every metric
+  (log loss 0.2536 → 0.2495, ROC-AUC 0.7278 → 0.7398) without touching the underlying
+  data. Goalkeeper positioning (`keeper_distance_to_goal_line`, `keeper_distance_to_shot`)
+  turns out to matter more than the raw count of defenders in the shot cone.
 - **Team and player over/underperformance vs. xG** is a useful lens independent of shot
   volume — it separates who created chances from who actually converted them, and lines
   up with the eye-test from the tournament (Spain clinical, France wasteful; Ronaldo and
@@ -211,9 +310,10 @@ python src/predict.py --input data/new_shots.csv   # score new shots
 
 The code in this repository (`src/`, `notebooks/`) is licensed under the [MIT License](LICENSE).
 
-The **data** (`data/euro2024_shots.csv`) is not covered by that license — it's derived
-from [StatsBomb's free open data](https://github.com/statsbomb/open-data), used under
-their published Terms & Conditions:
+The **data** (`data/euro2024_shots.csv`, `data/euro2024_shots_360.csv`) is not covered
+by that license — it's derived from
+[StatsBomb's free open data](https://github.com/statsbomb/open-data), used under their
+published Terms & Conditions:
 
 > If you publish, share or distribute any research, analysis or insights based on this
 > data, please state the data source as StatsBomb and use our logo, available in their
