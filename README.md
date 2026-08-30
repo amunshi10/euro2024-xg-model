@@ -278,7 +278,8 @@ competitions, this one from 1,316 shots in a single tournament.
 │   ├── models.py
 │   ├── train.py
 │   ├── train_360.py
-│   └── predict.py
+│   ├── predict.py
+│   └── export_powerbi.py
 ├── outputs/
 ├── models/
 └── requirements.txt
@@ -297,7 +298,13 @@ python src/predict.py --input data/new_shots.csv   # score new shots
 # v2: + 360 freeze-frame features
 python src/fetch_360.py                            # cache shot + freeze-frame data
 python src/train_360.py                            # train + log v2 models, save the best one
+
+# export a flat CSV of shots + predictions for the companion Power BI dashboard
+python src/export_powerbi.py
 ```
+
+**Related:** [euro2024-xg-powerbi-dashboard](https://github.com/amunshi10/euro2024-xg-powerbi-dashboard) —
+the same model's predictions explored as an interactive Power BI report.
 
 ## Key Findings
 
