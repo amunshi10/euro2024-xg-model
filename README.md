@@ -4,6 +4,7 @@
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 ![Data: StatsBomb](https://img.shields.io/badge/Data-StatsBomb%20Open%20Data-orange.svg)
 [![Try it live](https://img.shields.io/badge/%E2%9A%BD-Try%20the%20Shot%20Predictor%20live-e84855.svg)](https://claude.ai/code/artifact/a3c38aad-9b8a-4c84-b535-a35077264331)
+[![Try xG Explorer live](https://img.shields.io/badge/%E2%9A%BD-Try%20xG%20Explorer%20live-2e86ab.svg)](https://claude.ai/code/artifact/c21ff1ee-0058-4b32-8ab3-86b3ebd8edec)
 
 Building an expected goals model from scratch, using StatsBomb's free open shot event
 data for **UEFA Euro 2024**, and checking it against StatsBomb's own published xG for
@@ -304,7 +305,9 @@ python src/export_powerbi.py
 ```
 
 **Related:** [euro2024-xg-powerbi-dashboard](https://github.com/amunshi10/euro2024-xg-powerbi-dashboard) —
-the same model's predictions explored as an interactive Power BI report.
+the same model's predictions explored as an interactive Power BI report, plus a
+**[live web version](https://claude.ai/code/artifact/c21ff1ee-0058-4b32-8ab3-86b3ebd8edec)**
+of that same dashboard you can open right now, no download required.
 
 ## Key Findings
 
